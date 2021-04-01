@@ -1,7 +1,12 @@
 {
-  "name": "teste-ionic",
+  "name": "buscar-remedios-app",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "authors": [
+    "Álef Emmanuel Siqueira de Souza",
+    "Caio Moysés de Lima",
+    "Letícia Santos Rosa",
+    "Pedro Henrique de Carvalho Silva"
+  ],
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
@@ -48,5 +53,5 @@
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
   },
-  "description": "An Ionic project"
+  "description": "Aplicativo de leitura de receitas médicas e busca de remédios nas UBSs mais próximas."
 }
