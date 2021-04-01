@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { AppBtnVoltarComponent } from './app-btn-voltar.component';
+import { BtnVoltarComponent } from './btn-voltar.component';
 
-describe('AppBtnVoltarComponent', () => {
-  let component: AppBtnVoltarComponent;
-  let fixture: ComponentFixture<AppBtnVoltarComponent>;
+describe('BtnVoltarComponent', () => {
+  let component: BtnVoltarComponent;
+  let fixture: ComponentFixture<BtnVoltarComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppBtnVoltarComponent ],
+      declarations: [ BtnVoltarComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(AppBtnVoltarComponent);
+    fixture = TestBed.createComponent(BtnVoltarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

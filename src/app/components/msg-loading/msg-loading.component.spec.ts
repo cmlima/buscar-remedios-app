@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { AppMsgErroComponent } from './app-msg-erro.component';
+import { MsgLoadingComponent } from './msg-loading.component';
 
-describe('AppMsgErroComponent', () => {
-  let component: AppMsgErroComponent;
-  let fixture: ComponentFixture<AppMsgErroComponent>;
+describe('MsgLoadingComponent', () => {
+  let component: MsgLoadingComponent;
+  let fixture: ComponentFixture<MsgLoadingComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppMsgErroComponent ],
+      declarations: [ MsgLoadingComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(AppMsgErroComponent);
+    fixture = TestBed.createComponent(MsgLoadingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

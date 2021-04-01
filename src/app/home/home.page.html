@@ -6,5 +6,17 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding">
+  <ion-row class="ion-align-items-center">
+    <ion-button [routerLink]="['/lista-receitas']">Lista de Receitas </ion-button>[<strong>Letícia</strong>]
+  </ion-row>
+  <ion-row class="ion-align-items-center">
+    <ion-button [routerLink]="['/detalhes-receita']">Detalhes da Receita</ion-button>[<strong>Caio</strong>]
+  </ion-row>
+  <ion-row class="ion-align-items-center">
+    <ion-button [routerLink]="['/mapa']">Mapa</ion-button>[<strong>Pedro</strong>]
+  </ion-row>
+  <ion-row class="ion-align-items-center">
+    <ion-button [routerLink]="['/lista-postos']">Listas de Postos</ion-button>[<strong>Álef</strong>]
+  </ion-row>
 </ion-content>

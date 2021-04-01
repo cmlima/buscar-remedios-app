@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { BtnVoltarComponent } from '../components/btn-voltar/btn-voltar.component';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -15,6 +16,6 @@ import { ListaPostosPage } from './lista-postos.page';
     IonicModule,
     ListaPostosPageRoutingModule
   ],
-  declarations: [ListaPostosPage]
+  declarations: [ListaPostosPage, BtnVoltarComponent]
 })
 export class ListaPostosPageModule {}
