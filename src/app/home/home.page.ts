@@ -9,9 +9,9 @@ export class HomePage {
 
   constructor(private scannerService: ScannerService) { }
 
-  public lerQRCode() {
+  public async lerQRCode() {
     try {
-      const hash = this.scannerService.scan();
+      const hash = await this.scannerService.scan();
       console.log('QRCode: ', hash);
     } catch (e) {
       console.log(e);

@@ -5,22 +5,21 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
   providedIn: 'root'
 })
 export class ScannerService {
-  private scanner;
 
-  constructor() {
-    this.scanner = BarcodeScanner;
-   }
+  constructor(private scanner: BarcodeScanner) { }
 
-   public async scan() {
-    try {
-      const data = await this.scanner.scan();
-      if (data.cancelled) return false;
-      if (data.format !== 'QR_CODE') {
-        throw new Error('Formato não reconhecido!');
-      }
-      return data.text;
-    } catch (e) {
-      throw new Error('Erro de leitura!');
-    }
+   public scan(): Promise<string | boolean> {
+     return new Promise((resolve, reject) => {
+      this.scanner.scan().then(data => {
+        if (data.cancelled) resolve(false);
+        if (data.format !== 'QR_CODE') {
+          reject('Formato não reconhecido!');
+        }
+        resolve(data.text);
+      }).catch(e => {
+        console.error(e);
+        reject('Erro de leitura!');
+      });
+     })
   }   
 }

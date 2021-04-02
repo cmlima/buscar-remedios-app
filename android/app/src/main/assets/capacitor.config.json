@@ -19,5 +19,6 @@
       "SplashScreen": "screen",
       "SplashScreenDelay": "3000"
     }
-  }
+  },
+  "windowsAndroidStudioPath": "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe"
 }
