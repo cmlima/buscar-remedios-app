@@ -24,7 +24,13 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "@capacitor/android": "2.4.7",
+    "@capacitor/core": "2.4.7",
+    "@ionic-native/barcode-scanner": "^5.31.1",
+    "@ionic-native/core": "^5.31.1",
     "@ionic/angular": "^5.5.2",
+    "phone": "^2.4.21",
+    "phonegap-plugin-barcodescanner": "^8.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -35,6 +41,7 @@
     "@angular/compiler": "~11.2.0",
     "@angular/compiler-cli": "~11.2.0",
     "@angular/language-service": "~11.2.0",
+    "@capacitor/cli": "2.4.7",
     "@ionic/angular-toolkit": "^3.1.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
@@ -53,5 +60,5 @@
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
   },
-  "description": "Aplicativo de leitura de receitas médicas e busca de remédios nas UBSs mais próximas."
+  "description": "Aplicativo para ajudar a encontrar remédios na rede pública."
 }

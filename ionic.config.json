@@ -1,5 +1,8 @@
 {
   "name": "buscar-remedios-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
