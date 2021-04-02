@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { ScannerService } from '../services/scanner.service';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private scannerService: ScannerService) { }
 
   public lerQRCode() {
-    console.log('Acionando câmera do usuário...');
+    try {
+      const hash = this.scannerService.scan();
+      console.log('QRCode: ', hash);
+    } catch (e) {
+      console.log(e);
+    }
   }
 
 }
