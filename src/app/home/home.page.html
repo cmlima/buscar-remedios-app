@@ -1,7 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
+    <ion-avatar slot="start" style="width: 40px; height: 40px;" class="ion-margin-start">
+      <img src="../../assets/pills.png" />
+    </ion-avatar>
     <ion-title>
-      Buscar Remedios
+      Buscar Remédios
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -25,7 +28,7 @@
       </ion-row>
       <ion-row>
         <ion-col size="10" class="margin-h-auto">
-          <ion-button [routerLink]="['/lista-receitas']" expand="block" color="medium" class="ion-margin-top">
+          <ion-button [routerLink]="['/lista-receitas']" expand="block" color="tertiary" class="ion-margin-top">
             Ver Receitas
           </ion-button>
         </ion-col>
