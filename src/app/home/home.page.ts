@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  public lerQRCode() {
+    console.log('Acionando câmera do usuário...');
+  }
+
 }
