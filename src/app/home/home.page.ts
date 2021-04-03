@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ScannerService } from '../services/scanner.service';
+import { MensagensService } from '../services/mensagens.service';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,14 +8,18 @@ import { ScannerService } from '../services/scanner.service';
 })
 export class HomePage {
 
-  constructor(private scannerService: ScannerService) { }
+  constructor(private scannerService: ScannerService, private mensagensService: MensagensService) { }
 
   public async lerQRCode() {
     try {
       const hash = await this.scannerService.scan();
-      console.log('QRCode: ', hash);
+      // se a função retorna falso, o usuário cancelou a leitura
+      // nesse caso, finalizar silenciosamente
+      if (hash === false) {
+        console.log('QRCode: ', hash);
+      }
     } catch (e) {
-      console.log(e);
+      this.mensagensService.erro('Falha na leitura', e.message);
     }
   }
 
