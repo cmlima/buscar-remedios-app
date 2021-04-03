@@ -20,6 +20,6 @@ export class ReceitasService {
   }
 
   public remove(hash: string) {
-    console.log()
+    console.log('Hash', hash);
   }
 }
