@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Hospital do Bosque",
+    "cnpj": "14.321.720/0001-63",
+    "endereco": "Rua Padre Aldemar Moreira, 123",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "08471-010"
+  },
+  {
+    "nome": "Hospital da Praça",
+    "cnpj": "89.178.105/0001-49",
+    "endereco": "Praça Raul de Barros, s/n",
+    "cidade": "Botucatu",
+    "uf": "SP",
+    "cep": "18603-451"
+  },
+  {
+    "nome": "Hospital da Avenida",
+    "cnpj": "53.689.980/0001-48",
+    "endereco": "Rua Marli, 756",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "06530-441"
+  },
+  {
+    "nome": "Hospital Universitário",
+    "cnpj": "96.252.201/0001-55",
+    "endereco": "Rua Júlio Salusse, 655",
+    "cidade": "Americana",
+    "uf": "SP",
+    "cep": "13474-634"
+  }
+]
+
+
+
+
