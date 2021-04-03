@@ -1,3 +1,4 @@
+import datas from './datas.json';
 import tipos from './tipos.json';
 import pacientes from './pacientes.json';
 import medicos from './medicos.json';
@@ -29,6 +30,7 @@ export const gerarPrescricoes = (n) => {
 
 export const gerarReceita = () => {
   const id = gerarId();
+  const data = gerarInt(0, datas.length - 1);
   const tipo = gerarInt(0, tipos.length - 1);
   const paciente = gerarInt(0, pacientes.length - 1);
   const medico = gerarInt(0, medicos.length - 1);
@@ -37,6 +39,7 @@ export const gerarReceita = () => {
   return {
     _id: id,
     tipo: tipos[tipo],
+    data: datas[data],
     paciente: pacientes[paciente],
     medico: medicos[medico],
     entidade: entidades[entidade],
