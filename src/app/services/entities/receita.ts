@@ -6,6 +6,7 @@ import type { TipoReceita } from './types';
 
 export interface Receita {
   _id: string;
+  data: string;
   tipo: TipoReceita;
   paciente: Paciente;
   medico: Medico;
