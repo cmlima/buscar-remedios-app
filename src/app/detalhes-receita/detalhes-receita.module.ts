@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BtnVoltarComponent } from '../components/btn-voltar/btn-voltar.component';
-
 import { IonicModule } from '@ionic/angular';
-
 import { DetalhesReceitaPageRoutingModule } from './detalhes-receita-routing.module';
+import { ComponentsModule } from '../components/components.module';
 
 import { DetalhesReceitaPage } from './detalhes-receita.page';
 
@@ -14,8 +12,9 @@ import { DetalhesReceitaPage } from './detalhes-receita.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    DetalhesReceitaPageRoutingModule
+    DetalhesReceitaPageRoutingModule,
+    ComponentsModule
   ],
-  declarations: [DetalhesReceitaPage, BtnVoltarComponent]
+  declarations: [DetalhesReceitaPage]
 })
 export class DetalhesReceitaPageModule {}

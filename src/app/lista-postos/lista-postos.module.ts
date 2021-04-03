@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BtnVoltarComponent } from '../components/btn-voltar/btn-voltar.component';
-
 import { IonicModule } from '@ionic/angular';
-
 import { ListaPostosPageRoutingModule } from './lista-postos-routing.module';
+import { ComponentsModule } from '../components/components.module';
 
 import { ListaPostosPage } from './lista-postos.page';
 
@@ -14,8 +12,9 @@ import { ListaPostosPage } from './lista-postos.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ListaPostosPageRoutingModule
+    ListaPostosPageRoutingModule,
+    ComponentsModule
   ],
-  declarations: [ListaPostosPage, BtnVoltarComponent]
+  declarations: [ListaPostosPage]
 })
 export class ListaPostosPageModule {}

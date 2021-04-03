@@ -20,5 +20,9 @@
       "SplashScreenDelay": "3000"
     }
   },
-  "windowsAndroidStudioPath": "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe"
+  "windowsAndroidStudioPath": "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe",
+  "server": {
+    "url": "http://192.168.68.110:8100",
+    "cleartext": true
+  }
 }
