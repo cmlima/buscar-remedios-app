@@ -19,11 +19,10 @@ export class MapaPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   ionViewDidEnter() {
-    this.inicializarMapa();
+		if (!this.map) this.inicializarMapa();
   }
 
   inicializarMapa () {
