@@ -2,11 +2,67 @@
   <app-btn-voltar rota="lista-receitas" pagina="Detalhes da Receita"></app-btn-voltar>
 </ion-header>
 
-<ion-content>
-
-  <ion-button expand="block" fill="clear" shape="round" [routerLink]="['/home']">
-    Tela Inicial
-  </ion-button>
-  
-  </ion-content>
-  
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-row style="height: 25%;">
+    <ion-col size="12">
+      <div class="qrcode-container margin-h-auto">
+        <img [src]="dataURL" alt="qrcode">
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row style="height: 60%; max-height: 60%; overflow: hidden; padding: 1rem;">
+    <ion-col size="12" style="overflow-x: hidden; overflow-y: scroll; height:100%; max-height: 100%; font-family: monospace; padding: 0 1rem;">
+      <p>
+        Receita emitida em <strong>{{ receita.data }}</strong> <br>
+        Tipo: <strong>{{ receita.tipo }}</strong>
+      </p>
+      <p>
+        <u>Emitente</u>: <br>
+        {{ (receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra. ') + receita.medico.nome }} ({{ receita.medico.especialidade | lowercase }})<br>
+        CRM nº {{ receita.medico.crm.numero }}/{{ receita.medico.crm.uf }} <br>
+        {{ receita.entidade.nome }}
+      </p>
+      <p>
+        <u>Paciente:</u> <br>
+        {{ receita.paciente.nome }} <br> 
+        CPF: {{ receita.paciente.cpf }}
+      </p>
+      <p>
+        <u>Prescrição:</u> <br>
+      </p>
+      <ul>
+        <li *ngFor="let prescricao of receita.prescricoes; index as i;">
+          <p>
+            <strong>{{ prescricao.medicamento }}</strong> ({{ prescricao.formaFarmaceutica }})<br>
+            {{ prescricao.posologia }}, durante {{ prescricao.tempoUso }} <br>
+            Obs: <em>{{ prescricao.observacoes || 'n/c' }}</em>
+          </p>
+        </li>
+      </ul>
+      <p>
+        <u>Observações gerais:</u> <br>
+        {{ receita.observacoes || 'n/c' }}
+      </p>
+    </ion-col>
+  </ion-row>
+  <ion-row style="height: 15%; max-height: 15%;">
+    <ion-col size="8" class="margin-h-auto">
+      <ion-fab vertical="center" horizontal="start">
+        <ion-fab-button title="download" (click)="baixarReceita()">
+          <ion-icon name="download"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+      <ion-fab vertical="center" horizontal="center">
+        <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
+          <ion-icon name="search"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+      <ion-fab vertical="center" horizontal="end">
+        <ion-fab-button color="danger" title="remover" [disabled]="receita.cancelled" (click)="removerReceita()">
+          <ion-icon name="trash"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </ion-col>
+  </ion-row>
+</ion-content>
+ 

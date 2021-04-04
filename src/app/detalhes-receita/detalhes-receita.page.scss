@@ -1,0 +1,19 @@
+.qrcode-container {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 100%;
+  }
+}
+
+.margin-h-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-auto {
+  margin: auto;
+}
