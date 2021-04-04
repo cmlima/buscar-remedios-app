@@ -11,6 +11,8 @@ import { MensagensService } from '../services/mensagens.service';
 export class DetalhesReceitaPage implements OnInit {
   public receita: Receita;
   public dataURL: string;
+  // https://www.labnol.org/internet/direct-links-for-google-drive/28356/
+  public downloadLink: string = 'https://drive.google.com/uc?export=download&id=1yfrXjlyzikuYsZai2sv-eoF0UuK9Srr-';
 
   constructor(private receitaService: ReceitasService, private mensagensService: MensagensService) { }
 
@@ -27,14 +29,14 @@ export class DetalhesReceitaPage implements OnInit {
     });
   }
 
-  public async baixarReceita() {
-    this.mensagensService.carregando('Carregando...', 5000, (aviso => {
-      setTimeout(() => {
-        console.log('baixado!');
-        aviso.dismiss();
-      }, 1000);
-    }));
-  }
+  // public async baixarReceita() {
+  //   this.mensagensService.carregando('Carregando...', 5000, (aviso => {
+  //     setTimeout(() => {
+  //       console.log('baixado!');
+  //       aviso.dismiss();
+  //     }, 1000);
+  //   }));
+  // }
 
   public async removerReceita() {
     this.mensagensService.confirmar('Confirmação', 'Tem certeza de que deseja remover a receita da memória do aparelho?', (yes: boolean) => {

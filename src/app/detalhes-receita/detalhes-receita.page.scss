@@ -7,6 +7,9 @@
   img {
     height: 100%;
   }
+  &.cancelada {
+    opacity: .5;
+  }
 }
 
 .margin-h-auto {

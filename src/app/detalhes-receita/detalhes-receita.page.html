@@ -3,9 +3,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <ion-row style="height: 25%;">
-    <ion-col size="12">
-      <div class="qrcode-container margin-h-auto">
+  <ion-row style="height: 25%; position: relative;">
+    <ion-chip style="position: absolute; top: 0; right: 0;" [color]="receita.cancelled ? 'medium': 'tertiary'">
+      <ion-icon [name]="receita.cancelled ? 'thumbs-down': 'thumbs-up'"></ion-icon>
+      <ion-label>{{ receita.cancelled ? 'cancelada' : 'válida' }}</ion-label>
+    </ion-chip>      
+      <ion-col size="12">
+      <div class="qrcode-container margin-h-auto" [class.cancelada]="receita.cancelled">
         <img [src]="dataURL" alt="qrcode">
       </div>
     </ion-col>
@@ -48,7 +52,7 @@
   <ion-row style="height: 15%; max-height: 15%;">
     <ion-col size="8" class="margin-h-auto">
       <ion-fab vertical="center" horizontal="start">
-        <ion-fab-button title="download" (click)="baixarReceita()">
+        <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
           <ion-icon name="download"></ion-icon>
         </ion-fab-button>
       </ion-fab>
@@ -58,7 +62,7 @@
         </ion-fab-button>
       </ion-fab>
       <ion-fab vertical="center" horizontal="end">
-        <ion-fab-button color="danger" title="remover" [disabled]="receita.cancelled" (click)="removerReceita()">
+        <ion-fab-button color="danger" title="remover do aparelho" [disabled]="receita.cancelled" (click)="removerReceita()">
           <ion-icon name="trash"></ion-icon>
         </ion-fab-button>
       </ion-fab>
