@@ -12,8 +12,20 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'clinics-map',
-    loadChildren: () => import('./clinics-map/clinics-map.module').then( m => m.ClinicsMapPageModule)
+    path: 'lista-receitas',
+    loadChildren: () => import('./lista-receitas/lista-receitas.module').then( m => m.ListaReceitasPageModule)
+  },
+  {
+    path: 'detalhes-receita',
+    loadChildren: () => import('./detalhes-receita/detalhes-receita.module').then( m => m.DetalhesReceitaPageModule)
+  },
+  {
+    path: 'mapa',
+    loadChildren: () => import('./mapa/mapa.module').then( m => m.MapaPageModule)
+  },
+  {
+    path: 'lista-postos',
+    loadChildren: () => import('./lista-postos/lista-postos.module').then( m => m.ListaPostosPageModule)
   },
 ];
 

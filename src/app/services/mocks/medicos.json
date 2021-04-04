@@ -1,0 +1,96 @@
+[
+  {
+    "nome": "Nathan Nicolas Sales",
+    "sexo": "M",
+    "crm": {
+      "numero": "1234",
+      "UF": "SP"
+    },
+    "especialidade": "ACUPUNTURA" 
+  },
+  {
+    "nome": "Pedro Bento Osvaldo Araújo",
+    "sexo": "M",
+    "crm": {
+      "numero": "5678",
+      "UF": "SP"
+    },
+    "especialidade": "CARDIOLOGIA" 
+  },
+  {
+    "nome": "Nicole Luana Santos",
+    "sexo": "F",
+    "crm": {
+      "numero": "11223",
+      "UF": "DF"
+    },
+    "especialidade": "ALERGIA E IMUNOLOGIA" 
+  },
+  {
+    "nome": "Geraldo Arthur Cauê Monteiro",
+    "sexo": "M",
+    "crm": {
+      "numero": "44556",
+      "UF": "MT"
+    },
+    "especialidade": "DERMATOLOGIA" 
+  },
+  {
+    "nome": "Gael João Elias Vieira",
+    "sexo": "M",
+    "crm": {
+      "numero": "77889",
+      "UF": "DF"
+    },
+    "especialidade": "NEFROLOGIA" 
+  },
+  {
+    "nome": "Luzia Raimunda Mariana Gonçalves",
+    "sexo": "F",
+    "crm": {
+      "numero": "12123",
+      "UF": "RN"
+    },
+    "especialidade": "PNEUMOLOGIA" 
+  },
+  {
+    "nome": "Martin Iago Anderson Corte Real",
+    "sexo": "M",
+    "crm": {
+      "numero": "98987",
+      "UF": "AM"
+    },
+    "especialidade": "UROLOGIA" 
+  },
+  {
+    "nome": "Ricardo Julio Moreira",
+    "sexo": "M",
+    "crm": {
+      "numero": "87642",
+      "UF": "PA"
+    },
+    "especialidade": "PSIQUIATRIA" 
+  },
+  {
+    "nome": "Yuri Jorge da Rosa",
+    "sexo": "M",
+    "crm": {
+      "numero": "12874",
+      "UF": "PR"
+    },
+    "especialidade": "MEDICINA FÍSICA E REABILITAÇÃO" 
+  },
+  {
+    "nome": "Calebe Raimundo Jorge da Silva",
+    "sexo": "M",
+    "crm": {
+      "numero": "99456",
+      "UF": "AC"
+    },
+    "especialidade": "INFECTOLOGIA" 
+  }
+]
+
+
+
+

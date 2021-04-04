@@ -1,0 +1,72 @@
+[
+  {
+    "medicamento": "aceclofenaco",
+    "formaFarmaceutica": "comprimido",
+    "posologia": "1 (uma) vez ao dia",
+    "tempoUso": "6 (seis) meses",
+    "observacoes": "Tomar em jejum."
+  },
+  {
+    "medicamento": "acetato de dexametasona",
+    "formaFarmaceutica": "creme dermatológico",
+    "posologia": "1 (uma) vez a cada 2 (dois) dias",
+    "tempoUso": "1 (um) mês",
+    "observacoes": "Aplicar antes de dormir."
+  },
+  {
+    "medicamento": "aciclovir",
+    "formaFarmaceutica": "comprimido",
+    "posologia": "2 (duas) vezes ao dia",
+    "tempoUso": "1 (uma) semana",
+    "observacoes": "Tomar com água após almoço e jantar."
+  },
+  {
+    "medicamento": "amoxicilina",
+    "formaFarmaceutica": "cápsula gelatinosa",
+    "posologia": "1 (uma) cápsula a cada seis horas, duas vezes ao dia",
+    "tempoUso": "1 (uma) semana",
+    "observacoes": "Não ingerir em jejum."
+  },
+  {
+    "medicamento": "cloridrato de loperamida",
+    "formaFarmaceutica": "comprimido",
+    "posologia": "1 (um) comprimido por dia",
+    "tempoUso": "2 (duas) semanas",
+    "observacoes": "Ingerir à noite, logo antes do sono."
+  },
+  {
+    "medicamento": "ocitocina",
+    "formaFarmaceutica": "solução injetável",
+    "posologia": "1 (uma) dose por semana",
+    "tempoUso": "4 (quatro) semanas",
+    "observacoes": "Aplicar na farmácia."
+  },
+  {
+    "medicamento": "succinato de sumatriptana",
+    "formaFarmaceutica": "comprimido revestido",
+    "posologia": "2 (dois) comprimidos por dia",
+    "tempoUso": "1 (um) mês",
+    "observacoes": "Interromper imediatamente a ingestão em caso de desconforto."
+  },
+  {
+    "medicamento": "sulfato de atazanavir",
+    "formaFarmaceutica": "cápsula dura",
+    "posologia": "2 (duas) cápsulas a cada 8 (oito) horas",
+    "tempoUso": "1 (um) mês",
+    "observacoes": "Se houver desconforto, interromper imediatamente."
+  },
+  {
+    "medicamento": "tenoxicam",
+    "formaFarmaceutica": "comprimido revestido",
+    "posologia": "1 (um) comprimido a cada 8 (oito) horas",
+    "tempoUso": "2 (dois) meses",
+    "observacoes": "Interromper, se houver reação alérgica."
+  },
+  {
+    "medicamento": "ácido acetilsalicílico",
+    "formaFarmaceutica": "comprimido",
+    "posologia": "1 (um) comprimido por dia",
+    "tempoUso": "indeterminado",
+    "observacoes": "Não tormar em conjunto com outros medicamentos sem prévia consulta."
+  }
+]
