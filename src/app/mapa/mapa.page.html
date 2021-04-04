@@ -1,3 +1,9 @@
+<!-- Leaflet -->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+ integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+ crossorigin=""/>
+
 <ion-header>
   <app-btn-voltar rota="detalhes-receita" pagina="Postos de Saúde (mapa)"></app-btn-voltar>
 </ion-header>
@@ -19,16 +25,18 @@
 
 		<ion-row>
 			<ion-col>
-				<div class="ion-text-center">
+				<div>
 					<ion-searchbar placeholder="CEP"></ion-searchbar>
 				</div>
 			</ion-col>
 		</ion-row>
 
+		<div id="mapid"></div>
+
 		<ion-row>
 			<ion-col>
 				<div class="ion-text-center">
-					<ion-button>Ver Detalhes</ion-button>
+					<ion-button [routerLink]="['/lista-postos']">Ver Detalhes</ion-button>
 				</div>
 			</ion-col>
 		</ion-row>
