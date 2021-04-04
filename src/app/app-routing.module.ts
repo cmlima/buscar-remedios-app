@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'clinics-map',
+    loadChildren: () => import('./clinics-map/clinics-map.module').then( m => m.ClinicsMapPageModule)
+  },
 ];
 
 @NgModule({
