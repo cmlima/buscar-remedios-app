@@ -44,4 +44,8 @@ export class MapaPage implements OnInit {
   		postoMarker.bindTooltip(posto.nome);
   	}
   }
+
+  atualizarCEP(cep) {
+  	console.log('o cep digitado eh', cep);
+  }
 }
