@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+/* Estilos para os alertas */
+
+.app-msg-danger .alert-title {
+  color: var(--ion-color-danger-shade);
+}
+
+.alert-button {
+  &.primary {
+    color: var(--ion-color-primary-shade);
+  }
+  &.secondary {
+    color: var(--ion-color-secondary-shade);
+  }
+  &.tertiary {
+    color: var(--ion-color-tertiary-shade);
+  }
+  &.success {
+    color: var(--ion-color-success-shade);
+  }
+  &.warning {
+    color: var(--ion-color-warning-shade);
+  }
+  &.danger {
+    color: var(--ion-color-danger-shade);
+  }
+  &.dark {
+    color: var(--ion-color-dark-shade);
+  }
+  &.medium {
+    color: var(--ion-color-medium-shade);
+  }
+  &.light {
+    color: var(--ion-color-light-shade);
+  }
+}
