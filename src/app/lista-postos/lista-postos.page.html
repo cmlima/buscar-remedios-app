@@ -7,22 +7,33 @@
   <ion-card *ngFor="let item of ubsInfo">
     <ion-card-header style="padding: 15px 20px 15px 20px">
       <ion-card-title>
-          {{item.nome}}
+          <h1>{{item.nome}}</h1>
       </ion-card-title>
     </ion-card-header>
     <ion-card-content class="ion-no-padding">
         <ion-row style="padding: 0px 20px 0px 20px">
-          Endereço: {{item.endereco}} <br>
-          Bairro: {{item.bairro}} <br>
-          {{item.cidade}} <br>
-          CEP {{item.cep}} <br>
-          Tel.: {{item.telefone}} <br><br>
-          <strong>A {{item.distancia}} Km de você</strong>
+          <h2>
+            Endereço: {{item.endereco}} <br>
+            Bairro: {{item.bairro}} <br>
+            {{item.cidade}} <br>
+            CEP {{item.cep}} <br>
+            Tel.: {{item.telefone}} <br><br>
+          </h2>
+        </ion-row>
+        <ion-row style="padding: 0px 20px 0px 20px">
+          <h2><strong>A {{item.distancia}} Km de você</strong></h2>
         </ion-row>
       <ion-row style="padding: 0px 0px 0px 0px">
-        <ion-button fill="clear" style="margin-left: auto" (click)="abrirAppNavegacao(item)">
-            Ver no Maps <ion-icon name="location-outline"></ion-icon>
-        </ion-button>
+        <ion-col class="ion-text-center">
+          <ion-button fill="clear" class="ion-align-items-center" (click)="realizarChamada(item)">
+            Ligar <ion-icon name="call-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-button fill="clear" class="ion-align-items-center" (click)="abrirAppNavegacao(item)">
+              Como Chegar <ion-icon name="location-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
       </ion-row>
     </ion-card-content>
   </ion-card>
