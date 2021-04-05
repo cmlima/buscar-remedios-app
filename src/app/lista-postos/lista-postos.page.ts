@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import postosMock from '../services/mocks/mapa.json';
 import { CallNumberService } from '../services/callNumber.service';
 import { LaunchNavigatorService } from '../services/launchNav.service';
@@ -8,9 +8,6 @@ import { LaunchNavigatorService } from '../services/launchNav.service';
   selector: 'app-lista-postos',
   templateUrl: './lista-postos.page.html',
   styleUrls: ['./lista-postos.page.scss'],
-})
-@Injectable({
-  providedIn: 'root'
 })
 export class ListaPostosPage implements OnInit {
 
