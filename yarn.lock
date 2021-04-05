@@ -1146,6 +1146,13 @@
   dependencies:
     tslib "^1.9.0"
 
+"@ionic-native/action-sheet@^5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/action-sheet/-/action-sheet-5.31.1.tgz#06ff98230aa704eb7c4a961e07fb17c782e2491f"
+  integrity sha512-oYW6lVmnB/NQC+WkmWay4zyFd1j8SyTNSVUOOnwFevIuEAuQAME+pOtk7ubzFaWvGMCv7YSkyDo4adk+03k4xA==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/barcode-scanner@^5.31.1":
   version "5.31.1"
   resolved "https://registry.yarnpkg.com/@ionic-native/barcode-scanner/-/barcode-scanner-5.31.1.tgz#29752e27e9d45c6473f8447fe2eec828a6c0fe29"
@@ -1153,10 +1160,24 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/call-number@^5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/call-number/-/call-number-5.31.1.tgz#588f07b5ee47e1c845f13fe9f9ef5c9eba614507"
+  integrity sha512-EsaDDhnRkEb2AxnBiQgV7hmA5kcOz5v70tJ9vucpJ4KHKGBMsB7c9E3mWvRIVKkVXpT57s9oQNlcmmGrb5u6pg==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/core@^5.31.1":
   version "5.31.1"
   resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.31.1.tgz#189d67f20b46cfe7930091fa382539efafa8d03b"
   integrity sha512-dbJHezSuY8OqyFwyQiS+5QscA/BONhWitXgniljEblC5kQeLOCe+8p30JYHXj9xDciYzfqFP8ICmyaGOqUHJYw==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/launch-navigator@^5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/launch-navigator/-/launch-navigator-5.31.1.tgz#61a2ef9408a659fe503895f399ba72100ee57b97"
+  integrity sha512-WlvLdoMCkn3cPn3uVXIEWiYNzhgoasDF8ZGCqOl6NM7O+wR6VGHYUcXCUG6YS7mfus85784c3WEYHD4kSuFbnQ==
   dependencies:
     "@types/cordova" latest
 
@@ -2401,6 +2422,11 @@ call-bind@^1.0.0, call-bind@^1.0.2:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
+call-number@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/call-number/-/call-number-1.0.1.tgz#bf9daae487fd6a5573f89aa3655fbe8af036afd2"
+  integrity sha1-v52q5If9alVz+JqjZV++ivA2r9I=
+
 caller-callsite@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
@@ -2971,6 +2997,16 @@ copy-webpack-plugin@^6.2.1:
     schema-utils "^3.0.0"
     serialize-javascript "^5.0.1"
     webpack-sources "^1.4.3"
+
+cordova-plugin-actionsheet@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-actionsheet/-/cordova-plugin-actionsheet-2.3.3.tgz#e9261b2d004a8da407388d60df534c156c52ff11"
+  integrity sha1-6SYbLQBKjaQHOI1g31NMFWxS/xE=
+
+cordova-plugin-dialogs@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-dialogs/-/cordova-plugin-dialogs-2.0.2.tgz#ac3ce8b73bc885ff847078d5b533e7a4ed418a2f"
+  integrity sha512-FUHI6eEVeoz2VkxbF0P56QlUQLGzXcvw3i4xuXyM9gEct6Y+FA3Xzgl2pJTZcTg5wRqLWzN08kgNoHPkom15pw==
 
 core-js-compat@^3.8.0:
   version "3.10.0"
@@ -9117,6 +9153,11 @@ ua-parser-js@0.7.22:
   version "0.7.22"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.22.tgz#960df60a5f911ea8f1c818f3747b99c6e177eae3"
   integrity sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
+
+uk.co.workingedge.phonegap.plugin.launchnavigator@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/uk.co.workingedge.phonegap.plugin.launchnavigator/-/uk.co.workingedge.phonegap.plugin.launchnavigator-5.0.5.tgz#1b8e3dd97ffbf36c42010204c08040a2e1c095d1"
+  integrity sha512-mKsqU1TnrZsAQB8CLW+YHr+Mx3YAB0ELW8kF0qjMLIzm8J5mz1UqbuvzXwOzYLLNlGpkTs1DF2B6gZlGd6mYRA==
 
 unbox-primitive@^1.0.0:
   version "1.0.1"

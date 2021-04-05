@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import postosMock from '../services/mocks/mapa.json';
+import { CallNumberService } from '../services/callNumber.service';
+import { LaunchNavigatorService } from '../services/launchNav.service';
+
 
 @Component({
   selector: 'app-lista-postos',
@@ -7,9 +11,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaPostosPage implements OnInit {
 
-  constructor() { }
+  public ubsInfo = postosMock.postosSaude;
 
-  ngOnInit() {
+  constructor(private callNumber: CallNumberService, private launchNavigator: LaunchNavigatorService) { }
+
+  ngOnInit() {}
+
+  public realizarChamada(item: { telefone: string; }){
+    this.callNumber.call(item.telefone);
+  }
+
+  public abrirAppNavegacao(item: { coordenadas: { lat: string; lng: string; }; nome: string; }){
+    console.log("Coordenadas: " + item.coordenadas.lat + ", " + item.coordenadas.lng);
+
+    this.launchNavigator.nav(item.nome);    
   }
 
 }
