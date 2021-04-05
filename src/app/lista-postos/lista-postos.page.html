@@ -4,8 +4,27 @@
 
 <ion-content>
 
-<ion-button expand="block" fill="clear" shape="round" [routerLink]="['/home']">
-  Tela Inicial
-</ion-button>
+  <ion-card *ngFor="let item of ubsInfo">
+    <ion-card-header style="padding: 15px 20px 15px 20px">
+      <ion-card-title>
+          {{item.nome}}
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-no-padding">
+        <ion-row style="padding: 0px 20px 0px 20px">
+          Endereço: {{item.endereco}} <br>
+          Bairro: {{item.bairro}} <br>
+          {{item.cidade}} <br>
+          CEP {{item.cep}} <br>
+          Tel.: {{item.telefone}} <br><br>
+          <strong>A {{item.distancia}} Km de você</strong>
+        </ion-row>
+      <ion-row style="padding: 0px 0px 0px 0px">
+        <ion-button fill="clear" style="margin-left: auto" (click)="abrirAppNavegacao(item)">
+            Ver no Maps <ion-icon name="location-outline"></ion-icon>
+        </ion-button>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

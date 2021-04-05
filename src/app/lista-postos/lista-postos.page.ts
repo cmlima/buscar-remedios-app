@@ -12,7 +12,10 @@ export class ListaPostosPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  public abrirAppNavegacao(item){
+    console.log("Coordenadas: " + item.coordenadas.lat + ", " + item.coordenadas.lng);
   }
 
 }
