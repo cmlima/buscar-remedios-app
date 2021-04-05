@@ -3,19 +3,17 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <ion-row style="height: 25%; position: relative;">
-    <ion-chip style="position: absolute; top: 0; right: 0;" [color]="receita.cancelled ? 'medium': 'tertiary'">
+  <div class="main-container">
+    <ion-chip class="status-receita" [outline]="true" [disabled]="receita.cancelled" [color]="receita.cancelled ? 'medium': 'tertiary'">
       <ion-icon [name]="receita.cancelled ? 'thumbs-down': 'thumbs-up'"></ion-icon>
       <ion-label>{{ receita.cancelled ? 'cancelada' : 'válida' }}</ion-label>
     </ion-chip>      
-      <ion-col size="12">
-      <div class="qrcode-container margin-h-auto" [class.cancelada]="receita.cancelled">
+    <div>
+      <div class="qrcode-container" [class.cancelada]="receita.cancelled">
         <img [src]="dataURL" alt="qrcode">
       </div>
-    </ion-col>
-  </ion-row>
-  <ion-row style="height: 60%; max-height: 60%; overflow: hidden; padding: 1rem;">
-    <ion-col size="12" style="overflow-x: hidden; overflow-y: scroll; height:100%; max-height: 100%; font-family: monospace; padding: 0 1rem;">
+    </div>
+    <div class="detalhes-receita">
       <p>
         Receita emitida em <strong>{{ receita.data }}</strong> <br>
         Tipo: <strong>{{ receita.tipo }}</strong>
@@ -47,26 +45,18 @@
         <u>Observações gerais:</u> <br>
         {{ receita.observacoes || 'n/c' }}
       </p>
-    </ion-col>
-  </ion-row>
-  <ion-row style="height: 15%; max-height: 15%;">
-    <ion-col size="8" class="margin-h-auto">
-      <ion-fab vertical="center" horizontal="start">
-        <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
-          <ion-icon name="download"></ion-icon>
-        </ion-fab-button>
-      </ion-fab>
-      <ion-fab vertical="center" horizontal="center">
-        <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
-          <ion-icon name="search"></ion-icon>
-        </ion-fab-button>
-      </ion-fab>
-      <ion-fab vertical="center" horizontal="end">
-        <ion-fab-button color="danger" title="remover do aparelho" [disabled]="receita.cancelled" (click)="removerReceita()">
-          <ion-icon name="trash"></ion-icon>
-        </ion-fab-button>
-      </ion-fab>
-    </ion-col>
-  </ion-row>
+    </div>
+    <div class="acoes-receita">
+      <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
+        <ion-icon name="download"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
+        <ion-icon name="search"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="danger" title="remover do aparelho" [disabled]="receita.cancelled" (click)="removerReceita()">
+        <ion-icon name="trash"></ion-icon>
+      </ion-fab-button>
+    </div>
+  </div>
 </ion-content>
  
