@@ -4,10 +4,9 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
   <div class="main-container">
-    <ion-chip class="status-receita" [outline]="true" [disabled]="receita.cancelled" [color]="receita.cancelled ? 'medium': 'tertiary'">
-      <ion-icon [name]="receita.cancelled ? 'thumbs-down': 'thumbs-up'"></ion-icon>
-      <ion-label>{{ receita.cancelled ? 'cancelada' : 'válida' }}</ion-label>
-    </ion-chip>      
+    <div class="status-receita">
+      <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'danger': 'tertiary'"></ion-icon>
+    </div>      
     <div>
       <div class="qrcode-container" [class.cancelada]="receita.cancelled">
         <img [src]="dataURL" alt="qrcode">
