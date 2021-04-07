@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Receita } from './entities/receita';
+import { Receita } from './entities';
 import { gerarReceitas } from './mocks/random.js';
 import QRCode from 'qrcode';
 import { MensagensService } from './mensagens.service';
@@ -13,17 +13,21 @@ export class ReceitasService {
   constructor(private mensagensService: MensagensService) { }
 
   public getReceitas() {
+    // TODO: implementar leitura do storage local
     return this._receitas;
   }
 
-  public buscar(hash: string): Receita | false {
+  public async buscar(hash: string) {
+    // TODO: Implementar consumo API remota, 
+    // atualizando vetor de receitas em caso de sucesso
+    // ou retornando mensagem de erro em caso de insucesso
     console.log('Buscando... ', hash);
-    return false;
   }
 
   public remover(hash: string) {
     this.mensagensService.confirmar('Confirmação', 'Tem certeza de que deseja remover a receita da memória do aparelho?', (yes: boolean) => {
       if (yes) {
+        // TODO: implementar remoção do storage local
         console.log('removendo... ', hash);
       }
     })
