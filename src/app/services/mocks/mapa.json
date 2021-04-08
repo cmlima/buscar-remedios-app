@@ -1,0 +1,35 @@
+{
+	"coordenadasIniciais": {"lat": -23.4974094, "lng": -46.507369},
+	"postosSaude": [
+		{
+			"nome": "AMA/UBS Vila Silvia",
+			"endereco": "R. Belém Santos, 222",
+			"bairro": "Vila Silvia",
+			"cidade": "São Paulo - SP",
+			"cep": "03821-170",
+			"telefone": "+551125458181",
+			"distancia": "0.3",
+			"coordenadas": {"lat": -23.4949359, "lng": -46.5007333 }
+		},
+		{
+			"nome": "AMA/UBS Humberto Cerruti",
+			"endereco": "Av. Olavo Egídio de Souza Aranha, 704",
+			"bairro": "Parque Cisper",
+			"cidade": "São Paulo - SP",
+			"cep": "03822-000",
+			"telefone": "+551129439991",
+			"distancia": "1",
+			"coordenadas": {"lat": -23.5001679, "lng": -46.4987911 }
+		},
+		{
+			"nome": "UBS Engenheiro Goulart Doutor José Pires",
+			"endereco": "Rua Augusto Correa Leite, 538",
+			"bairro": "Eng. Goulart",
+			"cidade": "São Paulo - SP",
+			"cep": "03726-100",
+			"telefone": "+551126217402",
+			"distancia": "1.5",
+			"coordenadas": {"lat": -23.505499, "lng": -46.5074806 }
+		}
+	]
+}

@@ -2,11 +2,60 @@
   <app-btn-voltar rota="lista-receitas" pagina="Detalhes da Receita"></app-btn-voltar>
 </ion-header>
 
-<ion-content>
-
-  <ion-button expand="block" fill="clear" shape="round" [routerLink]="['/home']">
-    Tela Inicial
-  </ion-button>
-  
-  </ion-content>
-  
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="main-container">
+    <div class="status-receita">
+      <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'danger': 'tertiary'"></ion-icon>
+    </div>      
+    <div>
+      <div class="qrcode-container" [class.cancelada]="receita.cancelled">
+        <img [src]="dataURL" alt="qrcode">
+      </div>
+    </div>
+    <div class="detalhes-receita">
+      <p>
+        Receita emitida em <strong>{{ receita.data }}</strong> <br>
+        Tipo: <strong>{{ receita.tipo }}</strong>
+      </p>
+      <p>
+        <u>Emitente</u>: <br>
+        {{ (receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra. ') + receita.medico.nome }} ({{ receita.medico.especialidade | lowercase }})<br>
+        CRM nº {{ receita.medico.crm.numero }}/{{ receita.medico.crm.uf }} <br>
+        {{ receita.entidade.nome }}
+      </p>
+      <p>
+        <u>Paciente:</u> <br>
+        {{ receita.paciente.nome }} <br> 
+        CPF: {{ receita.paciente.cpf }}
+      </p>
+      <p>
+        <u>Prescrição:</u> <br>
+      </p>
+      <ul>
+        <li *ngFor="let prescricao of receita.prescricoes; index as i;">
+          <p>
+            <strong>{{ prescricao.medicamento }}</strong> ({{ prescricao.formaFarmaceutica }})<br>
+            {{ prescricao.posologia }}, durante {{ prescricao.tempoUso }} <br>
+            Obs: <em>{{ prescricao.observacoes || 'n/c' }}</em>
+          </p>
+        </li>
+      </ul>
+      <p>
+        <u>Observações gerais:</u> <br>
+        {{ receita.observacoes || 'n/c' }}
+      </p>
+    </div>
+    <div class="acoes-receita">
+      <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
+        <ion-icon name="download"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
+        <ion-icon name="search"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="danger" title="remover do aparelho" [disabled]="receita.cancelled" (click)="removerReceita()">
+        <ion-icon name="trash"></ion-icon>
+      </ion-fab-button>
+    </div>
+  </div>
+</ion-content>
+ 

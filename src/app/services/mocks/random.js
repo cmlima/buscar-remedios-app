@@ -45,7 +45,7 @@ export const gerarReceita = () => {
     entidade: entidades[entidade],
     prescricoes: gerarPrescricoes(gerarInt(1, Math.min(5, prescricoes.length))),
     observacoes: observacoes[observacao],
-    cancelled: Boolean(gerarInt(0, 1))
+    cancelled: gerarInt(0, 10) > 7
   }
 }
 

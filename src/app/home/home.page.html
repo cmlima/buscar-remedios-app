@@ -10,37 +10,23 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <ion-row style="height: 100%;" class="ion-align-items-center">
-    <ion-col size="12">
-      <ion-row>
-        <ion-col size="12" class="margin-h-auto">
-          <div class="btn-qrcode margin-h-auto" (click)="lerQRCode()">
-            <img src="../../assets/qrcode.png" alt="qrcode">
-          </div>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="10" class="margin-h-auto">
-          <ion-button (click)="lerQRCode()" expand="block" class="ion-margin-top">
-            Ler QRCode
-          </ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="10" class="margin-h-auto">
-          <ion-button [routerLink]="['/lista-receitas']" expand="block" color="tertiary" class="ion-margin-top">
-            Ver Receitas
-          </ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="12" style="display: flex; justify-content: center;">
-          <ion-button fill="clear" size="small" [routerLink]="['/lista-receitas']">[Letícia]</ion-button>
-          <ion-button fill="clear" size="small" [routerLink]="['/detalhes-receita']">[Caio]</ion-button>
-          <ion-button fill="clear" size="small" [routerLink]="['/mapa']">[Pedro]</ion-button>
-          <ion-button fill="clear" size="small" [routerLink]="['/lista-postos']">[Álef]</ion-button>
-        </ion-col>
-      </ion-row>
-    </ion-col>
-  </ion-row>
+  <div class="page-container">
+    <div class="btn-qrcode" (click)="lerQRCode()">
+      <img src="../../assets/qrcode.png" alt="qrcode">
+    </div>
+    <div class="page-buttons">
+      <ion-button size="large" (click)="lerQRCode()" expand="block" class="ion-margin-top">
+        Ler QRCode
+      </ion-button>
+      <ion-button size="large" [routerLink]="['/lista-receitas']" expand="block" color="tertiary" class="ion-margin-top">
+        Ver Receitas
+      </ion-button>
+    </div>
+    <div style="display: flex; justify-content: center; width: 100%;">
+      <ion-button fill="clear" size="small" [routerLink]="['/lista-receitas']">[Letícia]</ion-button>
+      <ion-button fill="clear" size="small" [routerLink]="['/detalhes-receita']">[Caio]</ion-button>
+      <ion-button fill="clear" size="small" [routerLink]="['/mapa']">[Pedro]</ion-button>
+      <ion-button fill="clear" size="small" [routerLink]="['/lista-postos']">[Álef]</ion-button>
+    </div>
+  </div>
 </ion-content>
