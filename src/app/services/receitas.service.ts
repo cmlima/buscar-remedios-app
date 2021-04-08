@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Receita } from './entities';
-import { gerarReceitas } from './mocks/random.js';
+import { gerarInt, gerarReceitas } from './mocks/random.js';
 import QRCode from 'qrcode';
 import { MensagensService } from './mensagens.service';
 
@@ -8,13 +8,31 @@ import { MensagensService } from './mensagens.service';
   providedIn: 'root'
 })
 export class ReceitasService {
-  private _receitas: Receita[] = gerarReceitas(10);
+  private _receitas: Receita[] = [];
+  private _selecionada: Receita;
   
   constructor(private mensagensService: MensagensService) { }
 
-  public getReceitas() {
+  public async getReceitas(): Promise<Receita[] | false> {
     // TODO: implementar leitura do storage local
-    return this._receitas;
+    try {
+      this._receitas = gerarReceitas(10).sort((a, b) => {
+        return Number(b.data.split('/').reverse().join()) - Number(a.data.split('/').reverse().join());
+      })      
+      return await Promise.resolve(this._receitas);
+    } catch (e) {
+      this.mensagensService.erro('Falha na recuperação das receitas', e.message);
+      return false;
+    }
+  }
+
+  public getSelecionada(): Receita {
+    // TODO: Eliminar mock
+    return this._selecionada ? this._selecionada : this._receitas[gerarInt(0, this._receitas.length - 1)];
+  }
+
+  public selecionar(receita: Receita) {
+    this._selecionada = receita;
   }
 
   public async buscar(hash: string) {
