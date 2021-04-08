@@ -1,3 +1,4 @@
+import { ListaReceitasPageModule } from './../lista-receitas/lista-receitas.module';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -7,7 +8,13 @@ const routes: Routes = [
   {
     path: '',
     component: MapaPage
-  }
+  },
+  {
+    path: 'lista-receitas',
+    component: ListaReceitasPageModule
+
+
+  },
 ];
 
 @NgModule({
@@ -15,3 +22,5 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class MapaPageRoutingModule {}
+
+
