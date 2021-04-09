@@ -8,13 +8,36 @@ import { ReceitasService } from '../services/receitas.service';
   styleUrls: ['./lista-receitas.page.scss'],
 })
 export class ListaReceitasPage implements OnInit {
-  public receitas: Receita[];
+  public receitas: Receita[] = [];
+  public filtradas: Receita[] = [];
+  public filtro: string = 'todas';
+  public canceladas: number = 0;
 
   constructor(private router: Router, private receitasService: ReceitasService) { }
 
   async ngOnInit() {
+    await this.atualizarReceitas();
+  }
+
+  public async atualizarReceitas() {
     const receitas = await this.receitasService.getReceitas();
     if (receitas) this.receitas = receitas;
+    this.filtrar();
+  }
+
+  public mudarFiltro(event: Event) {
+    this.filtro = (event as CustomEvent).detail.value;
+    this.filtrar();
+  }
+
+  public filtrar() {
+    let canceladas = 0;
+    this.filtradas = this.receitas.filter(receita => {
+      if (receita.cancelled) canceladas++;
+      if (this.filtro === 'todas') return true;
+      return this.filtro === 'canceladas' ? receita.cancelled : !receita.cancelled;
+    });
+    this.canceladas = canceladas;
   }
 
   public resumoPrescricao(receita: Receita): string {
@@ -26,7 +49,9 @@ export class ListaReceitasPage implements OnInit {
     this.router.navigate(['detalhes-receita']);
   }
 
-  public remover(index: number) {
-    this.receitasService.remover(this.receitas[index]._id);
+  public async remover(receita: Receita) {
+    const removed = await this.receitasService.remover(receita._id);
+    if (removed) await this.atualizarReceitas();
   }
+
 }

@@ -17,11 +17,11 @@ export class ReceitasService {
   public async getReceitas(): Promise<Receita[] | false> {
     // TODO: implementar leitura do storage local
     try {
-      return await Promise.resolve(this._receitas.sort((a, b) => {
+      return this._receitas.sort((a, b) => {
         const aValue = Number(a.data.split('/').reverse().join(''));
         const bValue = Number(b.data.split('/').reverse().join(''));
         return bValue - aValue;
-      }));
+      });
     } catch (e) {
       this.mensagensService.erro('Falha na recuperação das receitas', e.message);
       return false;

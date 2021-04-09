@@ -1,10 +1,31 @@
 <ion-header>
-  <app-btn-voltar rota="home" pagina="Receitas Gravadas"></app-btn-voltar>
+  <app-btn-voltar rota="home" pagina="filtradas Gravadas"></app-btn-voltar>
 </ion-header>
 
 <ion-content>
 
-  <ion-grid class="no-content" *ngIf="!receitas || receitas.length === 0" fixed>
+  <ion-segment [value]="filtro" (ionChange)="mudarFiltro($event)">
+    <ion-segment-button value="todas">
+      <ion-label>
+        Todas
+        <ion-badge color="light">{{ receitas.length }}</ion-badge>
+      </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="validas">
+      <ion-label>
+        Válidas
+        <ion-badge color="light">{{ receitas.length - canceladas }}</ion-badge>
+      </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="canceladas">
+      <ion-label>
+        Canceladas
+        <ion-badge color="light">{{ canceladas }}</ion-badge>
+      </ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  
+  <ion-grid class="no-content" *ngIf="!filtradas || filtradas.length === 0" fixed>
     <ion-row>
       <ion-col size="12">
         <ion-text color="medium" class="ion-text-center">
@@ -12,16 +33,9 @@
         </ion-text>
       </ion-col>
     </ion-row>
-    <ion-row class="ion-justify-content-center">
-      <ion-col size="12">
-        <ion-button [routerLink]="['/home']">
-          voltar
-        </ion-button>
-      </ion-col>
-    </ion-row>
   </ion-grid>
 
-  <ion-card *ngFor="let receita of receitas; let i = index" class="receita-card" [color]="receita.cancelled ? 'light': ''">
+  <ion-card *ngFor="let receita of filtradas; let i = index" class="receita-card" [color]="receita.cancelled ? 'light': ''">
     <ion-card-header>
       <ion-card-subtitle class="receita-card-title">
         <ion-chip [color]="receita.cancelled ? 'medium' : 'primary'">
@@ -64,7 +78,7 @@
           </ion-row>
           <ion-row>
             <ion-col size="12" class="receita-card-actions">
-              <ion-fab-button size="small" color="danger" (click)="remover(i)">
+              <ion-fab-button size="small" color="danger" (click)="remover(receita)">
                 <ion-icon name="trash"></ion-icon>
               </ion-fab-button>
               <ion-fab-button size="small" color="primary" (click)="verDetalhes(receita)">
