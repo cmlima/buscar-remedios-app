@@ -9,7 +9,7 @@ import { Posto } from '../services/entities';
   styleUrls: ['./lista-postos.page.scss'],
 })
 export class ListaPostosPage implements OnInit {
-  public postos: Posto[];
+  public postos: Posto[] = [];
 
   constructor(private callNumber: CallNumberService, private launchNavigator: LaunchNavigatorService, private postosService: PostosService) { }
 

@@ -4,35 +4,50 @@
 
 <ion-content>
 
-  <ion-card *ngFor="let posto of postos">
-    <ion-card-header style="padding: 15px 20px 15px 20px">
+  <ion-grid class="no-content" *ngIf="!postos || postos.length === 0" fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-text color="medium" class="ion-text-center">
+          <p>Nenhum posto de saúde localizado</p>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12">
+        <ion-button [routerLink]="['/mapa']">
+          voltar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card *ngFor="let posto of postos" class="posto-card">
+    <ion-card-header class="posto-card-title">
       <ion-card-title>
-          <h1>{{ posto.nome }}</h1>
+        <h1>{{ posto.nome }}</h1>
       </ion-card-title>
     </ion-card-header>
     <ion-card-content class="ion-no-padding">
-        <ion-row style="padding: 0px 20px 0px 20px">
-          <h2>
-            Endereço: {{ posto.endereco }} <br>
-            Bairro: {{ posto.bairro }} <br>
-            {{ posto.cidade }} <br>
-            CEP {{ posto.cep }} <br>
-            Tel.: {{ posto.telefone }} <br><br>
-          </h2>
-        </ion-row>
-        <ion-row style="padding: 0px 20px 0px 20px">
-          <h2><strong>A {{ posto.distancia }} Km de você</strong></h2>
-        </ion-row>
+      <ion-row class="posto-card-body">
+        <h2>
+          Endereço: {{ posto.endereco }} <br>
+          Bairro: {{ posto.bairro }} <br>
+          {{ posto.cidade }} <br>
+          CEP {{ posto.cep }} <br>
+          Tel.: {{ posto.telefone }} <br><br>
+        </h2>
+      </ion-row>
+      <ion-row class="posto-card-body">
+        <h2><strong>A {{ posto.distancia }} Km de você</strong></h2>
+      </ion-row>
       <ion-row class="ion-no-padding">
-        <ion-col class="ion-text-center">
-          <ion-button fill="clear" (click)="realizarChamada(posto)">
-            Ligar <ion-icon name="call-outline"></ion-icon>
-          </ion-button>
-        </ion-col>
-        <ion-col class="ion-text-center">
-          <ion-button fill="clear" (click)="abrirAppNavegacao(posto)">
-              Como Chegar <ion-icon name="location-outline"></ion-icon>
-          </ion-button>
+        <ion-col size="12" class="posto-card-actions">
+          <ion-fab-button size="small" color="tertiary" (click)="realizarChamada(posto)">
+            <ion-icon name="call-outline"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button size="small" color="primary" (click)="abrirAppNavegacao(posto)">
+            <ion-icon name="location-outline"></ion-icon>
+          </ion-fab-button>
         </ion-col>
       </ion-row>
     </ion-card-content>
