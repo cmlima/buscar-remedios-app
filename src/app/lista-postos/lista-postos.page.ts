@@ -14,8 +14,10 @@ export class ListaPostosPage implements OnInit {
   constructor(private callNumber: CallNumberService, private launchNavigator: LaunchNavigatorService, private postosService: PostosService) { }
 
   async ngOnInit() {
-    const response = await this.postosService.getPostosSaude();
-    if (response) this.postos = response;
+    // TODO: refatorar para que os dados dos postos seja
+    // passado pelo componente mapa via router
+    const response = await this.postosService.getDadosMapa();
+    if (response) this.postos = response.postosSaude;
   }
 
   public realizarChamada(posto: Posto) {

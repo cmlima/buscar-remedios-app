@@ -1,3 +1,4 @@
+export type { ApiCepErro, ApiCepEndereco } from './ApiCep';
 export type { ApiMapa } from './ApiMapa';
 export type { Entidade } from './entidade';
 export type { Localizacao } from './localizacao';

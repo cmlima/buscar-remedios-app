@@ -1174,6 +1174,13 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/geolocation@^5.32.0":
+  version "5.32.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-5.32.0.tgz#801981ecb2bee634531d691ed57ab3342aa54bd7"
+  integrity sha512-wfpzk/fgLmQ16f+s27htvrDuvrdNj09nW4IP4gNBGvUNR6wrtrnCJJjC72a3jWChbZjmdwLkMiRZBM3bh/xo2Q==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/launch-navigator@^5.31.1":
   version "5.31.1"
   resolved "https://registry.yarnpkg.com/@ionic-native/launch-navigator/-/launch-navigator-5.31.1.tgz#61a2ef9408a659fe503895f399ba72100ee57b97"
@@ -3007,6 +3014,11 @@ cordova-plugin-dialogs@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/cordova-plugin-dialogs/-/cordova-plugin-dialogs-2.0.2.tgz#ac3ce8b73bc885ff847078d5b533e7a4ed418a2f"
   integrity sha512-FUHI6eEVeoz2VkxbF0P56QlUQLGzXcvw3i4xuXyM9gEct6Y+FA3Xzgl2pJTZcTg5wRqLWzN08kgNoHPkom15pw==
+
+cordova-plugin-geolocation@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-geolocation/-/cordova-plugin-geolocation-4.1.0.tgz#dfea55e212ed1c46e9d82a373e90b45b9887d1f3"
+  integrity sha512-y5io/P10xGMxSn2KEqfv/fExK47eA1pmSonJdmDqDsaSADV9JpgdPx0mUSA08+5pzma/OS9R0LoODeDPx7Jvjg==
 
 core-js-compat@^3.8.0:
   version "3.10.0"
@@ -6115,6 +6127,7 @@ minipass-fetch@^1.3.0, minipass-fetch@^1.3.2:
   resolved "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.3.3.tgz#34c7cea038c817a8658461bf35174551dce17a0a"
   integrity sha512-akCrLDWfbdAWkMLBxJEeWTdNsjML+dt5YgOI4gJ53vuO0vrmYQkUPxa6j6V65s9CcePIr2SSWqjT2EcrNseryQ==
   dependencies:
+    encoding "^0.1.12"
     minipass "^3.1.0"
     minipass-sized "^1.0.3"
     minizlib "^2.0.0"
