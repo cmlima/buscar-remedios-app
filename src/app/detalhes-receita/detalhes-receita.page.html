@@ -5,14 +5,14 @@
 <ion-content [fullscreen]="true" class="ion-padding">
   <div class="main-container">
     <div class="status-receita">
-      <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'danger': 'tertiary'"></ion-icon>
+      <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'medium': 'tertiary'"></ion-icon>
     </div>      
     <div>
       <div class="qrcode-container" [class.cancelada]="receita.cancelled">
         <img [src]="dataURL" alt="qrcode">
       </div>
     </div>
-    <div class="detalhes-receita">
+    <ion-text [color]="receita.cancelled ? 'medium' : 'dark'" class="detalhes-receita">
       <p>
         Receita emitida em <strong>{{ receita.data }}</strong> <br>
         Tipo: <strong>{{ receita.tipo }}</strong>
@@ -44,7 +44,7 @@
         <u>Observações gerais:</u> <br>
         {{ receita.observacoes || 'n/c' }}
       </p>
-    </div>
+    </ion-text>
     <div class="acoes-receita">
       <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
         <ion-icon name="download"></ion-icon>
@@ -52,7 +52,7 @@
       <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
         <ion-icon name="search"></ion-icon>
       </ion-fab-button>
-      <ion-fab-button color="danger" title="remover do aparelho" [disabled]="receita.cancelled" (click)="removerReceita()">
+      <ion-fab-button color="danger" title="remover do aparelho" (click)="removerReceita()">
         <ion-icon name="trash"></ion-icon>
       </ion-fab-button>
     </div>
