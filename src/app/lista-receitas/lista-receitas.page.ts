@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Receita } from '../services/entities';
 import { ReceitasService } from '../services/receitas.service';
-
 @Component({
   selector: 'app-lista-receitas',
   templateUrl: './lista-receitas.page.html',
@@ -17,10 +16,9 @@ export class ListaReceitasPage implements OnInit {
     const receitas = await this.receitasService.getReceitas();
     if (receitas) this.receitas = receitas;
   }
-  public resumoMedicamentos(receita: Receita): string {
-    const medicamentos = receita.prescricoes.map(item => item.medicamento).join(', ');
-    if (medicamentos.length < 40) return medicamentos;
-    return medicamentos.substr(0, 37) + '...';
+
+  public resumoPrescricao(receita: Receita): string {
+    return receita.prescricoes.map(item => item.medicamento).join(', ');
   }
 
   public verDetalhes(receita: Receita) {
@@ -28,10 +26,7 @@ export class ListaReceitasPage implements OnInit {
     this.router.navigate(['detalhes-receita']);
   }
 
-  public remover(hash: string) {
-    this.receitasService.remover(hash);
-    const index = this.receitas.findIndex(receita => receita._id === hash); 
-    this.receitas.splice(index, 1);
+  public remover(index: number) {
+    this.receitasService.remover(this.receitas[index]._id);
   }
 }
-

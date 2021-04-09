@@ -4,35 +4,78 @@
 
 <ion-content>
 
-  <ion-card *ngFor="let receita of receitas">
-    <ion-card-content class="receita-card">
-      <ion-grid>
-        <ion-row>
-          <ion-col size="12">
-            <h2><strong>{{ receita.data }}</strong></h2>
-          </ion-col>
-          <ion-col size="12">
-            <p>{{ receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra.' }} {{ receita.medico.nome }} ({{ receita.medico.especialidade | lowercase }})</p>
-          </ion-col>
-          <ion-col size="12">
-            <p>{{ receita.entidade.nome }}</p>
-          </ion-col>
-          <ion-col size="12">
-            <p>{{ resumoMedicamentos(receita) }}</p>
-          </ion-col>
-        </ion-row>
-        <ion-row>
-          <ion-col size="12" class="receita-card-actions">
-            <ion-fab-button size="small" color="medium" (click)="remover(receita._id)">
-              <ion-icon name="trash"></ion-icon>
-            </ion-fab-button>
-            <ion-fab-button size="small" color="primary" (click)="verDetalhes(receita)">
-              <ion-icon name="ellipsis-horizontal"></ion-icon>
-            </ion-fab-button>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+  <ion-grid class="no-content" *ngIf="!receitas || receitas.length === 0" fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-text color="medium" class="ion-text-center">
+          <p>Nenhuma receita armazenada</p>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12">
+        <ion-button [routerLink]="['/home']">
+          voltar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card *ngFor="let receita of receitas; let i = index" class="receita-card" [color]="receita.cancelled ? 'light': ''">
+    <ion-card-header>
+      <ion-card-subtitle class="receita-card-title">
+        <ion-chip [color]="receita.cancelled ? 'medium' : 'primary'">
+          <ion-icon name="calendar"></ion-icon>
+          <ion-label>{{ receita.data }}</ion-label>
+        </ion-chip>
+        <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'medium': 'tertiary'"></ion-icon>
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content class="receita-card-body">
+      <ion-text [color]="receita.cancelled ? 'medium' : 'dark'">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12">
+              <p>
+                <strong>Emitente: </strong>
+                {{ receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra.' }} {{ receita.medico.nome }} 
+              </p>
+              <p>
+                <strong>Área: </strong>
+                {{ receita.medico.especialidade | lowercase }}
+              </p>
+              <p>
+                <strong>Entidade: </strong>
+                {{ receita.entidade.nome }}
+              </p>
+              <p>
+                <strong>Paciente: </strong>
+                {{ receita.paciente.nome }}
+              </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="12">
+              <p>
+                <strong>Prescrição: </strong>
+                {{ resumoPrescricao(receita) }}
+              </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="12" class="receita-card-actions">
+              <ion-fab-button size="small" color="danger" (click)="remover(i)">
+                <ion-icon name="trash"></ion-icon>
+              </ion-fab-button>
+              <ion-fab-button size="small" color="primary" (click)="verDetalhes(receita)">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </ion-fab-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-text>
     </ion-card-content>
   </ion-card>
   
 </ion-content>
+  
