@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
-    <ion-avatar slot="start" style="width: 40px; height: 40px;" class="ion-margin-start">
+    <ion-avatar slot="start" style="width: 40px; height: 40px;" class="ion-margin-start" (click)="presentActionSheet()">
       <img src="../../assets/pills.png" />
     </ion-avatar>
     <ion-title>
@@ -15,18 +15,12 @@
       <img src="../../assets/qrcode.png" alt="qrcode">
     </div>
     <div class="page-buttons">
-      <ion-button size="large" (click)="lerQRCode()" expand="block" class="ion-margin-top">
+      <ion-button (click)="lerQRCode()" expand="block" class="ion-margin-top">
         Ler QRCode
       </ion-button>
-      <ion-button size="large" [routerLink]="['/lista-receitas']" expand="block" color="tertiary" class="ion-margin-top">
+      <ion-button [routerLink]="['/lista-receitas']" expand="block" color="tertiary" class="ion-margin-top">
         Ver Receitas
       </ion-button>
-    </div>
-    <div style="display: flex; justify-content: center; width: 100%;">
-      <ion-button fill="clear" size="small" [routerLink]="['/lista-receitas']">[Letícia]</ion-button>
-      <ion-button fill="clear" size="small" [routerLink]="['/detalhes-receita']">[Caio]</ion-button>
-      <ion-button fill="clear" size="small" [routerLink]="['/mapa']">[Pedro]</ion-button>
-      <ion-button fill="clear" size="small" [routerLink]="['/lista-postos']">[Álef]</ion-button>
     </div>
   </div>
 </ion-content>
