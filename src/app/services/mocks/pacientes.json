@@ -2,52 +2,112 @@
   {
     "nome": "Carlos Eduardo Henrique Thales Gomes",
     "sexo": "M",
-    "cpf": "640.977.604-75"
+    "cpf": "640.977.604-75",
+    "rg": {
+      "numero": "14.556.547-6",
+      "emissor": "SSP",
+      "uf": "GO"
+    },
+    "nascimento": "24/01/2001"
   },
   {
     "nome": "Larissa Maria Castro",
     "sexo": "F",
-    "cpf": "420.945.656-02"
+    "cpf": "420.945.656-02",
+    "rg": {
+      "numero": "15.850.080-5",
+      "emissor": "SSP",
+      "uf": "AP"
+    },
+    "nascimento": "26/08/1990"
   },
   {
     "nome": "Elaine Clara Rocha",
     "sexo": "F",
-    "cpf": "283.817.075-95"
+    "cpf": "283.817.075-95",
+    "rg": {
+      "numero": "21.141.657-5",
+      "emissor": "SSP",
+      "uf": "SP"
+    },
+    "nascimento": "10/02/1947"
   },
   {
     "nome": "Louise Márcia da Rocha",
     "sexo": "F",
-    "cpf": "716.046.926-77"
+    "cpf": "716.046.926-77",
+    "rg": {
+      "numero": "41.349.275-8",
+      "emissor": "SSP",
+      "uf": "PE"
+    },
+    "nascimento": "27/08/1962"
   },
   {
     "nome": "Bruna Cristiane Elaine Vieira",
     "sexo": "F",
-    "cpf": "479.479.944-63"
+    "cpf": "479.479.944-63",
+    "rg": {
+      "numero": "32.122.197-7",
+      "emissor": "SSP",
+      "uf": "RS"
+    },
+    "nascimento": "20/05/1950"
   },
   {
     "nome": "Luís Mário Felipe Assunção",
     "sexo": "M",
-    "cpf": "032.849.938-27"
+    "cpf": "032.849.938-27",
+    "rg": {
+      "numero": "12.241.003-8",
+      "emissor": "SSP",
+      "uf": "PR"
+    },
+    "nascimento": "20/04/1971"
   },
   {
     "nome": "Ryan Caio Ruan Gomes",
     "sexo": "M",
-    "cpf": "340.446.759-02"
+    "cpf": "340.446.759-02",
+    "rg": {
+      "numero": "44.267.261-5",
+      "emissor": "SSP",
+      "uf": "AM"
+    },
+    "nascimento": "02/05/1948"
   },
   {
     "nome": "Emily Elza das Neves",
     "sexo": "F",
-    "cpf": "851.153.731-73"
+    "cpf": "851.153.731-73",
+    "rg": {
+      "numero": "24.585.004-1",
+      "emissor": "SSP",
+      "uf": "SP"
+    },
+    "nascimento": "12/02/1997"
   },
   {
     "nome": "Luana Adriana Rayssa Galvão",
     "sexo": "F",
-    "cpf": "077.529.044-06"
+    "cpf": "077.529.044-06",
+    "rg": {
+      "numero": "28.987.754-4",
+      "emissor": "SSP",
+      "uf": "AL"
+    },
+    "nascimento": "24/05/1992"
   },
   {
     "nome": "Andrea Andreia Lavínia Ramos",
     "sexo": "F",
-    "cpf": "105.156.180-98"
+    "cpf": "105.156.180-98",
+    "rg": {
+      "numero": "14.787.702-7",
+      "emissor": "SSP",
+      "uf": "DF"
+    },
+    "nascimento": "18/02/1941"
   }
 ]
 

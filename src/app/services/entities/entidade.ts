@@ -7,4 +7,5 @@ export interface Entidade {
   cidade: string;
   uf: UF;
   cep: string;
+  logo: string;
 }

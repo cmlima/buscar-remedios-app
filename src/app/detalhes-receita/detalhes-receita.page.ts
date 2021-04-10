@@ -27,15 +27,6 @@ export class DetalhesReceitaPage implements OnInit {
     }
   }
 
-  // async ionViewWillEnter() {
-  //   const receita = this.receitasService.getSelecionada();
-  //   if (receita) {
-  //     await this.atualizarDados(receita);
-  //   } else {
-  //     this.voltar();
-  //   }
-  // }
-
   private async atualizarDados(receita: Receita) {
     this.receita = receita;
     const response = await this.receitasService.gerarQRCode(this.receita._id);
