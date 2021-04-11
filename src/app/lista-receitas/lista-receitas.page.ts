@@ -20,6 +20,8 @@ export class ListaReceitasPage implements OnInit {
   }
 
   public async atualizarReceitas() {
+    // TODO: Implementar atualização do status via consumo API
+    // TODO: Implementar refresher
     const receitas = await this.receitasService.getReceitas();
     if (receitas) this.receitas = receitas;
     this.filtrar();

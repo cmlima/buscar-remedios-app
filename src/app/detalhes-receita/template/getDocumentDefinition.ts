@@ -78,9 +78,7 @@ export default (receita: Receita, qrcode: string) => {
               }
             ]
           ]
-
         }
-
       },
       { text: `Receita Médica (${receita.tipo})`, fontSize: 18, bold: true, alignment: 'center', margin: [0, 30] },
       {
@@ -89,7 +87,7 @@ export default (receita: Receita, qrcode: string) => {
           { text: `${nameCase(paciente.nome)}, CPF nº ${paciente.cpf}`, fontSize: 9, bold: false, font: 'RobotoMono' },
         ]
       },
-      { text: 'Presrição:  ', fontSize: 10, bold: true, margin: [0, 20] },
+      { text: 'Prescrição:  ', fontSize: 10, bold: true, margin: [0, 20] },
       { ol: prescricao, margin: [5, 0, 0, 0], fontSize: 10, font: 'RobotoMono' },
       { text: 'Observações gerais:  ', fontSize: 10, bold: true, margin: [0, 10, 0, 0] },
       { text: receita.observacoes ? receita.observacoes : 'n/a', fontSize: 9, bold: false, font: 'RobotoMono' },

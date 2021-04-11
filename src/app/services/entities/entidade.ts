@@ -1,4 +1,4 @@
-import type { Especialidade, UF } from './types';
+import type { UF } from './types';
 
 export interface Entidade {
   nome: string;

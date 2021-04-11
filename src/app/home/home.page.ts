@@ -15,6 +15,8 @@ export class HomePage {
   public async lerQRCode() {
     const hash = await this.scannerService.scan();
     if (hash) this.receitasService.buscar(hash);
+    // TODO: Recuperar receita via API (ou mostrar mensagem de erro)
+    // + gravar no storage local + navegar para página lista-receitas
   }
 
   // TODO: remover em produção

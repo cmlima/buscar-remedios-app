@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Map, tileLayer, marker } from 'leaflet';
 import { PostosService } from '../services/postos.service';
-import { Localizacao, Posto } from '../services/entities';
+import { Posto } from '../services/entities';
 /*
 	Referências leaflet
 	https://leafletjs.com/reference-1.7.1.html
