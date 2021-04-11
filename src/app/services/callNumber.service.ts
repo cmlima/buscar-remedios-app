@@ -12,9 +12,9 @@ export class CallNumberService {
 
    public call(tel: string){
       this.callNumber.callNumber(tel,true)
-        .then(res => console.log("Chamando...", res))
+        .then(res => console.log('Chamando...', res))
         .catch(err => {
-          this.mensagensService.erro("Erro ao tentar realizar chamada", "");
+          this.mensagensService.erro('', 'Erro ao tentar realizar chamada!');
           console.error(err)
         });
     }

@@ -3,7 +3,8 @@ import { Router } from '@angular/router';
 import { MensagensService } from '../services/mensagens.service';
 import { ReceitasService } from '../services/receitas.service';
 import { Receita } from '../services/entities/receita';
-
+import { getDocumentDefinition, getFonts } from './template';
+import pdfMake from 'pdfmake/build/pdfmake';
 @Component({
   selector: 'app-detalhes-receita',
   templateUrl: './detalhes-receita.page.html',
@@ -12,30 +13,52 @@ import { Receita } from '../services/entities/receita';
 export class DetalhesReceitaPage implements OnInit {
   public receita: Receita;
   public dataURL: string;
-  // https://www.labnol.org/internet/direct-links-for-google-drive/28356/
-  public downloadLink: string = 'https://drive.google.com/uc?export=download&id=1yfrXjlyzikuYsZai2sv-eoF0UuK9Srr-';
+  public downloadLink: string;
 
   constructor(private router: Router, private receitasService: ReceitasService, private mensagensService: MensagensService) { }
 
   async ngOnInit() {
+    await this.obterReceitaSelecionada();
+  }
+
+  async ionViewDidEnter() {
+    await this.obterReceitaSelecionada();
+  }
+
+  private async obterReceitaSelecionada() {
     // TODO: Eliminar mocks
-    const receita = this.receitasService.getSelecionada();
-    if (receita) {
-      await this.atualizarDados(receita);
-    } else {
-      this.voltar();
+    if (!this.receita) {
+      const receita = this.receitasService.getSelecionada();
+      if (receita) {
+        await this.atualizarDados(receita);
+      } else {
+        this.voltar();
+      }
     }
   }
 
   private async atualizarDados(receita: Receita) {
     this.receita = receita;
-    const response = await this.receitasService.gerarQRCode(this.receita._id);
-    this.dataURL = response ? response : '';
+    try {
+      const response = await this.receitasService.gerarQRCode(this.receita._id);
+      this.dataURL = response ? response : '';
+    } catch (e) {
+      this.mensagensService.erro('', 'Falha ao tentar gerar o QR Code da receita!');
+      console.log(e);
+    }
+    const pdf = await this.gerarPdf(this.receita, this.dataURL);
+    this.downloadLink = pdf;
   }
 
   private voltar() {
-    this.mensagensService.erro('Dados inexistentes', 'Não foi possível obter os dados da receita selecionada!');
     this.router.navigate(['/lista-receitas']);
+    this.mensagensService.erro('', 'Não foi possível obter os dados da receita selecionada!');
+  }
+
+  private gerarPdf(receita: Receita, qrcode: string): Promise<string> {
+    pdfMake.fonts = getFonts();
+    const documentDefinition = getDocumentDefinition(receita, qrcode);
+    return new Promise(resolve => pdfMake.createPdf(documentDefinition).getBase64(data => resolve(`data:application/pdf;base64,${data}`)));
   }
 
   public async removerReceita() {

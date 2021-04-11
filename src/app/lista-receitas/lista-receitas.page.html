@@ -52,11 +52,11 @@
             <ion-col size="12">
               <p>
                 <strong>Emitente: </strong>
-                {{ receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra.' }} {{ receita.medico.nome }} 
+                {{ receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra.' }} {{ receita.medico.nome | namecase }} 
               </p>
               <p>
                 <strong>Área: </strong>
-                {{ receita.medico.especialidade | lowercase }}
+                {{ receita.medico.especialidade | namecase }}
               </p>
               <p>
                 <strong>Entidade: </strong>

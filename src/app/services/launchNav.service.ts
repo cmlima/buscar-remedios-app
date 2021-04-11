@@ -11,10 +11,10 @@ export class LaunchNavigatorService {
 
    public nav(nomeUBS: string){
       this.launchNavigator.navigate(nomeUBS)
-        .then(res => console.log("Abrindo aplicativo de mapas...", res))
+        .then(res => console.log('Abrindo aplicativo de mapas...', res))
         .catch(err => {
-          this.mensagensService.erro("Erro ao tentar abrir aplicativo de mapas", "");
-          console.error(err)
+          this.mensagensService.erro('', 'Erro ao tentar abrir aplicativo de mapas!');
+          console.error(err);
         });
     }
 }

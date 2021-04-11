@@ -2,7 +2,7 @@
   <app-btn-voltar rota="lista-receitas" pagina="Detalhes da Receita"></app-btn-voltar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
+<ion-content [fullscreen]="true" class="ion-padding" *ngIf="receita">
   <div class="main-container">
     <div class="status-receita">
       <ion-icon size="large" [name]="receita.cancelled ? 'close-circle-outline': 'checkmark-circle-outline'" [color]="receita.cancelled ? 'medium': 'tertiary'"></ion-icon>
@@ -19,7 +19,8 @@
       </p>
       <p>
         <u>Emitente</u>: <br>
-        {{ (receita.medico.sexo === 'M' ? 'Dr. ' : 'Dra. ') + receita.medico.nome }} ({{ receita.medico.especialidade | lowercase }})<br>
+        {{ receita.medico.sexo === 'M' ? 'Dr.' : 'Dra.' }} {{ receita.medico.nome | namecase }}<br>
+        {{ receita.medico.especialidade | namecase }} <br>
         CRM nº {{ receita.medico.crm.numero }}/{{ receita.medico.crm.uf }} <br>
         {{ receita.entidade.nome }}
       </p>
@@ -46,10 +47,10 @@
       </p>
     </ion-text>
     <div class="acoes-receita">
-      <ion-fab-button color="primary" title="download" [download]="receita._id" [href]="downloadLink" [disabled]="receita.cancelled">
+      <ion-fab-button color="tertiary" title="download" [download]="receita._id" [href]="downloadLink">
         <ion-icon name="download"></ion-icon>
       </ion-fab-button>
-      <ion-fab-button color="tertiary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
+      <ion-fab-button color="primary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">
         <ion-icon name="search"></ion-icon>
       </ion-fab-button>
       <ion-fab-button color="danger" title="remover do aparelho" (click)="removerReceita()">

@@ -29,7 +29,8 @@ export class PostosService {
       }
       return this.dadosMapa;
     } catch (e) {
-      this.mensagensService.erro('Falha ao obter dados do mapa', e.message);
+      this.mensagensService.erro('', 'Falha ao obter dados do mapa');
+      console.log(e);
       return false;
     }
   }
@@ -64,7 +65,7 @@ export class PostosService {
         lng: response.coords.longitude
       }
     } catch (e) {
-      this.mensagensService.erro('Erro na localização', 'Não possível encontrar a sua localização atual. Digite um CEP na caixa de busca.');
+      this.mensagensService.erro('', 'Não possível encontrar a sua localização atual. Digite um CEP na caixa de busca.');
       return false;
     }
   }

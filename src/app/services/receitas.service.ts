@@ -71,7 +71,8 @@ export class ReceitasService {
     try {
       return await QRCode.toDataURL(hash);
     } catch (e) {
-      await this.mensagensService.erro('Falha no QRCode', e.message);
+      await this.mensagensService.erro('', 'Falha na leitura do QRCode!');
+      console.log(e);
       return false;
     }
   }

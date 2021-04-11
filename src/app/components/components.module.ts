@@ -4,14 +4,15 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 import { BtnVoltarComponent } from './btn-voltar/btn-voltar.component';
 
+import { NameCasePipe, SentenceCasePipe } from '../services/custom-pipes';
 @NgModule({
-  declarations: [BtnVoltarComponent],
+  declarations: [BtnVoltarComponent, NameCasePipe, SentenceCasePipe],
   imports: [
     CommonModule,
     IonicModule,
     RouterModule
   ],
   entryComponents: [],
-  exports: [BtnVoltarComponent]
+  exports: [BtnVoltarComponent, NameCasePipe, SentenceCasePipe]
 })
 export class ComponentsModule { }

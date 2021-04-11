@@ -39,6 +39,7 @@
     "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-geolocation": "^4.1.0",
     "leaflet": "^1.7.1",
+    "pdfmake": "^0.1.71",
     "phone": "^2.4.21",
     "phonegap-plugin-barcodescanner": "^8.1.0",
     "qrcode": "^1.4.4",

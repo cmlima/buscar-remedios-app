@@ -13,12 +13,13 @@ export class ScannerService {
       const response = await this.scanner.scan();
       if (response.cancelled) return false;
       if (response.format !== 'QR_CODE') {
-        this.mensagensService.erro('Falha de Leitura', 'Formato não permitido!');
+        this.mensagensService.erro('', 'Formato não permitido!');
         return false;
       }
       return response.text;
      } catch (e) {
-      this.mensagensService.erro('Falha de Leitura', e.message);
+      this.mensagensService.erro('', 'Falha de leitura!');
+      console.log(e);
      }
   }   
 }
