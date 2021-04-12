@@ -1,2540 +1,2543 @@
-[
-  {
-    "nome": "UBS HUMAITÁ - DR. JOÃO DE AZEVEDO LAGE",
-    "endereco": "R. HUMAITÁ, 520 - BELA VISTA",
-    "CEP": "01321-010",
-    "fones": ["3241-1632","3241-1163"]
-  },
-  {
-    "nome": "UBS NOSSA SENHORA DO BRASIL - ARMANDO D'ARIENZO",
-    "endereco": "R. ALM. MARQUES LEÃO, 684 - MORRO DOS INGLESES",
-    "CEP": "01330-010",
-    "fones": ["3284-4601"]
-  },
-  {
-    "nome": "UBS BOM RETIRO - DR. OCTAVIO AUGUSTO RODOVALHO",
-    "endereco": "R. TENENTE PENA, 8 - BOM RETIRO",
-    "CEP": "01127-020",
-    "fones": ["3222-0619","3224-9903"]
-  },
-  {
-    "nome": "UBS CAMBUCI",
-    "endereco": "AV. LACERDA FRANCO, 791 - CAMBUCI",
-    "CEP": "01536-000",
-    "fones": ["3276-6480","3209-3304"]
-  },
-  {
-    "nome": "UBS REPÚBLICA",
-    "endereco": "PRAÇA DA BANDEIRA, 15 - REPÚBLICA",
-    "CEP": "01007-020",
-    "fones": ["3101-0812"]
-  },
-  {
-    "nome": "UBS BORACEA",
-    "endereco": "R. BORACEA, 270 - SANTA CECÍLIA",
-    "CEP": "01135-010",
-    "fones": ["3392-1281","3392-1882"]
-  },
-  {
-    "nome": "UBS SANTA CECÍLIA - DR. HUMBERTO PASCALE",
-    "endereco": "R. VITORINO CARMILO, 599 - CAMPOS ELISEOS",
-    "CEP": "01153-000",
-    "fones": ["3826-0096","3826-7970"]
-  },
-  {
-    "nome": "UBS SÉ",
-    "endereco": "R. FREDERICO ALVARENGA, 259 - PQ. D. PEDRO II",
-    "CEP": "01020-030",
-    "fones": ["3101-8841","3101-8833"]
-  },
-  {
-    "nome": "UBS ÁGUA RASA",
-    "endereco": "R. SERRA DE JAIRE, 1480 - ÁGUA RASA",
-    "CEP": "03175-001",
-    "fones": ["2605-2156","2605-5307"]
-  },
-  {
-    "nome": "UBS VILA BERTIOGA - PROF. DOMINGOS DELASCIO",
-    "endereco": "R. FAROL PAULISTANO, 410 - ALTO DA MOOCA",
-    "CEP": "03192-060",
-    "fones": ["2965-1066","2021-7210"]
-  },
-  {
-    "nome": "UBS VILA ORATÓRIO - DR. TITO PEDRO MASCELANI",
-    "endereco": "R. JOÃO FIALHO DE CARVALHO, 35 - V. DIVA",
-    "CEP": "03345-010",
-    "fones": ["2301-2979"]
-  },
-  {
-    "nome": "UBS JARDIM IVA",
-    "endereco": "R. MIGUEL BASTOS SOARES, 55 - JD. IVA",
-    "CEP": "03910-000",
-    "fones": ["2211-0884"]
-  },
-  {
-    "nome": "UBS VILA ANTONIETA",
-    "endereco": "R. CORONEL JOÃO DE OLIVEIRA MELO, 440 - V. ANTONIETA",
-    "CEP": "03474-020",
-    "fones": ["2725-3997"]
-  },
-  {
-    "nome": "UBS VILA NOVA YORK",
-    "endereco": "R. DR. EDGARD MAGALHÃES NORONHA, 200 - V. NOVA YORK",
-    "CEP": "03480-000",
-    "fones": ["2721-2707"]
-  },
-  {
-    "nome": "UBS AE CARVALHO",
-    "endereco": "R. JAPANI, 7 - CIDADE AE CARVALHO",
-    "CEP": "08220-130",
-    "fones": ["2280-2373","2043-3400"]
-  },
-  {
-    "nome": "UBS ANTONIO PIRES F VILLA LOBO",
-    "endereco": "R. COELHO DE CASTRO, 95 - V. NHOCUNÉ",
-    "CEP": "03560-030",
-    "fones": ["2749-3521"]
-  },
-  {
-    "nome": "UBS JARDIM NORDESTE",
-    "endereco": "R. NICOLO TARTAGLIA, 45 - JD. COIMBRA",
-    "CEP": "03693-050",
-    "fones": ["2280-6211"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO NICOLAU",
-    "endereco": "R. REBELO DA SILVA, 120 - JD. SÃO NICOLAU",
-    "CEP": "03685-000",
-    "fones": ["2280-7508"]
-  },
-  {
-    "nome": "UBS PADRE JOSE DE ANCHIETA",
-    "endereco": "AV. SILVIO TORRES, 313 - ARTHUR ALVIM",
-    "CEP": "03589-010",
-    "fones": ["2742-1367"]
-  },
-  {
-    "nome": "UBS PARQUE ARTHUR ALVIM",
-    "endereco": "R. HENRIQUE JACOBS, 269 - ARTHUR ALVIM",
-    "CEP": "03566-010",
-    "fones": ["2749-4235","2958-4235"]
-  },
-  {
-    "nome": "UBS BELENZINHO - MARCUS WOLOSKER",
-    "endereco": "AV. CELSO GARCIA, 1749 - BELENZINHO",
-    "CEP": "03015-000",
-    "fones": ["2694-2697","2292-5687"]
-  },
-  {
-    "nome": "UBS BRÁS - DR. MANOEL SALDIVA NETO",
-    "endereco": "R. SAMPSON, 61 - BRÁS",
-    "CEP": "03013-040",
-    "fones": ["2692-0788"]
-  },
-  {
-    "nome": "UBS CANGAÍBA - DR. CARLOS GENTILE DE MELLO",
-    "endereco": "AV. CANGAIBA, 3722 - CANGAÍBA",
-    "CEP": "03711-001",
-    "fones": ["2621-6523"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO FRANCISCO",
-    "endereco": "R. JURITI PIRANGA, 195 - CANGAÍBA",
-    "CEP": "03718-020",
-    "fones": ["6957-2808"]
-  },
-  {
-    "nome": "UBS ENGENHEIRO GOULART - DR. JOSÉ PIRES",
-    "endereco": "R. AUGUSTO CORREIA LEITE, 538 - ENG. GOULART",
-    "CEP": "03726-100",
-    "fones": ["2621-7402","2621-7042"]
-  },
-  {
-    "nome": "UBS VILA CARRÃO",
-    "endereco": "R. DR. JACI BARBOSA, 280 - V. CARRÃO",
-    "CEP": "03447-000",
-    "fones": ["2785-4728"]
-  },
-  {
-    "nome": "UBS VILA NOVA MANCHESTER - DR. ARLINDO GENNARI",
-    "endereco": "PÇA. HAROLDO DALTRO, 461 - V. NOVA MANCHESTER",
-    "CEP": "03444-090",
-    "fones": ["2296-4168"]
-  },
-  {
-    "nome": "UBS CIDADE LIDER I",
-    "endereco": "R. DR. FRANCISCO MUNHOZ FILHO, 379 - CIDADE LIDER",
-    "CEP": "08280-000",
-    "fones": ["2748-0035","2741-1563"]
-  },
-  {
-    "nome": "UBS JARDIM BRASILIA",
-    "endereco": "AV. OSVALDO VALLE CORDEIRO, 245 - JD. BRASILIA",
-    "CEP": "03584-000",
-    "fones": ["2743-9476","2741-6938"]
-  },
-  {
-    "nome": "UBS JARDIM MARÍLIA",
-    "endereco": "R. ELZA DOS ANJOS NEVES, 100 - CIDADE LÍDER",
-    "CEP": "03585-100",
-    "fones": ["2743-9526","2746-3008"]
-  },
-  {
-    "nome": "UBS JARDIM SANTA MARIA",
-    "endereco": "R. EMBIRATAÍ, 201 - JD. SANTA MARIA",
-    "CEP": "03576-000",
-    "fones": ["2724-7004","2727-4160"]
-  },
-  {
-    "nome": "UBS JARDIM SANTA TEREZINHA",
-    "endereco": "AV. DOS LATINOS, 205 - JD. SANTA TEREZINHA",
-    "CEP": "03572-000",
-    "fones": ["2721-1815","2725-0711"]
-  },
-  {
-    "nome": "UBS VILA ITAPEMA",
-    "endereco": "R. COSTEIRA, 572 - JD. ARISI",
-    "CEP": "03573-010",
-    "fones": ["2724-6146","2724-3946"]
-  },
-  {
-    "nome": "UBS BARRO BRANCO",
-    "endereco": "R. EDUARDO REUTER, 678 - COHAB BARRO BRANCO II",
-    "CEP": "08473-533",
-    "fones": ["2964-8826","2964-0611"]
-  },
-  {
-    "nome": "UBS CARLOS GENTILE DE MELO",
-    "endereco": "AV. DOS TÊXTEIS, 3765 - CIDADE TIRADENTES",
-    "CEP": "08490-600",
-    "fones": ["2282-2522","2964-0764"]
-  },
-  {
-    "nome": "UBS CASTRO ALVES",
-    "endereco": "AV. SARA KUBITSCHEK X R. CADERNO DE VIAGEM Nº 55, S/N - COHAB",
-    "CEP": "08474-170",
-    "fones": ["2282-0320","2558-7399"]
-  },
-  {
-    "nome": "UBS CIDADE TIRADENTES I",
-    "endereco": "AV. DOS TÊXTEIS, 512 - CIDADE TIRADENTES",
-    "CEP": "08490-600",
-    "fones": ["2282-5151","2282-0250","2964-0749"]
-  },
-  {
-    "nome": "UBS DOM ANGELICO",
-    "endereco": "ESTRADA MANOEL OLIVEIRA RAMOS, 1 - CIDADE TIRADENTES",
-    "CEP": "08473-050",
-    "fones": ["2555-3894","2555-0192"]
-  },
-  {
-    "nome": "UBS FAZENDA DO CARMO",
-    "endereco": "R. FRANCISCO CARDOSO JR., 10 - CIDADE TIRADENTES",
-    "CEP": "08421-105",
-    "fones": ["2556-7600"]
-  },
-  {
-    "nome": "UBS FERROVIÁRIOS",
-    "endereco": "R. GONÇALVES NINA, 58 - CIDADE TIRADENTES",
-    "CEP": "08470-610",
-    "fones": ["2285-6477","2558-6888"]
-  },
-  {
-    "nome": "UBS GRÁFICOS",
-    "endereco": "AV. FRANCISCO JOSE VIANA, 708 - CIDADE TIRADENTES",
-    "CEP": "08471-533",
-    "fones": ["2285-5685","2285-7097"]
-  },
-  {
-    "nome": "UBS INÁCIO MONTEIRO",
-    "endereco": "R. INÁCIO MONTEIRO, 3002 - CIDADE TIRADENTES",
-    "CEP": "08490-000",
-    "fones": ["2556-3223"]
-  },
-  {
-    "nome": "UBS JARDIM VITÓRIA",
-    "endereco": "R. LAJEDO, 123 - CIDADE TIRADENTES",
-    "CEP": "03817-250",
-    "fones": ["2964-2685","2282-6050"]
-  },
-  {
-    "nome": "UBS PREFEITO PRESTES MAIA",
-    "endereco": "R. INACIO PINTO LIMA, 35 - CIDADE TIRADENTES",
-    "CEP": "08471-533",
-    "fones": ["2555-2676","2555-0484"]
-  },
-  {
-    "nome": "UBS PROFETA JEREMIAS",
-    "endereco": "R. LUIS BORDESE, 63 - CIDADE TIRADENTES",
-    "CEP": "08471-710",
-    "fones": ["2558-3866","2964-0737 (tel. Público)"]
-  },
-  {
-    "nome": "UBS DR. PEDRO DE SOUZA CAMPOS",
-    "endereco": "R. PAULO BIFANO ALVES, 764 - PQ. BOTURUSSU",
-    "CEP": "03801-000",
-    "fones": ["2546-4111","2547-1972"]
-  },
-  {
-    "nome": "UBS ERMELINO MATARAZZO",
-    "endereco": "R. ANTONIO DE FREITAS TOLEDO, 175 - ERMELINO MATARAZZO",
-    "CEP": "03810-110",
-    "fones": ["2545-8235","2544-0051"]
-  },
-  {
-    "nome": "UBS JARDIM KERALUX",
-    "endereco": "R. LUCAS GONCALVES, 13 - JD. KERALUX",
-    "CEP": "03828-060",
-    "fones": ["2546-6177","2943-0639"]
-  },
-  {
-    "nome": "UBS VILA CISPER",
-    "endereco": "R. CACULÉ, 79 - V. CISPER",
-    "CEP": "03817-220",
-    "fones": ["2546-5100"]
-  },
-  {
-    "nome": "UBS PARQUE DO BOTURUSSU - PROF. DR. HUMBERTO CERRUTI",
-    "endereco": "AV. OLAVO EGÍDIO DE SOUZA ARANHA, 704 - V. CISPER",
-    "CEP": "03822-000",
-    "fones": ["2943-9991","2541-4685"]
-  },
-  {
-    "nome": "UBS GUAIANASES II",
-    "endereco": "R. COMANDANTE CARLOS RUHL, 189 - GUAIANASES",
-    "CEP": "08410-130",
-    "fones": ["2557-8132","2554-4064"]
-  },
-  {
-    "nome": "UBS JARDIM ETELVINA",
-    "endereco": "R. MANUEL TEODORO XAVIER, 138 - GUAIANASES",
-    "CEP": "08430-570",
-    "fones": ["2035-1756","2035-5079"]
-  },
-  {
-    "nome": "UBS JARDIM SOARES",
-    "endereco": "R. FELICIANO DE MENDONÇA, 496 - JD. SOARES",
-    "CEP": "08460-365",
-    "fones": ["2557-7022","2553-3232"]
-  },
-  {
-    "nome": "UBS PREFEITO CELSO AUGUSTO DANIEL",
-    "endereco": "R. JORGE MARACCINI PONFILIO, 210 - CJ HAB JUSCELINO KUBITSCHEK",
-    "CEP": "08465-050",
-    "fones": ["2556-7997","2556-5185"]
-  },
-  {
-    "nome": "UBS PRESIDENTE JUSCELINO KUBITSCHEK",
-    "endereco": "AV. UTARO KANAI, 286 - COHAB PRESIDENTE JUSCELINO",
-    "CEP": "08465-000",
-    "fones": ["2555-4474","2555-0360"]
-  },
-  {
-    "nome": "UBS CDHU PALANQUE",
-    "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI Nº 7208), 2 - JD. PALANQUE",
-    "CEP": "08375-000",
-    "fones": ["2735-3820"]
-  },
-  {
-    "nome": "UBS JARDIM DA CONQUISTA II",
-    "endereco": "TRAV. SONHO LINDO, 54 - JD. CONQUISTA",
-    "CEP": "08345-360",
-    "fones": ["2735-3079"]
-  },
-  {
-    "nome": "UBS JARDIM DA CONQUISTA III",
-    "endereco": "R. SOMOS TODOS IGUAIS, 330 - JD. CONQUISTA",
-    "CEP": "08343-000",
-    "fones": ["2734-2079"]
-  },
-  {
-    "nome": "UBS JARDIM DAS LARANJEIRAS",
-    "endereco": "R. BENTO GUELFI, 1100 - JD. DA LARANJEIRAS",
-    "CEP": "08380-460",
-    "fones": ["2731-7252"]
-  },
-  {
-    "nome": "UBS JARDIM ROSELI",
-    "endereco": "R. SIMAO NUNES, 31 - JD. ROSELI",
-    "CEP": "08380-490",
-    "fones": ["2731-5143"]
-  },
-  {
-    "nome": "UBS PARQUE BOA ESPERANÇA",
-    "endereco": "AV. RAGUEB CHOHFI, 3826 - JD. AUGUSTO",
-    "CEP": "08375-000",
-    "fones": ["2731-0669"]
-  },
-  {
-    "nome": "UBS RECANTO VERDE SOL",
-    "endereco": "R. PEDRO RAMAZZANI, 3 - RECANTO VERDE SOL",
-    "CEP": "08381-800",
-    "fones": ["2134-3271","2734-3271"]
-  },
-  {
-    "nome": "UBS CIDADE KEMEL",
-    "endereco": "AV. KEMEL ADDAS, 1031 - CIDADE KEMEL",
-    "CEP": "08554-060",
-    "fones": ["2963-2346","2569-0515"]
-  },
-  {
-    "nome": "UBS DR. ATUALPA GIRÃO RABELO",
-    "endereco": "R. ILHA DO ARVOREDO, 10 - ITAIM PAULISTA",
-    "CEP": "08140-270",
-    "fones": ["2963-1436","2963-2634"]
-  },
-  {
-    "nome": "UBS ITAIM PAULISTA - DR. JÚLIO DE GOUVEIA",
-    "endereco": "PÇA. MAJOR JOSE LEVY SOBRINHO, 139 - ITAIM PAULISTA",
-    "CEP": "08110-460",
-    "fones": ["2561-9443","2572-0672"]
-  },
-  {
-    "nome": "UBS JARDIM CAMARGO NOVO",
-    "endereco": "R. BOIGUAÇU, 51 - JD. CAMARGO NOVO",
-    "CEP": "08120-270",
-    "fones": ["2963-2610","2567-5959"]
-  },
-  {
-    "nome": "UBS JARDIM INDAIÁ",
-    "endereco": "R. ANTONIO LEME DA GUERRA, 182 - ITAIM PAULISTA",
-    "CEP": "08141-130",
-    "fones": ["2963-3711","2561-7904"]
-  },
-  {
-    "nome": "UBS JARDIM DAS OLIVEIRAS",
-    "endereco": "R. JOSÉ DA CRUZ CAMARGO, 174 - ITAIM PAULISTA",
-    "CEP": "08122-100",
-    "fones": ["2572-0367","2963-2415"]
-  },
-  {
-    "nome": "UBS JARDIM NELIA",
-    "endereco": "R. ITAJUIBE, 1910 - ITAIM PAULISTA",
-    "CEP": "08142-000",
-    "fones": ["2963-3802","2569-9019 "]
-  },
-  {
-    "nome": "UBS ITAQUERA",
-    "endereco": "R. AMÉRICO SALVADOR NOVELLI, 265 - ITAQUERA",
-    "CEP": "08210-090",
-    "fones": ["2286-1422","2286-0015"]
-  },
-  {
-    "nome": "UBS PARADA XV DE NOVEMBRO",
-    "endereco": "R. IBIAJARA, 804 - PARADA XI DE NOVEMBRO",
-    "CEP": "08246-101",
-    "fones": ["2286-0017","2071-3232"]
-  },
-  {
-    "nome": "UBS VILA CARMOSINA",
-    "endereco": "R. IPOPOCA, 61 - ITAQUERA",
-    "CEP": "08290-335",
-    "fones": ["2524-7796"]
-  },
-  {
-    "nome": "UBS VILA NOSSA SENHORA APARECIDA",
-    "endereco": "R. PAULINO SERQUEIRA, 1 - ITAQUERA",
-    "CEP": "08215-160",
-    "fones": ["2079-7871","2071-0057 (tel. Público)"]
-  },
-  {
-    "nome": "UBS VILA RAMOS - DR. LUIZ AUGUSTO DE CAMPOS",
-    "endereco": "AV. AUGUSTO ANTUNES, 1631 - LIMOEIRO",
-    "CEP": "08235-630",
-    "fones": ["2051-7317","2052-6945"]
-  },
-  {
-    "nome": "UBS VILA REGINA",
-    "endereco": "R. CATARINA LOPES, 450 - ITAQUERA",
-    "CEP": "08225-000",
-    "fones": ["2205-6003","2944-7662","2071-0057"]
-  },
-  {
-    "nome": "UBS VILA SANTANA",
-    "endereco": "R. VITOR JOSE DE CASTRO, 84 - V. SANTANA",
-    "CEP": "08240-300",
-    "fones": ["2051-3962","2052-9698"]
-  },
-  {
-    "nome": "UBS JARDIM HELENA",
-    "endereco": "AV. KUMAKI AOKI, 785 - JD. HELENA",
-    "CEP": "08090-370",
-    "fones": ["2581-1661"]
-  },
-  {
-    "nome": "UBS JARDIM MAIA",
-    "endereco": "R. MARFIM VEGETAL, 108 - JD. MAIA",
-    "CEP": "08081-330",
-    "fones": ["2581-6962"]
-  },
-  {
-    "nome": "UBS JARDIM ROMANO",
-    "endereco": "R. RIO MANUEL ALVES, 57 - ITAIM PAULISTA",
-    "CEP": "08190-450",
-    "fones": ["2581-3737"]
-  },
-  {
-    "nome": "UBS PARQUE PAULISTANO",
-    "endereco": "R. SILVEIRA PIRES, 265 - PQ. PAULISTANO",
-    "CEP": "08080-160",
-    "fones": ["2025-9468"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO PEDRO - FRANCISCO ANTONIO CESARONI",
-    "endereco": "R. SILVIANOPOLIS, 370 - JD. SÃO PEDRO",
-    "CEP": "08420-680",
-    "fones": ["2552-5355","2557-8938"]
-  },
-  {
-    "nome": "UBS JOSE BONIFACIO II",
-    "endereco": "R. MURMÚRIOS DA TARDE, 30 - COHAB JOSE BONIFÁCIO",
-    "CEP": "08253-580",
-    "fones": ["2521-5625"]
-  },
-  {
-    "nome": "UBS JOSE BONIFACIO III - DRA. LUCY MAYUMI UDAKIRI",
-    "endereco": "R. SILVIO BARBINI, 40 - ITAQUERA",
-    "CEP": "08250-650",
-    "fones": ["2944-6086","2071-2500"]
-  },
-  {
-    "nome": "UBS GUAIANASES I",
-    "endereco": "R. PROFESSOR COSME DEODATO TADEU, 90 - GUAIANASES",
-    "CEP": "08450-380",
-    "fones": ["2557-8177","2554-4124"]
-  },
-  {
-    "nome": "UBS JARDIM AURORA",
-    "endereco": "AV. CLAUDIO DA COSTA, 54 - GUAIANASES",
-    "CEP": "08431-160",
-    "fones": ["2135-1671","2035-9528"]
-  },
-  {
-    "nome": "UBS JARDIM BANDEIRANTES",
-    "endereco": "R. PACHECO ARANHA, 4 - GUAIANASES",
-    "CEP": "08451-410",
-    "fones": ["2557-5273"]
-  },
-  {
-    "nome": "UBS JARDIM FANGANIELLO",
-    "endereco": "R. FRANCISCO NUNES CUBAS, 60 - LAJEADO",
-    "CEP": "08450-460",
-    "fones": ["2557-6698","2554-3323"]
-  },
-  {
-    "nome": "UBS JARDIM ROBRU - GUAIANASES",
-    "endereco": "AV. NORDESTINA, 5593 - LAJEADO",
-    "CEP": "08431-410",
-    "fones": ["2035-1860","2034-1133"]
-  },
-  {
-    "nome": "UBS PRIMEIRO DE OUTUBRO",
-    "endereco": "R. FRANCISCO DE OLIVEIRA, 2 B - JD. LAJEADO",
-    "CEP": "08441-110",
-    "fones": ["2035-8010"]
-  },
-  {
-    "nome": "UBS SANTA LUZIA",
-    "endereco": "R. CONJUNTO DA PAZ, 39 - JD. MIRIAM",
-    "CEP": "08142-360",
-    "fones": ["2569-1887"]
-  },
-  {
-    "nome": "UBS VILA CHABILÂNDIA",
-    "endereco": "ESTRADA DO LAGEADO VELHO, 76 - LAJEADO",
-    "CEP": "08451-000",
-    "fones": ["2557-9571","2552-5015"]
-  },
-  {
-    "nome": "UBS VILA COSMOPOLITA",
-    "endereco": "R. ALDEIA MARIA, 258 - GUAIANASES",
-    "CEP": "08421-070",
-    "fones": ["2555-8583","2553-7881"]
-  },
-  {
-    "nome": "UBS MOOCA I",
-    "endereco": "R. TAQUARI, 549 - MOOCA",
-    "CEP": "03166-000",
-    "fones": ["2618-5255","2291-5517","2694-3338"]
-  },
-  {
-    "nome": "URSI MOOCA",
-    "endenreco": "R. MARINA CRESPI, 91 - MOOCA",
-    "CEP": "03112-090",
-    "fones": ["2292-9512"]
-  },
-  {
-    "nome": "UBS PARI",
-    "endereco": "R. DAS OLARIAS, 503 - CANINDÉ",
-    "CEP": "03030-020",
-    "fones": ["3227-0081"]
-  },
-  {
-    "nome": "UBS GLEBA DO PÊSSEGO - VICENTE FIUZA DA COSTA",
-    "endereco": "R. MALMEQUER DO CAMPO, 214 - PQ. DO CARMO",
-    "CEP": "08265-385",
-    "fones": ["2522-3177"]
-  },
-  {
-    "nome": "UBS JARDIM COPA",
-    "endereco": "R. PONTA DE LUCENA, 330 - ITAQUERA",
-    "CEP": "08270-340",
-    "fones": ["6524-5020"]
-  },
-  {
-    "nome": "UBS JARDIM HELIAN",
-    "endereco": "R. CARMEM CARDOSO BORDINI, 184 - JD. HELIAN",
-    "CEP": "08265-090",
-    "fones": ["6521-7615"]
-  },
-  {
-    "nome": "UBS NOSSA SENHORA DO CARMO",
-    "endereco": "R. VERÍSSIMO DA SILVA, 136 - JD. NOSSA SRA.DO CARMO",
-    "CEP": "08275-270",
-    "fones": ["6748-5103","6748-0646"]
-  },
-  {
-    "nome": "UBS SANTO ESTEVÃO - CARMOSINA",
-    "endereco": "R. CACHOEIRA DA ILHA, 355 - ITAQUERA",
-    "CEP": "08270-110",
-    "fones": ["2523-0577"]
-  },
-  {
-    "nome": "UBS CHÁCARA CRUZEIRO DO SUL",
-    "endereco": "R. MERCEDES LOPES, 989 - CHÁCARA CRUZEIRO DO SUL",
-    "CEP": "03614-000",
-    "fones": ["2647-0031","2642-2622"]
-  },
-  {
-    "nome": "UBS DR. EMILIO SANTIAGO DE OLIVEIRA - VILA ESPERANÇA",
-    "endereco": "R. COREMU, 63 - V. ESPERANÇA",
-    "CEP": "03647-030",
-    "fones": ["2958-7502","2791-5322"]
-  },
-  {
-    "nome": "UBS ENGENHEIRO TRINDADE",
-    "endereco": "AV. GABRIELA MISTRAL, 1168 - ENG. TRINDADE",
-    "CEP": "03701-000",
-    "fones": ["2641-6973"]
-  },
-  {
-    "nome": "UBS VILA ESPERANÇA - DR. CASSIO BITENCOURT FILHO",
-    "endereco": "R. ENEIDA, 54 - V. ESPERANÇA",
-    "CEP": "03646-050",
-    "fones": ["6957-6630"]
-  },
-  {
-    "nome": "UBS VILA GRANADA - DR ALFREDO FERREIRA PAULINO FILHO",
-    "endereco": "R. MADALENA JULIA, 60 - V. GRANADA",
-    "CEP": "03660-010",
-    "fones": ["6957-1194"]
-  },
-  {
-    "nome": "UBS BURGO PAULISTA",
-    "endereco": "R. JOSÉ SILVA ALCANTARA FILHO, 210 - BURGO PAULISTA",
-    "CEP": "03680-000",
-    "fones": ["2280-0080","2026-1166"]
-  },
-  {
-    "nome": "UBS COSTA MELO",
-    "endereco": "R. LUIS ASSON, 165 - V. MONTEVIDEO",
-    "CEP": "03624-010",
-    "fones": ["2958-2981","2685-8384"]
-  },
-  {
-    "nome": "UBS JARDIM PENHA",
-    "endereco": "AV. SÃO MIGUEL, 4331 - PONTE RASA",
-    "CEP": "03871-000",
-    "fones": ["2546-5867","2214-3227"]
-  },
-  {
-    "nome": "UBS JARDIM POPULAR - DR. MATHEUS SANTAMARIA",
-    "endereco": "AV. JAIME TORRES, 600 - JD. POPULAR",
-    "CEP": "03670-000",
-    "fones": ["2791-6421","2685-0439"]
-  },
-  {
-    "nome": "UBS PONTE RASA - DR. CARLOS OLIVALDO DE SOUZA LOPES MUNIZ",
-    "endereco": "R. BARTOLOMEU SOARES, 16 - ALTO DA PONTE RASA",
-    "CEP": "03749-160",
-    "fones": ["2041-1744","2142-0254 (público)"]
-  },
-  {
-    "nome": "UBS JARDIM TRÊS MARIAS - DR. MAURICIO ZAMIJOVSKY",
-    "endereco": "R. BRENO ACCIOLI, 440 - V. SÃO FRANCISCO",
-    "CEP": "03676-040",
-    "fones": ["2042-0928"]
-  },
-  {
-    "nome": "UBS IGUAÇU",
-    "endereco": "AV. DO ORATÓRIO, 6550 - V. INDUSTRIAL",
-    "CEP": "03221-300",
-    "fones": ["2143-1097"]
-  },
-  {
-    "nome": "UBS JARDIM GUAIRACA",
-    "endereco": "R. ERVA IMPERIAL, 501 - JD. GUAIRACÁ",
-    "CEP": "03244-030",
-    "fones": ["2154-6100","2154-3099"]
-  },
-  {
-    "nome": "UBS PARQUE SÃO LUCAS",
-    "endereco": "R. DR. NOGUEIRA DE NORONHA, 392 - PQ. SÃO LUCAS",
-    "CEP": "03239-080",
-    "fones": ["2918-3595"]
-  },
-  {
-    "nome": "UBS REUNIDAS I",
-    "endereco": "R. SÃO JOSE DAS ESPINHARAS, 400 - V. INDUSTRIAL",
-    "CEP": "03249-030",
-    "fones": ["2702-1777","2719-2844"]
-  },
-  {
-    "nome": "UBS VILA HELOÍSA",
-    "endereco": "R. AIRES QUARESMA, 11 - V. HELOISA",
-    "CEP": "03286-090",
-    "fones": ["2302-2347","2910-4068"]
-  },
-  {
-    "nome": "UBS JARDIM INDEPENDÊNCIA - HERMENEGILDO MORBIN JUNIOR",
-    "endereco": "R. PLANALTO DE CONQUISTA, 80 - JD. INDEPENDÊNCIA",
-    "CEP": "03223-170",
-    "fones": ["2216-3746","2211-2772"]
-  },
-  {
-    "nome": "UBS JARDIM COLONIAL",
-    "endereco": "AV. JOSÉ RODRIGUES SANTARÉM, 464 - JD. COLONIAL",
-    "CEP": "03968-010",
-    "fones": ["2919-0554"]
-  },
-  {
-    "nome": "UBS JARDIM IV CENTENÁRIO",
-    "endereco": "R. CAMPO FLORIDO, 482 - JD. IMPERADOR",
-    "CEP": "03940-000",
-    "fones": ["2721-4249"]
-  },
-  {
-    "nome": "UBS JARDIM NOVE DE JULHO",
-    "endereco": "R. SIBALDO LINS, 146, - JD. NOVE DE JULHO",
-    "CEP": "03953-100",
-    "fones": ["2919-0200"]
-  },
-  {
-    "nome": "UBS JARDIM PARAGUAÇU - DR. GONÇALO FELICIANO ALVES",
-    "endereco": "R. TAIOBEIRAS, 125 - JD. PARAGUACU",
-    "CEP": "03940-060",
-    "fones": ["2727-0484"]
-  },
-  {
-    "nome": "UBS JARDIM TIETE I",
-    "endereco": "AV. ENGENHO NOVO, 120 - JD. TIETÊ",
-    "CEP": "03943-020",
-    "fones": ["2962-3644"]
-  },
-  {
-    "nome": "UBS JARDIM TIETE II",
-    "endereco": "R. AUGUSTO FERREIRA RAMOS, 9 - JD. TIETÊ",
-    "CEP": "03947-030",
-    "fones": ["2919-5248"]
-  },
-  {
-    "nome": "UBS SANTA BARBARA - CIDADE SATELITE",
-    "endereco": "R. SOL, 45 - CIDADE SATÉLITE STA. BARBARA",
-    "CEP": "08330-360",
-    "fones": ["2919-5857"]
-  },
-  {
-    "nome": "UBS SÃO MATEUS I",
-    "endereco": "R. ANGELO DE CANDIA, 1058 - SÃO MATEUS",
-    "CEP": "03958-000",
-    "fones": ["2919-1717"]
-  },
-  {
-    "nome": "UBS CIDADE NOVA SÃO MIGUEL",
-    "endereco": "AV. MOACIR DANTAS ITAPICURU, 1008 - SÃO MIGUEL PAULISTA",
-    "CEP": "08042-290",
-    "fones": ["2051-3560"]
-  },
-  {
-    "nome": "UBS NITRO OPERÁRIA - PAULO FELDMAN",
-    "endereco": "R. CUMARU, 14 - SÃO MIGUEL PAULISTA",
-    "CEP": "08010-380",
-    "fones": ["6956-6923"]
-  },
-  {
-    "nome": "UBS VILA PROGRESSO",
-    "endereco": "R. REAL HORTO, 115 - V. PROGRESSO",
-    "CEP": "08245-260",
-    "fones": ["2035-2488"]
-  },
-  {
-    "nome": "UBS JARDIM CARRÃOZINHO",
-    "endereco": "R. MARCOS GONCALVES CORREIA, 25 - JD. VILA CARRÃO",
-    "CEP": "08340-320",
-    "fones": ["2754-0622"]
-  },
-  {
-    "nome": "UBS JARDIM CONQUISTA I",
-    "endereco": "R. PERAMIRIM, 1 (esq. c/ Rua Marcos Gonçalves Correia) - VL. BELA",
-    "CEP": "08340-500",
-    "fones": ["2253-4573"]
-  },
-  {
-    "nome": "UBS JARDIM COLORADO - DR. JOSÉ PIRES",
-    "endereco": "R. DR. JOSÉ DE ARAÚJO VIEIRA, 61 - JD. RODOLFO PIRANI",
-    "CEP": "08310-240",
-    "fones": ["2754-2382"]
-  },
-  {
-    "nome": "UBS JARDIM SANTO ANDRÉ",
-    "endereco": "R. MIGUEL FERREIRA DE MELO, 497 - JD. SANTO ANDRÉ",
-    "CEP": "08390-000",
-    "fones": ["2751-4339"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO FRANCISCO II",
-    "endereco": "R. BANDEIRA DE ARACAMBI, S/N - JD. RODOLFO PIRANI",
-    "CEP": "08310-010",
-    "fones": ["2751-6712","2751-0068"]
-  },
-  {
-    "nome": "UBS PARQUE SÃO RAFAEL - DRA. ORA ROSEN",
-    "endereco": "R. DR. ARISTIDES RICARDO, 313 - PQ. SÃO RAFAEL",
-    "CEP": "08311-270",
-    "fones": ["6919-5006"]
-  },
-  {
-    "nome": "UBS RIO CLARO",
-    "endereco": "R. CINIRA POLÔNIO, 33 - JD. RIO CLARO",
-    "CEP": "08395-320",
-    "fones": ["6751-5112","6751-0457"]
-  },
-  {
-    "nome": "UBS FAZENDA DA JUTA I",
-    "endereco": "R. LEVI LANDAU, 23 A - FAZENDA DA JUTA",
-    "CEP": "03957-720",
-    "fones": ["2919-9334","2015-9509"]
-  },
-  {
-    "nome": "UBS FAZENDA DA JUTA II",
-    "endereco": "R. AUGUSTIN LUBERTI (ANTIGA AV. DOIS), 1102 - FAZENDA DA JUTA",
-    "CEP": "03977-409",
-    "fones": ["2011-9823"]
-  },
-  {
-    "nome": "UBS IAÇAPE - JD. PLANALTO",
-    "endereco": "R. IAÇAPÉ, 302 - PQ. SANTA MADALENA",
-    "CEP": "03983-090",
-    "fones": ["2703-1198","2703-1191"]
-  },
-  {
-    "nome": "UBS JARDIM DOS EUCALIPTOS - HELIO MOREIRA SALLES",
-    "endereco": "R. POEMA DAS AMERICAS, 12 - JD. DOS EUCALIPTOS",
-    "CEP": "03924-240",
-    "fones": ["2701-7933"]
-  },
-  {
-    "nome": "UBS JARDIM ELBA - HUMBERTO GASTÃO BODRA",
-    "endereco": "R. BATISTA FERGUSIO, 1016 - V. CARDOSO FRANCO",
-    "CEP": "03978-180",
-    "fones": ["2704-3491","2704-8997"]
-  },
-  {
-    "nome": "UBS JARDIM GRIMALDI",
-    "endereco": "R. PEDRO DE CASTRO VELHO, 523 - VL. BANCÁRIA",
-    "CEP": "03921-000",
-    "fones": ["2216-8076","2302-2424"]
-  },
-  {
-    "nome": "UBS JARDIM SAPOPEMBA",
-    "endereco": "AV. JOÃO LOPES DE LIMA, 1151 - JD. SAPOPEMBA",
-    "CEP": "03976-020",
-    "fones": ["2019-7077","2019-6305"]
-  },
-  {
-    "nome": "UBS JARDIM SINHA",
-    "endereco": "R. JIM CLARK, 10C - JD. SINHA",
-    "CEP": "03923-160",
-    "fones": ["2721-3798"]
-  },
-  {
-    "nome": "UBS MASCARENHAS DE MORAES",
-    "endereco": "R. SARGENTO EDGAR LOURENÇO PINTO, 116 - CJ MAL. MASCARENHAS DE MORAES",
-    "CEP": "03977-180",
-    "fones": ["2919-1120","2014-1904"]
-  },
-  {
-    "nome": "UBS PARQUE SANTA MADALENA",
-    "endereco": "R. RODRIGUES DOS SANTOS, 747 - PQ. SANTA MADALENA",
-    "CEP": "03983-210",
-    "fones": ["2704-4213"]
-  },
-  {
-    "nome": "UBS PASTORAL",
-    "endereco": "R. BOLEADEIRAS, 127 - PQ. SANTA MADALENA",
-    "CEP": "03980-120",
-    "fones": ["2703-0309"]
-  },
-  {
-    "nome": "UBS REUNIDAS II",
-    "endereco": "ESTRADA DA CASA GRANDE, 1258 - V. UNIÃO",
-    "CEP": "03260-000",
-    "fones": ["2706-0555","2143-1356"]
-  },
-  {
-    "nome": "UBS TEOTÔNIO VILELA",
-    "endereco": "AV. ARQUITETO VILANOVA ARTIGAS, 1071 - JD. SAPOPEMBA",
-    "CEP": "03928-240",
-    "fones": ["2704-1383"]
-  },
-  {
-    "nome": "UBS VILA RENATO",
-    "endereco": "R. BERNARDINO FERRAZ, 54 - V. RENATO",
-    "CEP": "03978-210",
-    "fones": ["2703-0947","2703-0940"]
-  },
-  {
-    "nome": "UBS VILA SANTO ESTEVÃO - WOADY JORGE KALIL",
-    "endereco": "R. ANTONIO CAMARDO, 678 - V. GOMES CARDIM",
-    "CEP": "03309-060",
-    "fones": ["2294-3028","2092-0321 (tel.público)"]
-  },
-  {
-    "nome": "UBS DOM JOÃO NERY",
-    "endereco": "ESTRADA DOM JOAO NERY, 3462 - JD. NAZARÉ",
-    "CEP": "08151-000",
-    "fones": ["2561-4680","2566-3624"]
-  },
-  {
-    "nome": "UBS JARAGUÁ",
-    "endereco": "R. DOMINGUES VIDIGAL, 97 - PQ. INDUSTRIAL",
-    "CEP": "08160-350",
-    "fones": ["2061-8076","2569-2027","2963-9276"]
-  },
-  {
-    "nome": "UBS JARDIM CAMPOS",
-    "endereco": "R. CRESCENTE, 97 - ITAIM PAULISTA",
-    "CEP": "08152-090",
-    "fones": ["2035-4922","2035-4034"]
-  },
-  {
-    "nome": "UBS JARDIM ROBRU - SÃO MIGUEL",
-    "endereco": "R. JOSÉ MARIA ALVES DE DEUS, 288 - JD. ROBRU",
-    "CEP": "08150-290",
-    "fones": ["2035-2406","2513-6956"]
-  },
-  {
-    "nome": "UBS JARDIM SILVA TELLES",
-    "endereco": "R. JOSÉ ALEXANDRE MACHADO, 541 - ITAIM PAULISTA",
-    "CEP": "08160-460",
-    "fones": ["2561-8034","2561-1731"]
-  },
-  {
-    "nome": "UBS PARQUE SANTA RITA",
-    "endereco": "R. JOSÉ PESSOTA, 80 - PQ. SANTA RITA",
-    "CEP": "08150-020",
-    "fones": ["2035-3644","2513-7109"]
-  },
-  {
-    "nome": "UBS VILA CURUÇÁ",
-    "endereco": "R. PEDRO MEIRA, 1 - V. NOVA CURUÇÁ",
-    "CEP": "08030-500",
-    "fones": ["2513-2255","2035-4311"]
-  },
-  {
-    "nome": "UBS VILA NOVA CURUÇÁ",
-    "endereco": "R. NARCEJA, 51 - SÃO MIGUEL PAULISTA",
-    "CEP": "08032-340",
-    "fones": ["2035-2292","2515-2990"]
-  },
-  {
-    "nome": "UBS VILA FORMOSA",
-    "endereco": "PÇA. MARQUES DE NAZARÉ, 111 - V. FORMOSA",
-    "CEP": "03359-070",
-    "fones": ["2674-5246"]
-  },
-  {
-    "nome": "UBS VILA FORMOSA - COMENDADOR JOSÉ GONZALES",
-    "endereco": "R. NOSSA SENHORA DAS DORES, 350 - V. FORMOSA",
-    "CEP": "03367-040",
-    "fones": ["2216-7583"]
-  },
-  {
-    "nome": "UBS VILA FORMOSA - DR. ANTONIO DA SILVEIRA E OLIVEIRA",
-    "endereco": "R. ACURUÍ, 720 - V. FORMOSA",
-    "CEP": "03355-000",
-    "fones": ["2671-0888","2673-3404"]
-  },
-  {
-    "nome": "UBS VILA GUARANI",
-    "endereco": "R. TERESINHA, 123 - JD. MARINGÁ",
-    "CEP": "03382-180",
-    "fones": ["2910-2958","2216-1869"]
-  },
-  {
-    "nome": "UBS CIDADE PEDRO JOSÉ NUNES",
-    "endereco": "R. JOSÉ BARGAS, 143 - JD. PEDRO JOSE NUNES",
-    "CEP": "08061-240",
-    "fones": ["2297-5453"]
-  },
-  {
-    "nome": "UBS DR. THÉRSIO VENTURA",
-    "endereco": "R. ARRAIAL DE SANTA BARBARA, 996 - CIDADE PEDRO J NUNES",
-    "CEP": "08061-360",
-    "fones": ["2545-1026"]
-  },
-  {
-    "nome": "UBS JARDIM DAS CAMÉLIAS",
-    "endereco": "AV. TRÊVO DE SANTA MARIA, 79 - SÃO MIGUEL PAULISTA",
-    "CEP": "08050-570",
-    "fones": ["2051-8788"]
-  },
-  {
-    "nome": "UBS SANTA INÊS",
-    "endereco": "R. FREI FIDELIS MOTA, 1001 - PQ. CRUZEIRO DO SUL",
-    "CEP": "08070-130",
-    "fones": ["2297-9669"]
-  },
-  {
-    "nome": "UBS SÍTIO DA CASA PINTADA",
-    "endereco": "AV. MARIA SANTANA, 101 - SÃO MIGUEL PAULISTA",
-    "CEP": "08050-130",
-    "fones": ["2053-0800"]
-  },
-  {
-    "nome": "UBS UNIÃO VILA NOVA - ADÃO MANOEL DA SILVA",
-    "endereco": "R. ADÃO MANOEL DA SILVA, 16 C - SÃO MIGUEL PAULISTA",
-    "CEP": "05280-040",
-    "fones": ["2297-4782"]
-  },
-  {
-    "nome": "UBS UNIÃO VILA NOVA I",
-    "endereco": "R. GRAZIELE BALDAK GOMES, 36 - SÃO MIGUEL PAULISTA",
-    "CEP": "08072-180",
-    "fones": ["2956-3837"]
-  },
-  {
-    "nome": "UBS VILA JACUÍ",
-    "endereco": "R. EDIPO FELICIANO, 165 - V. JACUÍ",
-    "CEP": "08060-220",
-    "fones": ["2297-8709","2297-8422"]
-  },
-  {
-    "nome": "UBS CIDADE PATRIARCA - DR. HERMENEGILDO MORBIN JUNIOR",
-    "endereco": "R. DR. FREDERICO BROTERO, 22 - CIDADE PATRIARCA",
-    "CEP": "03552-080",
-    "fones": ["2958-1488"]
-  },
-  {
-    "nome": "UBS VILA ARICANDUVA",
-    "endereco": "R. ANTONIO LINDOURO DA SILVA, 265 - V. ARICANDUVA",
-    "CEP": "03506-000",
-    "fones": ["2294-8853"]
-  },
-  {
-    "nome": "UBS VILA GUILHERMINA",
-    "endereco": "R. JOÃO MARCHIORI, 59 - V. GUILHERMINA",
-    "CEP": "03545-000",
-    "fones": ["2685-2124","2791-5321"]
-  },
-  {
-    "nome": "UBS VILA MATILDE",
-    "endereco": "R. CORONE DONATO, 11 - V. MATILDE",
-    "CEP": "03512-030",
-    "fones": ["2653-4391"]
-  },
-  {
-    "nome": "UBS VILA ALPINA - DR. HERMINIO MOREIRA",
-    "endereco": "R. PARAMU, 398 - V. ALPINA",
-    "CEP": "03147-100",
-    "fones": ["2912-8958"]
-  },
-  {
-    "nome": "UBS VILA PRUDENTE",
-    "endereco": "PÇA. DO CENTENARIO DE VL. PRUDENTE VEIGA CABRAL, 108 - V. PRUDENTE",
-    "CEP": "03132-050",
-    "fones": ["2272-5763","2062-3975"]
-  },
-  {
-    "nome": "UBS VILA CALIFÓRNIA - ZEILIVAL BRUSCAGIN",
-    "endereco": "PÇA. CONDE DE SÃO JANUÁRIO, 91 - V. CALIFÓRNIA",
-    "CEP": "03215-080",
-    "fones": ["2917-1117","2317-3461"]
-  },
-  {
-    "nome": "UBS JARDIM ROSINHA",
-    "endereco": "R. DALVA DE OLIVEIRA, 82 - MORRO DOCE",
-    "CEP": "05282-010",
-    "fones": ["3916-4100","3911-3141"]
-  },
-  {
-    "nome": "UBS MORADA DO SOL",
-    "endereco": "R. ASSIS BRASIL X PÇA. LUIZ VAZ DE CAMÕES Nº 35, S/N - SOL NASCENTE",
-    "CEP": "05281-130",
-    "fones": ["3944-1329","3941-4364"]
-  },
-  {
-    "nome": "UBS MORRO DOCE",
-    "endereco": "R. ALBERTO CALIX, 55 - CANAÃ",
-    "CEP": "05267-030",
-    "fones": ["3916-2059"]
-  },
-  {
-    "nome": "UBS PARQUE ANHANGUERA",
-    "endereco": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JD. BRITÂNIA",
-    "CEP": "05269-000",
-    "fones": ["3916-6375","3916-6160"]
-  },
-  {
-    "nome": "UBS BRASILÂNDIA",
-    "endereco": "R. PARAPUA, 1646 - BRASILÂNDIA",
-    "CEP": "02831-001",
-    "fones": ["3921-3830","3921-8713"]
-  },
-  {
-    "nome": "UBS DR. AUGUSTO LEOPOLDO AYROSA GALVÃO",
-    "endereco": "R. JOAQUINA MARIA DOS SANTOS, 198 - V. RICA",
-    "CEP": "02860-110",
-    "fones": ["3851-8235"]
-  },
-  {
-    "nome": "UBS JARDIM GUARANI",
-    "endereco": "R. SANTANA DO ARAÇUAÍ, 160 - BRASILÂNDIA",
-    "CEP": "02849-130",
-    "fones": ["3921-5540"]
-  },
-  {
-    "nome": "UBS JARDIM ICARAÍ - BRASILÂNDIA",
-    "endereco": "R. ALMIR DEHAR, 201 - BRASILÂNDIA",
-    "CEP": "02846-000",
-    "fones": ["3921-0818","3921-8739"]
-  },
-  {
-    "nome": "UBS JARDIM LADEIRA ROSA",
-    "endereco": "R. JOSÉ DA COSTA GAVIÃO, 150 - BRASILÂNDIA",
-    "CEP": "02872-000",
-    "fones": ["3851-8818","3982-6380"]
-  },
-  {
-    "nome": "UBS JARDIM PAULISTANO",
-    "endereco": "R. ENCRUZILHADA DO SUL, 220 - JD. PAULISTANO",
-    "CEP": "02816-010",
-    "fones": ["3972-2916","3971-5342"]
-  },
-  {
-    "nome": "UBS JARDIM VISTA ALEGRE",
-    "endereco": "R. IBIRAIARAS, 21 - BRASILÂNDIA",
-    "CEP": "02878-080",
-    "fones": ["3983-1197","3982-0651"]
-  },
-  {
-    "nome": "UBS SILMARYA REJANE MARCOLINO DE SOUZA",
-    "endereco": "R. EUVALDO AUGUSTO FREIRE, 20 - BRASILÂNDIA",
-    "CEP": "02855-030",
-    "fones": ["3921-1078"]
-  },
-  {
-    "nome": "UBS VILA PENTEADO",
-    "endereco": "R. URUPEVA, S/N - V. PENTEADO",
-    "CEP": "02866-080",
-    "fones": ["3851-8201"]
-  },
-  {
-    "nome": "UBS VILA TEREZINHA",
-    "endereco": "R. DOMINGOS FRANCISCO DE MEDEIROS, 70 - V. TEREZINHA",
-    "CEP": "02854-010",
-    "fones": ["3924-2591","3921-2380"]
-  },
-  {
-    "nome": "UBS DRA. ILZA WELTMAN HUTZLER",
-    "endereco": "R. CORONEL WALFRIDO DE CARVALHO, S/N - V. NOVA CACHOEIRINHA",
-    "CEP": "02472-190",
-    "fones": ["3981-3127","3859-0395"]
-  },
-  {
-    "nome": "UBS JARDIM PERI",
-    "endereco": "AV. PERI RONCHETTI, 914 - JD. PERI",
-    "CEP": "02633-000",
-    "fones": ["2258-5708"]
-  },
-  {
-    "nome": "UBS VILA DIONÍSIA",
-    "endereco": "R. CHEN FERRAZ FALCÃO, 50 - V. DIONÍSIA",
-    "CEP": "02670-040",
-    "fones": ["3984-9329","3859-4562"]
-  },
-  {
-    "nome": "UBS CASA VERDE",
-    "endereco": "R. VICHY, 468 - CASA VERDE BAIXA",
-    "CEP": "02522-100",
-    "fones": ["3950-0236","3966-0247"]
-  },
-  {
-    "nome": "UBS CASA VERDE ALTA",
-    "endereco": "R. LAVINIO SALES ARCURI, 120 - CASA VERDE ALTA",
-    "CEP": "02564-000",
-    "fones": ["3858-8592","3966-9572","3950-1503"]
-  },
-  {
-    "nome": "UBS DR. WALTER ELIAS (CASA VERDE BAIXA)",
-    "endereco": "R. MOURÃO VIEIRA, 11 - CASA VERDE BAIXA",
-    "CEP": "02518-020",
-    "fones": ["3858-8593"]
-  },
-  {
-    "nome": "UBS PARQUE PERUCHE",
-    "endereco": "R. JOSÉ RANGEL DE CAMARGO, 500 - PQ. PERUCHE",
-    "CEP": "02538-010",
-    "fones": ["3951-6756"]
-  },
-  {
-    "nome": "UBS MASSAGISTA MÁRIO AMÉRICO",
-    "endereco": "R. OSCAR DE MOURA LACERDA, 231 - IMIRIM",
-    "CEP": "02540-070",
-    "fones": ["2239-1561","2255-8417"]
-  },
-  {
-    "nome": "UBS CRUZ DAS ALMAS",
-    "endereco": "R. PADRE FELICIANO DOMINGUES, 90 - FREGUESIA DO Ó",
-    "CEP": "02965-140",
-    "fones": ["3975-3531"]
-  },
-  {
-    "nome": "UBS JARDIM GUANABARA",
-    "endereco": "AV. MINISTRO PETRÔNIO PORTELA, 663 - FREGUESIA DO Ó",
-    "CEP": "02959-000",
-    "fones": ["3975-2134"]
-  },
-  {
-    "nome": "UBS VILA PALMEIRAS",
-    "endereco": "R. FRANCISCO LOTUFO, 24 - FREGUESIA DO Ó",
-    "CEP": "02727-020",
-    "fones": ["3931-8242","3931-7923"]
-  },
-  {
-    "nome": "UBS VILA PROGRESSO - JD MONTE ALEGRE",
-    "endereco": "R. ANTONIO GENELLE, 30 - JD. MONTE ALEGRE",
-    "CEP": "02811-020",
-    "fones": ["3992-2349","3975-2893"]
-  },
-  {
-    "nome": "UBS VILA RAMOS - FREGUESIA DO Ó",
-    "endereco": "R. FERRAZ DE VASCONCELOS, 80 - FREGUESIA DO Ó",
-    "CEP": "02759-100",
-    "fones": ["3924-0208","3924-4111 "]
-  },
-  {
-    "nome": "UBS DR. JOSÉ DE TOLEDO PIZA",
-    "endereco": "AV. ANTONIO CÉSAR NETO, 387 - JAÇANÃ",
-    "CEP": "02276-000",
-    "fones": ["2241-7317","2243-7038"]
-  },
-  {
-    "nome": "UBS JAÇANÃ - DR. SEBASTÃO GABRIEL SAYAGO DE LAET",
-    "endereco": "R. SÃO GERALDINO, 222 - V. CONSTANÇA",
-    "CEP": "02258-220",
-    "fones": ["2240-0065","2242-8876"]
-  },
-  {
-    "nome": "UBS PARQUE EDU CHAVES",
-    "endereco": "AV. EDU CHAVES, 1197 - PQ. EDU CHAVES",
-    "CEP": "02229-001",
-    "fones": ["2243-0052","2242-0890"]
-  },
-  {
-    "nome": "UBS VILA NOVA GALVÃO - SÔNIA REGINA CAMPANELLI",
-    "endereco": "R. ALFEU LUIS GASPARINI, 116 - V. NOVA GALVÃO",
-    "CEP": "02281-110",
-    "fones": ["2241-7366","2242-0108"]
-  },
-  {
-    "nome": "UBS ALDEIA JARAGUÁ - KWARAY DJEKUPE",
-    "endereco": "ESTRADA TURÍSTICA DO JARAGUÁ, 3680 - JARAGUÁ",
-    "CEP": "05754-071",
-    "fones": ["3903-4988"]
-  },
-  {
-    "nome": "UBS ALPES DO JARAGUÁ",
-    "endereco": "AL. DAS LIMEIRAS, 46 - ALPES DO JARAGUA",
-    "CEP": "05187-634",
-    "fones": ["3941-1169","3945-5958","3945-5958"]
-  },
-  {
-    "nome": "UBS CITY JARAGUÁ",
-    "endereco": "ESTR. DE TAIPAS, 1648 - JARAGUÁ (esq. c/ a Rua Paulo Arentino)",
-    "CEP": "02991-000",
-    "fones": ["3947-2690","3928-4976"]
-  },
-  {
-    "nome": "UBS ELÍSIO TEIXEIRA LEITE",
-    "endereco": "AV. JOÃO AMADO COUTINHO, 400 - JARAGUÁ",
-    "CEP": "02715-000",
-    "fones": ["3972-0333","3972-0888","3971-2572"]
-  },
-  {
-    "nome": "UBS JARDIM IPANEMA",
-    "endereco": "R. PEDRO RAVARA, 11-A - JARAGUÁ",
-    "CEP": "05187-300",
-    "fones": ["3941-3457","3941-2119","3941-0379"]
-  },
-  {
-    "nome": "UBS JARDIM PANAMERICANO",
-    "endereco": "R. BARRA DA FORQUILHA, 38 - JD. PANAMERICANO",
-    "CEP": "02993-000",
-    "fones": ["3928-1270","3941-1362"]
-  },
-  {
-    "nome": "UBS UNIÃO DAS VILAS DE TAIPAS",
-    "endereco": "AV. ELISIO TEIXEIRA LEITE, 7703 - JARAGUÁ",
-    "CEP": "02710-000",
-    "fones": ["3971-2432"]
-  },
-  {
-    "nome": "UBS DONA ADELAIDE LOPES",
-    "endereco": "AV. CLAVÁSIO ALVES DA SILVA, 683 - LIMÃO",
-    "CEP": "02722-030",
-    "fones": ["3859-5226"]
-  },
-  {
-    "nome": "UBS VILA BARBOSA",
-    "endereco": "AV. MANDAQUI, 197 - LIMÃO",
-    "CEP": "02550-000",
-    "fones": ["3858-1822"]
-  },
-  {
-    "nome": "UBS VILA ESPANHOLA",
-    "endereco": "AV. JOÃO DOS STOS ABREU, 650 - V. ESPANHOLA",
-    "CEP": "02566-020",
-    "fones": ["2256-4090","2239-2959","2239-2139"]
-  },
-  {
-    "nome": "UBS VILA SANTA MARIA",
-    "endereco": "R. PROFESSOR DARIO RIBEIRO, 670 - CASA VERDE ALTA",
-    "CEP": "02559-000",
-    "fones": ["3965-6035"]
-  },
-  {
-    "nome": "UBS LAUZANE PAULISTA",
-    "endereco": "R. VALORBE, 80 - LAUZANE PAULISTA",
-    "CEP": "02442-140",
-    "fones": ["2231-8619","2258-5818"]
-  },
-  {
-    "nome": "UBS VILA AURORA - DR. DOMINGOS MAZZONETO DE CILO",
-    "endereco": "R. ENGENHEIRO JEAN BUFF, 126 - CHÁCARA DO ENCOSTO",
-    "CEP": "02417-180",
-    "fones": ["2232-2244"]
-  },
-  {
-    "nome": "UBS PERUS",
-    "endereco": "PÇA. VIGARIO JOÃO GONÇALVES DE LIMA, 239 - PERUS",
-    "CEP": "05206-180",
-    "fones": ["3917-0707","3917-6245","3915-6305"]
-  },
-  {
-    "nome": "UBS RECANTO DOS HUMILDES",
-    "endereco": "R. PAVÃO, 36 A - RECANTO DOS HUMILDES",
-    "CEP": "05208-400",
-    "fones": ["3915-6452","3917-5870"]
-  },
-  {
-    "nome": "UBS CHÁCARA INGLESA",
-    "endereco": "R. DA LIGAÇAO, 95 (prox. Rua Manuel Furtado) - CHÁCARA INGLESA",
-    "CEP": "05142-120",
-    "fones": ["3834-5985","3832-7587","3648-0171"]
-  },
-  {
-    "nome": "UBS DOMINGOS MANTELLI",
-    "endereco": "R. POVOADO DO RIO NOVO, 1778 - PIRITUBA",
-    "CEP": "02956-020",
-    "fones": ["3974-8389","3974-3829"]
-  },
-  {
-    "nome": "UBS JARDIM CIDADE PIRITUBA",
-    "endereco": "R. COMENDADOR FEIZ ZARZUR (EM FRENTE À RUA DOMINGOS MOREIRA), S/N - JD. CID. RITUBA",
-    "CEP": "02942-000",
-    "fones": ["3972-7333","3971-0525"]
-  },
-  {
-    "nome": "UBS MOINHO VELHO I",
-    "endereco": "PÇA. DOMINGOS COELHO, 5 - V. PEREIRA CERCA",
-    "CEP": "02933-180",
-    "fones": ["3976-7601","3992-2370"]
-  },
-  {
-    "nome": "UBS VILA MAGGI",
-    "endereco": "R. CONDE MONTERONE, 40 - JD. DOS CUNHAS",
-    "CEP": "02982-190",
-    "fones": ["3972-1435","3972-9389"]
-  },
-  {
-    "nome": "UBS VILA PEREIRA BARRETO",
-    "endereco": "R. DOM MANOEL D'ELBOUX, 76 - JD. SÃO JOSE",
-    "CEP": "02932-110",
-    "fones": ["3975-9019","3992-0317","3977-8098"]
-  },
-  {
-    "nome": "UBS VILA PIRITUBA",
-    "endereco": "R. RIBEIRAO VERMELHO, 501 - V. PIRITUBA",
-    "CEP": "05727-000",
-    "fones": ["3901-3848","3904-2509"]
-  },
-  {
-    "nome": "UBS VILA ZATT",
-    "endereco": "R. MONS. MANUEL GOMES, 654 - PIRITUBA",
-    "CEP": "02975-120",
-    "fones": ["3975-2116","3992-0582","3976-0514"]
-  },
-  {
-    "nome": "UBS CHORA MENINO",
-    "endereco": "R. COPACABANA, 185 - SANTA TEREZINHA",
-    "CEP": "02461-000",
-    "fones": ["2950-1451","2281-8786"]
-  },
-  {
-    "nome": "UBS JOAQUIM ANTONIO EIRADO",
-    "endereco": "AV. BRAZ LEME, 2945 - SANTANA",
-    "CEP": "02022-011",
-    "fones": ["2973-0733"]
-  },
-  {
-    "nome": "UBS ANHANGUERA I",
-    "endereco": "R. MARCELA ALVES DE CASSIA, 175 - JD. JARAGUÁ",
-    "CEP": "05158-400",
-    "fones": ["3904-8999","3906-8408"]
-  },
-  {
-    "nome": "UBS PARQUE MARIA DOMITILA",
-    "endereco": "AV. DO ANASTÁCIO, 2421 - PQ. MARIA DOMITILA (esq. c/ a Rua Willis Roberto Banks",
-    "CEP": "05119-000",
-    "fones": ["3903-4825","3902-2303"]
-  },
-  {
-    "nome": "UBS SANTO ELIAS",
-    "endereco": "R. FABIO DE ALMEIDA MAGALHÃES, 494 - JD. SANTO ELIAS",
-    "CEP": "05135-370",
-    "fones": ["3902-3551"]
-  },
-  {
-    "nome": "UBS VILA MANGALOT",
-    "endereco": "R. JOAQUIM OLIVEIRA FREITAS, 1397 - SÃO DOMINGOS",
-    "CEP": "05133-004",
-    "fones": ["3906-9891","3504-1292"]
-  },
-  {
-    "nome": "UBS DONA MARIQUINHA SCIASCIA",
-    "endereco": "R. DR. JOSÉ VICENTE, 39 - TREMEMBÉ",
-    "CEP": "02370-080",
-    "fones": ["2203-2489","2203-0063"]
-  },
-  {
-    "nome": "UBS HORTO FLORESTAL",
-    "endereco": "R. DO HORTO X R. LUIZ CARLOS GENTILE LAET Nº 603, S/N - HORTO FLORESTAL",
-    "CEP": "02377-000",
-    "fones": ["2994-5688","2204-8421"]
-  },
-  {
-    "nome": "UBS JARDIM APUANA",
-    "endereco": "R. HUM (REF.:R.FILHOS DA TERRA), 19 - JD. FILHOS DA TERRA",
-    "CEP": "02325-530",
-    "fones": ["2243-4469","2240-5277"]
-  },
-  {
-    "nome": "UBS JARDIM DAS PEDRAS",
-    "endereco": "R. CLÓVIS SALGADO, 220 - JD. DAS PEDRAS",
-    "CEP": "02367-000",
-    "fones": ["2992-2313"]
-  },
-  {
-    "nome": "UBS JARDIM FLOR DE MAIO",
-    "endereco": "AV. NOVA PAULISTA, 561 - JD. FLOR DE MAIO",
-    "CEP": "02363-000",
-    "fones": ["2995-6006"]
-  },
-  {
-    "nome": "UBS JARDIM FONTALIS",
-    "endereco": "R. ANTONIO PICCAROLLO, 41 - JD. FONTALIS",
-    "CEP": "02323-000",
-    "fones": ["2995-6257"]
-  },
-  {
-    "nome": "UBS JARDIM JOAMAR",
-    "endereco": "R. AIMOPOLO LOBO, 60 - JD. JOAMAR",
-    "CEP": "02320-140",
-    "fones": ["2204-8387"]
-  },
-  {
-    "nome": "UBS VILA ALBERTINA - DR. OSVALDO MARÇAL",
-    "endereco": "R. ANTONIO JOAQUIM DE OLIVEIRA, 224 - V. ESMERALDA",
-    "CEP": "02356-020",
-    "fones": ["2204-9986","2204-5773"]
-  },
-  {
-    "nome": "UBS CONJ. IPESP - DR. JOSÉ DE TOLEDO PIZA",
-    "endereco": "AV. PROFª. VIRGILIA RODRIGUES A. C. PINTO, 555 - JD. LEONOR BARROS",
-    "CEP": "02077-000",
-    "fones": ["2203-0111"]
-  },
-  {
-    "nome": "UBS VILA NIVI",
-    "endereco": "PÇA. CAMPINÓPOLIS, 125 - V. NIVI",
-    "CEP": "02252-160",
-    "fones": ["2201-7219","2951-7670"]
-  },
-  {
-    "nome": "UBS WAMBERTO DIAS DA COSTA",
-    "endereco": "R. PAULO CESAR, 60 - TREMEMBÉ",
-    "CEP": "02311-240",
-    "fones": ["2203-8992","2952-0679"]
-  },
-  {
-    "nome": "UBS CARANDIRU",
-    "endereco": "R. JOSÉ PEREIRA JORGE, 305 - CARANDIRU",
-    "CEP": "02067-020",
-    "fones": ["2252-4144","2252-4090"]
-  },
-  {
-    "nome": "UBS VILA GUILHERME",
-    "endereco": "R. JOÃO VENTURA BATISTA, 615 - V. GUILHERME",
-    "CEP": "02054-100",
-    "fones": ["2901-5883","2906-2685"]
-  },
-  {
-    "nome": "UBS VILA IZOLINA MAZZEI",
-    "endereco": "R. ORLANDO RIBEIRO DANTAS, 154 - V. IZOLINA MAZZEI",
-    "CEP": "02083-010",
-    "fones": ["2201-6586","2212-6030"]
-  },
-  {
-    "nome": "UBS VILA LEONOR",
-    "endereco": "AV. ANGELINA, 518 - V. LEONOR",
-    "CEP": "02077-000",
-    "fones": ["2901-4606","2905-7164"]
-  },
-  {
-    "nome": "UBS JARDIM JAPÃO",
-    "endereco": "R. SOBRAL JUNIOR, 452 - V. MARIA ALTA",
-    "CEP": "02130-020",
-    "fones": ["2954-2851","2635-5525"]
-  },
-  {
-    "nome": "UBS PARQUE NOVO MUNDO I",
-    "endereco": "R. BENEDITA DORNELAS CLARO, 451 - PQ. NOVO MUNDO",
-    "CEP": "02168-020",
-    "fones": ["2954-1747","2635-5603"]
-  },
-  {
-    "nome": "UBS PARQUE NOVO MUNDO II",
-    "endereco": "R. SOLDADO ANTONIO MATIAS DE CAMARGO, 87 - PQ. NOVO MUNDO",
-    "CEP": "02188-050",
-    "fones": ["2954-4580","2635-5591"]
-  },
-  {
-    "nome": "UBS VILA MARIA - DR. LUIZ PAULO GNECCO",
-    "endereco": "R. ANDRÉ DA FONSECA, 70 - V. MUNHOZ",
-    "CEP": "02135-010",
-    "fones": ["2201-7751","2981-5855"]
-  },
-  {
-    "nome": "UBS JARDIM BRASIL",
-    "endereco": "R. FRANCISCO PEIXOTO BEZERRA, 400 - JD. BRASIL",
-    "CEP": "02222-010",
-    "fones": ["2201-4101","2939-7808"]
-  },
-  {
-    "nome": "UBS VILA EDE",
-    "endereco": "R. PADRE MARCOS SIMONI, 390 - V. EDE",
-    "CEP": "02203-010",
-    "fones": ["2212-4596","2939-7619"]
-  },
-  {
-    "nome": "UBS VILA MEDEIROS",
-    "endereco": "R. EURICO SODRE, 353 - V. MEDEIROS",
-    "CEP": "02215-010",
-    "fones": ["2212-2223","2939-7795"]
-  },
-  {
-    "nome": "UBS VILA SABRINA",
-    "endereco": "R. FRANCISCO FRANCO MACHADO, 150 - V. SABRINA",
-    "CEP": "02139-020",
-    "fones": ["2201-0284","2939-7794"]
-  },
-  {
-    "nome": "UBS BUTANTÃ",
-    "endereco": "R. CABRAL DE MENEZES, 51 - V. GOMES",
-    "CEP": "05590-050",
-    "fones": ["3726-1838","3726-8591"]
-  },
-  {
-    "nome": "UBS CAXINGUI - NANCI ABRANCHES",
-    "endereco": "R. LADISLAU ROMAN, 410 - CAXINGUI",
-    "CEP": "05515-030",
-    "fones": ["3721-6406","3722-4686"]
-  },
-  {
-    "nome": "UBS DR. JOSÉ DE BARROS MAGALDI",
-    "endereco": "R. SALVADOR CARDOSO, 177 - ITAIM BIBI",
-    "CEP": "04533-050",
-    "fones": ["3168-6571","3167-0837"]
-  },
-  {
-    "nome": "UBS MENINÓPOLIS - DR. MARIO FRANCISCO NAPOLITANO",
-    "endereco": "R. OSCAR GOMES CARDIM, 128/142 - BROOKLIN NOVO",
-    "CEP": "04580-040",
-    "fones": ["5096-1058","5535-8839"]
-  },
-  {
-    "nome": "UBS VILA JAGUARA",
-    "endereco": "R. PAÚVA, 721 - V. JAGUARA",
-    "CEP": "05116-001",
-    "fones": ["3625-1775","3621-4440"]
-  },
-  {
-    "nome": "UBS VILA PIAUÍ",
-    "endereco": "PÇA. CAMILO CASTELO BRANCO, 10 - V. PIAUÍ",
-    "CEP": "05109-270",
-    "fones": ["3621-4508"]
-  },
-  {
-    "nome": "UBS VILA NOVA JAGUARÉ",
-    "endereco": "R. SALATIEL DE CAMPOS, 222 - JAGUARÉ",
-    "CEP": "05333-010",
-    "fones": ["3768-1527","3741-2461"]
-  },
-  {
-    "nome": "UBS VILA ANASTÁCIO",
-    "endereco": "R. BARTOLOMEU PAES, 686 - V. ANASTACIO",
-    "CEP": "05061-050",
-    "fones": ["3836-1146","3644-8909"]
-  },
-  {
-    "nome": "UBS VILA IPOJUCA - DRA. WANDA COELHO DE MORAES",
-    "endereco": "R. CATÃO, 1266 - V. IPOJUCA",
-    "CEP": "05049-000",
-    "fones": ["3676-1399","3676-1394"]
-  },
-  {
-    "nome": "UBS VILA ROMANA",
-    "endereco": "R. VESPASIANO, 679 - V. ROMANA",
-    "CEP": "05044-050",
-    "fones": ["3672-0911","3862-4102"]
-  },
-  {
-    "nome": "URSI LAPA",
-    "endereco": "R. BRIGADEIRO GAVIÃO PEIXOTO, 727 - LAPA",
-    "CEP": "05078-000",
-    "fones": ["3865-2213","3675-2464"]
-  },
-  {
-    "nome": "UBS REAL PARQUE - DR. PAULO MANGABEIRA ALBERNAZ FILHO",
-    "endereco": "R. BARÃO DE MELGAÇO, 339 - REAL PARQUE",
-    "CEP": "05684-030",
-    "fones": ["3758-2329","3758-2133"]
-  },
-  {
-    "nome": "UBS JARDIM VERA CRUZ - PERDIZES",
-    "endereco": "R. SARAMENHA, 60 - PERDIZES",
-    "CEP": "01259-030",
-    "fones": ["3673-8552","3801-4278"]
-  },
-  {
-    "nome": "UBS VILA ANGLO - DR. JOSÉ SERRA RIBEIRO",
-    "endereco": "R. TURIAÇU, 1765 - VL. POMPEIA",
-    "CEP": "05005-001",
-    "fones": ["3672-8401","3801-1547"]
-  },
-  {
-    "nome": "UBS DR. MANOEL JOAQUIM PERA",
-    "endereco": "R. PURPURINA, 280 - V. MADALENA",
-    "CEP": "05435-030",
-    "fones": ["3032-9891","3813-1030"]
-  },
-  {
-    "nome": "UBS JARDIM BOA VISTA",
-    "endereco": "R. CANDIDO FONTOURA, 620 - JD. BOA VISTA",
-    "CEP": "05583-070",
-    "fones": ["3782-8380","3782-8371"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO JORGE",
-    "endereco": "R. ANGELO APARECIDO DOS SANTOS DIAS, 331 - JD. SÃO JORGE",
-    "CEP": "05568-090",
-    "fones": ["3781-3817","3781-3816"]
-  },
-  {
-    "nome": "UBS PAULO VI",
-    "endereco": "AV. VATICANO, 69 - JD. JOAO XXIII",
-    "CEP": "05569-120",
-    "fones": ["3782-0838"]
-  },
-  {
-    "nome": "UBS VILA BORGES",
-    "endereco": "R. JACINTO DE MORAES, 22 - JD. CLAUDIA",
-    "CEP": "05546-040",
-    "fones": ["3782-4739","3782-4908"]
-  },
-  {
-    "nome": "UBS JARDIM D'ABRIL",
-    "endereco": "R. PAULO MARANHÃO, 444 - JD. D'ABRIL",
-    "CEP": "05398-030",
-    "fones": ["3782-1687","3782-4742"]
-  },
-  {
-    "nome": "UBS JOSÉ MARCÍLIO MALTA CARDOSO",
-    "endereco": "R. BERNARDO GUERTZENSTEIN, 45 - RIO PEQUENO",
-    "CEP": "05381-020",
-    "fones": ["3718-0425","3768-1569"]
-  },
-  {
-    "nome": "UBS RIO PEQUENO - DR. PAULO DE BARROS FRANÇA",
-    "endereco": "R. JOÃO LUIS MATEUS, 34 - RIO PEQUENO",
-    "CEP": "05379-030",
-    "fones": ["3768-9460","3714-8764"]
-  },
-  {
-    "nome": "UBS VILA DALVA - ENG. GUILHERME HENRIQUE PINTO COELHO",
-    "endereco": "R. GUSTAVO BERTHIER, 155 - V. DALVA",
-    "CEP": "05386-110",
-    "fones": ["3712-0704","3712-1387"]
-  },
-  {
-    "nome": "UBS ALTO DE PINHEIROS",
-    "endereco": "AV. QUEIROZ FILHO, 313 - ALTO DE PINHEIROS",
-    "CEP": "05319-010",
-    "fones": ["3023-4588","3022-7074"]
-  },
-  {
-    "nome": "UBS PARQUE DA LAPA",
-    "endereco": "R. BERGSON, 52 - PQ. DA LAPA",
-    "CEP": "05301-060",
-    "fones": ["3836-8029","3644-8989"]
-  },
-  {
-    "nome": "UBS JARDIM JAQUELINE",
-    "endereco": "R. BONIFÁCIO VERONESE, 10 - JD. JAQUELINE",
-    "CEP": "05529-060",
-    "fones": ["3751-1665","3751-4285"]
-  },
-  {
-    "nome": "UBS VILA SÔNIA",
-    "endereco": "R. ABRAÃO CALIL REZEK, 91 - V. SÔNIA",
-    "CEP": "05625-050",
-    "fones": ["3742-9844","3742-1487"]
-  },
-  {
-    "nome": "UBS JARDIM AEROPORTO - DR. MASSAKI UDIHARA",
-    "endereco": "R. VIAZA, 100 - CAMPO BELO",
-    "CEP": "04633-050",
-    "fones": ["5542-9672","5532-1152"]
-  },
-  {
-    "nome": "UBS CAMPO GRANDE",
-    "endereco": "R. ARNALDO MAGNICARO, 1254 - JURUBATUBA",
-    "CEP": "04691-060",
-    "fones": ["5634-1643","5635-2817"]
-  },
-  {
-    "nome": "UBS VILA ARRIETE - DR. DÉCIO PACHECO PEDROSO",
-    "endereco": "R. JULIETA DE ARAUJO ALMEIDA, 44 - JD. ARAUJO ALMEIDA ARRIETE",
-    "CEP": "04445-010",
-    "fones": ["5614-5195","5611-4046"]
-  },
-  {
-    "nome": "UBS ALTO DO UMUARAMA",
-    "endereco": "R. ODEMIS, 468 - JD. UMUARAMA",
-    "CEP": "05783-180",
-    "fones": ["5816-3342","5819-5730"]
-  },
-  {
-    "nome": "UBS CAMPO LIMPO",
-    "endereco": "R. JORGE OZZI, 211 - JD. CATANDUVA",
-    "CEP": "05767-450",
-    "fones": ["5841-1871","5841-5260","5844-5516"]
-  },
-  {
-    "nome": "UBS CAMPO LIMPO - DR. FRANCISCO SCALAMANDRE SOBRINHO",
-    "endereco": "R. DR. JOVIANO PACHECO AGUIRRE, 255 - CAMPO LIMPO",
-    "CEP": "05788-290",
-    "fones": ["5841-2654","5844-4839"]
-  },
-  {
-    "nome": "UBS JARDIM HELGA",
-    "endereco": "R. THOMAS DE ARAUJO, 53 - JD. HELGA",
-    "CEP": "05794-380",
-    "fones": ["5842-2399"]
-  },
-  {
-    "nome": "UBS JARDIM MITSUTANI",
-    "endereco": "R. FREI XISTO TEUBER, 50 - JD. MITSUTANI",
-    "CEP": "05791-080",
-    "fones": ["5842-9292"]
-  },
-  {
-    "nome": "UBS JARDIM OLINDA",
-    "endereco": "R. PEDRO RODRIGUES MARQUES, 131/135 - JD. ANA MARIA",
-    "CEP": "05757-250",
-    "fones": ["5842-9626","5846-1788"]
-  },
-  {
-    "nome": "UBS JARDIM UMARIZAL",
-    "endereco": "R. GUARAMEMBÉ, 585 - JD. UMARIZAL",
-    "CEP": "05754-060",
-    "fones": ["5845-3124","5511-1475"]
-  },
-  {
-    "nome": "UBS PARQUE ARARIBA",
-    "endereco": "R. FRANCISCO SOARES, 81 - JD. INGÁ",
-    "CEP": "05774-300",
-    "fones": ["5511-5573","5816-5540","5816-5542"]
-  },
-  {
-    "nome": "UBS PARQUE REGINA",
-    "endereco": "R. MELO COUTINHO, 260 - PQ. REGINA",
-    "CEP": "05775-230",
-    "fones": ["5511-8585","5816-5561"]
-  },
-  {
-    "nome": "UBS JARDIM COMERCIAL",
-    "endereco": "R. COSTA NOVA DO PRADO, 92 - JD. LILAH",
-    "CEP": "05885-190",
-    "fones": ["5873-4880","5874-6120"]
-  },
-  {
-    "nome": "UBS JARDIM GERMANIA",
-    "endereco": "R. JOÃO FUGULIM, 338 - JD. GERMANIA",
-    "CEP": "05849-340",
-    "fones": ["5511-1761","5816-2622"]
-  },
-  {
-    "nome": "UBS JARDIM LÍDIA",
-    "endereco": "R. GUTEMBERG JOSÉ FERREIRA, 50 - JD. LÍDIA",
-    "CEP": "05860-070",
-    "fones": ["5511-4428","5816-5547"]
-  },
-  {
-    "nome": "UBS JARDIM MACEDÔNIA",
-    "endereco": "R. SORIANO DE ALBUQUERQUE, 77 - JD. MACEDONIA",
-    "CEP": "05894-440",
-    "fones": ["5823-6158","5824-5520","5824-7707"]
-  },
-  {
-    "nome": "UBS JARDIM MAGDALENA",
-    "endereco": "R. VITORIANO PALHARES, 221 - JD. MAGDALENA",
-    "CEP": "05890-320",
-    "fones": ["5824-6020","5824-5347"]
-  },
-  {
-    "nome": "UBS JARDIM MARACA",
-    "endereco": "R. FERES BECHARA, 506 - JD. MARACA",
-    "CEP": "05867-390",
-    "fones": ["5874-7421","5874-7420"]
-  },
-  {
-    "nome": "UBS JARDIM MARCELO",
-    "endereco": "R. GASTÃO RAUL FOURTON BOUSQUET, 377 - JD. MARCELO",
-    "CEP": "05797-000",
-    "fones": ["5825-2579","5821-5974"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO BENTO",
-    "endereco": "R. JOÃO ROBALO, 64 - JD. SÃO BENTO",
-    "CEP": "05881-000",
-    "fones": ["5873-2681","5874-6115"]
-  },
-  {
-    "nome": "UBS LUAR DO SERTÃO",
-    "endereco": "R. LUAR DO SERTÃO, 980 - CHÁCARA SANTA MARIA",
-    "CEP": "05879-450",
-    "fones": ["5874-1826","5871-9489","5871-9547"]
-  },
-  {
-    "nome": "UBS PARQUE DO ENGENHO II",
-    "endereco": "AV. DOM RODRIGO SANCHES, 700 - PQ. ENGENHO",
-    "CEP": "05892-360",
-    "fones": ["5821-2274","5821-8371"]
-  },
-  {
-    "nome": "UBS PARQUE FERNANDA",
-    "endereco": "R. ERNESTO SOARES FILHO, 301 - PQ. FERNANDA",
-    "CEP": "05888-070",
-    "fones": ["5821-1632","5824-6721","5821-5860"]
-  },
-  {
-    "nome": "UBS PARQUE MARIA HELENA",
-    "endereco": "R. DR. BENEDITO MATARAZZO, 371 - PQ. MARIA HELENA",
-    "CEP": "05854-090",
-    "fones": ["5510-8380"]
-  },
-  {
-    "nome": "UBS CIDADE JULIA",
-    "endereco": "R. PASCOAL GRIECO, 366 - CIDADE JULIA",
-    "CEP": "04421-150",
-    "fones": ["5623-6669","5623-9993"]
-  },
-  {
-    "nome": "UBS JARDIM MIRIAM - MANOEL SOARES DE OLIVEIRA",
-    "endereco": "AV. SANTO AFONSO, 419 - JD. MIRIAM",
-    "CEP": "04426-000",
-    "fones": ["5622-7869","5621-7569"]
-  },
-  {
-    "nome": "UBS JARDIM NITERÓI",
-    "endereco": "R. SAMUEL ARNOLD, 596 - JD. NITEROI",
-    "CEP": "04434-000",
-    "fones": ["5611-0122","5611-6688"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO CARLOS - CIDADE ADEMAR",
-    "endereco": "R. CLAUDIA MUZIO, 163 - JD. SÃO CARLOS",
-    "CEP": "04429-280",
-    "fones": ["5621-9200","5623-9273"]
-  },
-  {
-    "nome": "UBS JARDIM UMUARAMA",
-    "endereco": "R. ANTONIO GIL, 721 - V. FILOMENA",
-    "CEP": "04655-000",
-    "fones": ["5563-9070","5566-1611"]
-  },
-  {
-    "nome": "UBS SÃO JORGE - CIDADE ADEMAR",
-    "endereco": "AV. EDUARDO PEREIRA RAMOS, 810 - JD. DOMITILA",
-    "CEP": "04432-000",
-    "fones": ["5611-3527","5611-6933"]
-  },
-  {
-    "nome": "UBS VILA CONSTÂNCIA - DR VICENTE OCTAVIO GUIDA",
-    "endereco": "AV. YERVANT KISSAJIKIAN, 1549 - V. CONSTÂNCIA",
-    "CEP": "04657-001",
-    "fones": ["5563-7877","5678-7444"]
-  },
-  {
-    "nome": "UBS VILA IMPÉRIO",
-    "endereco": "R. CATARINA GABRIELLI, 150 - AMERICANÓPOLIS",
-    "CEP": "04408-090",
-    "fones": ["5624-6554"]
-  },
-  {
-    "nome": "UBS VILA IMPÉRIO II",
-    "endereco": "R. DR. NESTOR SAMPAIO PENTEADO, 184 - AMERICANÓPOLIS",
-    "CEP": "04409-060",
-    "fones": ["5624-6554","5621-3891"]
-  },
-  {
-    "nome": "UBS VILA MISSIONÁRIA",
-    "endereco": "R. RAINHA DAS MISSOES, 515 - V. MISSIONÁRIA",
-    "CEP": "04430-100",
-    "fones": ["5621-2270","5621-4663"]
-  },
-  {
-    "nome": "UBS DR. SÉRGIO CHADDAD",
-    "endereco": "AV. CARLOS OBERHUBER, 659 - V. SÃO JOSE",
-    "CEP": "04836-130",
-    "fones": ["5924-3636","5928-9529"]
-  },
-  {
-    "nome": "UBS JARDIM ICARAÍ - QUINTANA",
-    "endereco": "R. SÃO ROQUE DO PARAGUACU, S/N - V. QUINTANA",
-    "CEP": "04837-150",
-    "fones": ["5928-0272","5939-7589"]
-  },
-  {
-    "nome": "UBS JARDIM REPÚBLICA",
-    "endereco": "AV. GONÇALO DE PAIVA GOMES, 285 - JD. REPUBLICA",
-    "CEP": "04812-090",
-    "fones": ["5663-5000","5661-5654","5663-5744"]
-  },
-  {
-    "nome": "UBS JORDANÓPOLIS",
-    "endereco": "R. CONTOS AMAZONICOS, 1 - CIDADE DUTRA",
-    "CEP": "04830-130",
-    "fones": ["5928-2453"]
-  },
-  {
-    "nome": "UBS ÁGUA FUNDA",
-    "endereco": "R. ROSA DE MORAES, 91 - V. ÁGUA FUNDA",
-    "CEP": "04055-000",
-    "fones": ["5073-6253","5058-5007"]
-  },
-  {
-    "nome": "UBS JARDIM DA SAÚDE - NEUSA ROSALIA MORALES",
-    "endereco": "R. DOMINGO DE ROGATIS, 187 - JD. DA SAUDE",
-    "CEP": "04290-080",
-    "fones": ["5062-9586","5062-9317"]
-  },
-  {
-    "nome": "UBS VILA GUMERCINDO - PROFª JANDIRA MASSUR",
-    "endereco": "R. DOM LUCIO DE SOUZA, 372 - V. GUMERCINDO",
-    "CEP": "04029-040",
-    "fones": ["5062-7232"]
-  },
-  {
-    "nome": "UBS VILA MORAES - DR. JOAO PAULO BOTELHO VIEIRA",
-    "endereco": "R. GIOVANNI DI BALDUCCIO, 250 - V. MORAES",
-    "CEP": "04070-000",
-    "fones": ["5073-8345","5058-0891"]
-  },
-  {
-    "nome": "UBS ALCINA PIMENTEL PIZA",
-    "endereco": "ESTRADA DE ITAQUAQUECETUBA, 8855 - ILHA DO BORORÉ",
-    "CEP": "04846-010",
-    "fones": ["5974-2289","5974-9764","5667-5484"]
-  },
-  {
-    "nome": "UBS CHÁCARA DO CONDE",
-    "endereco": "R. CONSTELAÇÃO DO ESQUADRO, 5 - JD. CAMPINAS",
-    "CEP": "04858-010",
-    "fones": ["5938-6611","5938-3109","5526-7809"]
-  },
-  {
-    "nome": "UBS CHÁCARA DO SOL",
-    "endereco": "R. JOÃO CARLOS DE OLIVEIRA, E - CHÁCARA DO SOL",
-    "CEP": "04855-515",
-    "fones": ["5931-4151"]
-  },
-  {
-    "nome": "UBS CHÁCARA SANTO AMARO",
-    "endereco": "R. LUIZ CARLOS DE ALMEIDA, 51 - CHÁCARA SANTO AMARO",
-    "CEP": "04875-120",
-    "fones": ["5974-2486"]
-  },
-  {
-    "nome": "UBS GAIVOTAS",
-    "endereco": "AV. SÃO PAULO, 23-A - JD. GAIVOTA",
-    "CEP": "04849-000",
-    "fones": ["5932-6407"]
-  },
-  {
-    "nome": "UBS JARDIM CASTRO ALVES",
-    "endereco": "R. JOÃO PAULO BARRETO, 131 - JD. CASTRO ALVES",
-    "CEP": "04842-150",
-    "fones": ["5971-2157","5928-1714"]
-  },
-  {
-    "nome": "UBS JARDIM ELIANE",
-    "endereco": "R. HENRY ARTHUR JONES, 201 - JD. ELIANA",
-    "CEP": "04851-120",
-    "fones": ["5931-5240","5528-1887"]
-  },
-  {
-    "nome": "UBS JARDIM MIRNA",
-    "endereco": "R. DR. JUVENAL HUDSON FERREIRA, 13 - JD. MIRNA",
-    "CEP": "04856-140",
-    "fones": ["5526-2114","5526-5175"]
-  },
-  {
-    "nome": "UBS JARDIM TRÊS CORAÇÕES",
-    "endereco": "R. GENERAL JOSÉ DE OLIVEIRA RAMOS, 275 - JD. TRÊS CORAÇÕES",
-    "CEP": "04855-280",
-    "fones": ["5528-6223","5931-5969"]
-  },
-  {
-    "nome": "UBS PARQUE RESIDENCIAL COCAIA INDEPENDENTE",
-    "endereco": "R. FILINTO MILANEZ, 26 - PQ. RESIDENCIAL COCAIA",
-    "CEP": "04849-040",
-    "fones": ["5931-5847","5931-0209"]
-  },
-  {
-    "nome": "UBS VARGINHA",
-    "endereco": "R. HENRIQUE MUZZIO, 383 - JD. VARGINHA",
-    "CEP": "04857-040",
-    "fones": ["5526-3988","5527-2709"]
-  },
-  {
-    "nome": "UBS ALMIRANTE DELLAMARE",
-    "endereco": "R. ALM. MARIATH, 62 - V. HELIÓPOLIS",
-    "CEP": "04218-040",
-    "fones": ["2061-9030"]
-  },
-  {
-    "nome": "UBS DR. JOAQUIM ROSSINI",
-    "endereco": "R. ALVARO FRAGOSO, 480 - V. CARIOCA",
-    "CEP": "04223-000",
-    "fones": ["2273-4602","2272-1083"]
-  },
-  {
-    "nome": "UBS DR. OSWALDO MARASCA JUNIOR",
-    "endereco": "AV. DOM PEDRO I, 594 - IPIRANGA",
-    "CEP": "01552-000",
-    "fones": ["2272-8619/ 2273-5403"]
-  },
-  {
-    "nome": "UBS SÃO VICENTE DE PAULA",
-    "endereco": "R. VICENTE DA COSTA, 289 - IPIRANGA",
-    "CEP": "04266-050",
-    "fones": ["2273-4592","2063-0058"]
-  },
-  {
-    "nome": "UBS VILA CARIOCA",
-    "endereco": "R. ANTONIO FREDERICO, 117 - VL. INDEPENDÊNCIA",
-    "CEP": "04224-030",
-    "fones": ["2273-9707/ 2063-5479"]
-  },
-  {
-    "nome": "UBS AMERICANÓPOLIS",
-    "endereco": "R. CIDADE DE SANTOS, 46 - AMERICANÓPOLIS",
-    "CEP": "04336-050",
-    "fones": ["5562-1476","5563-9463"]
-  },
-  {
-    "nome": "UBS CIDADE VARGAS",
-    "endereco": "R. DOS COMERCIÁRIOS, 236 - CIDADE VARGAS",
-    "CEP": "04320-030",
-    "fones": ["5588-4890"]
-  },
-  {
-    "nome": "UBS CUPECÊ - DR. WALDOMIRO PREGNOLATTO",
-    "endereco": "AV. SANTA CATARINA, 1523 - V. SANTA CATARINA",
-    "CEP": "04378-300",
-    "fones": ["5564-3079","5671-5091"]
-  },
-  {
-    "nome": "UBS DR. GERALDO DA SILVA FERREIRA",
-    "endereco": "AV. ENG. ARMANDO DE ARRUDA PEREIRA, 2944 - VL. DO ENCONTRO",
-    "CEP": "04308-001",
-    "fones": ["5588-2366"]
-  },
-  {
-    "nome": "UBS JARDIM LOURDES",
-    "endereco": "AV. ENG. ARMANDO DE ARRUDA PEREIRA, 4004 - JABAQUARA",
-    "CEP": "04325-000",
-    "fones": ["5021-3432"]
-  },
-  {
-    "nome": "UBS VILA CAMPESTRE",
-    "endereco": "R. ARTUR NUNES DA SILVA, 265 - V. CAMPESTRE",
-    "CEP": "04332-080",
-    "fones": ""
-  },
-  {
-    "nome": "UBS VILA CLARA",
-    "endereco": "R. ROLANDO CURTI, 701 - V. CLARA",
-    "CEP": "04414-000",
-    "fones": ["5623-6883"]
-  },
-  {
-    "nome": "UBS VILA SANTA CATARINA",
-    "endereco": "R. BELMIRO ZANETTI ESTEVES, 181 - V. SANTA CATARINA",
-    "CEP": "04377-060",
-    "fones": ["5563-9814"]
-  },
-  {
-    "nome": "UBS ALTO DA RIVIERA",
-    "endereco": "AV. PROF. MÁRIO MAZAGAO, 194 - ALTO DA RIVIERA",
-    "CEP": "04929-080",
-    "fones": ["5833-1372","5833-1379"]
-  },
-  {
-    "nome": "UBS CHÁCARA SANTA MARIA",
-    "endereco": "R. CICLADES, 250 - CHÁCARA SANTA MARIA",
-    "CEP": "05876-040",
-    "fones": ["5833-5262","5833-9921"]
-  },
-  {
-    "nome": "UBS CIDADE IPAVA",
-    "endereco": "AV. TAQUANDAVA, 31 - CID. IPAVA",
-    "CEP": "04950-000",
-    "fones": ["5517-1908"]
-  },
-  {
-    "nome": "UBS HORIZONTE AZUL",
-    "endereco": "R. ALBERGATI CAPACELLI, 2200 - HORIZONTE AZUL",
-    "CEP": "04963-000",
-    "fones": ["5517-3860","5517-3469"]
-  },
-  {
-    "nome": "UBS JARDIM ARACATI",
-    "endereco": "R. FANCISCO HOMEM DEL REI, 87 - JD. ARACATI",
-    "CEP": "04949-070",
-    "fones": ["5896-1139","5896-1027"]
-  },
-  {
-    "nome": "UBS JARDIM CAIÇARA",
-    "endereco": "R. SERAFIM ALVARES, 46 - JD. CAIÇARA",
-    "CEP": "05871-370",
-    "fones": ["5831-5882","5833-4375"]
-  },
-  {
-    "nome": "UBS JARDIM CAPELA",
-    "endereco": "R. BARAO DE PAIVA MANSO, 200 - JD. CAPELA",
-    "CEP": "04960-110",
-    "fones": ["5517-0226","5899-9652"]
-  },
-  {
-    "nome": "UBS JARDIM COIMBRA",
-    "endereco": "ESTRADA DO M'BOI MIRIM, 3301 - JD. COIMBRA",
-    "CEP": "04905-023",
-    "fones": ["5892-2327","5894-2191"]
-  },
-  {
-    "nome": "UBS JARDIM GUARUJÁ",
-    "endereco": "R. JOÃO DE ALMADA, 25 - JD. GUARUJA",
-    "CEP": "05875-300",
-    "fones": ["5873-5089","5874-4499"]
-  },
-  {
-    "nome": "UBS JARDIM HERCULANO",
-    "endereco": "R. INACIO LIMAS, 11 - JD. HERCULANO",
-    "CEP": "04920-050",
-    "fones": ["5832-6643","5833-9946"]
-  },
-  {
-    "nome": "UBS JARDIM KAGOHARA",
-    "endereco": "R. DOS TEMAS, 25 - JD. KAGOHARA",
-    "CEP": "04938-000",
-    "fones": ["5834-0153","5834-0147"]
-  },
-  {
-    "nome": "UBS JARDIM NAKAMURA",
-    "endereco": "R. MANUEL VITOR DE JESUS, 811 - JD. NAKAMURA",
-    "CEP": "04942-100",
-    "fones": ["5831-0892","5831-2482"]
-  },
-  {
-    "nome": "UBS JARDIM PARANAPANEMA",
-    "endereco": "R. PIETRO DA MILANO,100 - VL. SANTO AMARO",
-    "CEP": "05875-360",
-    "fones": ["5833-4282"]
-  },
-  {
-    "nome": "UBS JARDIM SANTA MARGARIDA",
-    "endereco": "R. CAPAO REDONDO, 175 - PQ. SANTO AMARO",
-    "CEP": "04931-100",
-    "fones": ["5892-5799"]
-  },
-  {
-    "nome": "UBS JARDIM VERA CRUZ",
-    "endereco": "AV. FUNCIONÁRIOS PÚBLICOS (REF.:R.PABLO BRUNA), 13 C - JD. VERA CRUZ",
-    "CEP": "04962-000",
-    "fones": ["5899-7754","5899-9336"]
-  },
-  {
-    "nome": "UBS PARQUE DO LAGO",
-    "endereco": "ESTRADA DA BARONESA, 1000 - PQ. DO LAGO",
-    "CEP": "04944-180",
-    "fones": ["5517-0045","5895-5816"]
-  },
-  {
-    "nome": "UBS PARQUE NOVO SANTO AMARO",
-    "endereco": "R. PORTA DO PRADO, 18 - PQ. NOVO STO AMARO",
-    "CEP": "05874-130",
-    "fones": ["5831-1448"]
-  },
-  {
-    "nome": "UBS SANTA LÚCIA",
-    "endereco": "R. CARMELO CALI, 26 - V. SANTA LÚCIA",
-    "CEP": "04940-070",
-    "fones": ["5831-6291","5833-0788"]
-  },
-  {
-    "nome": "UBS VILA CALU",
-    "endereco": "ESTRADA DE M´BOI MIRIM, 10020 - VL. CALU",
-    "CEP": "04948-030",
-    "fones": ["5895-8117"]
-  },
-  {
-    "nome": "UBS BRASÍLIA - M’ BOI",
-    "endereco": "R. MAPORÉ, 352 - JD. BRASÍLIA",
-    "CEP": "05846-390",
-    "fones": ["5511-8717"]
-  },
-  {
-    "nome": "UBS CHÁCARA SANTANA",
-    "endereco": "R. BALTAZAR DE SA, 383 - CHÁCARA SANTANA",
-    "CEP": "05831-000",
-    "fones": ["5514-6448","5891-2843"]
-  },
-  {
-    "nome": "UBS JARDIM CELESTE",
-    "endereco": "R. JOÃO FERNANDES CAMISA NOVA JR., 865 - JD. CELESTE",
-    "CEP": "04913-120",
-    "fones": ["5817-8387"]
-  },
-  {
-    "nome": "UBS JARDIM SOUZA",
-    "endereco": "R. MARIA JOSÉ DE SOUZA, 190 - JD. SOUZA",
-    "CEP": "04917-080",
-    "fones": ["5514-6430","5514-6404"]
-  },
-  {
-    "nome": "UBS JARDIM THOMAS",
-    "endereco": "R. AUDÁLIO GONÇALVES DOS SANTOS, 158 - JD. THOMAS",
-    "CEP": "05833-040",
-    "fones": ["5514-0345","5894-4218"]
-  },
-  {
-    "nome": "UBS NOVO CAMINHO",
-    "endereco": "R. ANTONIO DA MATA JUNIOR, 943 - JD. SÃO LUIZ",
-    "CEP": "05812-030",
-    "fones": ["5851-9026"]
-  },
-  {
-    "nome": "UBS NOVO JARDIM I",
-    "endereco": "R. JEAN DE BRIENNE, 25 - JD. N S DO CARMO",
-    "CEP": "05816-170",
-    "fones": ["5892-2134","5892-2719"]
-  },
-  {
-    "nome": "UBS PARQUE FIGUEIRA GRANDE",
-    "endereco": "R. DANIEL KLEIN, 211 - PQ. FIGUEIRA GRANDE",
-    "CEP": "04915-170",
-    "fones": ["5514-6609","5894-4788"]
-  },
-  {
-    "nome": "UBS PARQUE SANTO ANTONIO",
-    "endereco": "R. MANOEL BORDALO PINHEIRO, 100 - PQ. SANTO ANTONIO",
-    "CEP": "05850-230",
-    "fones": ["5511-4249","5816-5546"]
-  },
-  {
-    "nome": "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO",
-    "endereco": "R. TENENTE ISAIAS BRANCO DE ARAUJO, 101/103 - V. DAS BELEZAS",
-    "CEP": "05841-150",
-    "fones": ["5511-4712","5816-8519"]
-  },
-  {
-    "nome": "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO",
-    "endereco": "R. TENENTE ISAIAS BRANCO DE ARAUJO, 101/103 - V. DAS BELEZAS",
-    "CEP": "05841-150",
-    "fones": ["5511-4712","5816-8519"]
-  },
-  {
-    "nome": "UBS VILA PREL - PROF. ANTONIO BERNARDES DE OLIVEIRA",
-    "endereco": "R. TEREZA MAIA PINTO, 11 - V. PREL",
-    "CEP": "05780-390",
-    "fones": ["5511-1630","5816-5563"]
-  },
-  {
-    "nome": "UBS ZUMBI DOS PALMARES",
-    "endereco": "R. HUMBERTO DE ALMEIDA, 279 - CHÁCARA SANTANA",
-    "CEP": "05831-000",
-    "fones": ["5897-2564","5891-4013"]
-  },
-  {
-    "nome": "UBS DOM LUCIANO BERGAMINI",
-    "endereco": "ESTRADA DA LIGAÇAO, 01 - MARSILAC - ZONA RURAL",
-    "CEP": "05267-000",
-    "fones": ["5978-6394","5975-1057"]
-  },
-  {
-    "nome": "UBS JARDIM EMBURA",
-    "endereco": "EST. DO ENGENHEIRO MARSILAC, 5529 - JD. EMBURA",
-    "CEP": "04893-000",
-    "fones": ["5975-2192"]
-  },
-  {
-    "nome": "UBS DR. SIGMUND FREUD - INDIANÓPOLIS",
-    "endereco": "AV. INDIANÓPOLIS, 650 - MOEMA",
-    "CEP": "04062-001",
-    "fones": ["5054-2851"]
-  },
-  {
-    "nome": "UBS MAX PERLMAN - VILA OLIMPIA",
-    "endereco": "R. JACQUES FELIX, 499 - V. NOVA CONCEIÇÃO",
-    "CEP": "04509-001",
-    "fones": ["3842-4849","3842-5146"]
-  },
-  {
-    "nome": "UBS COLÔNIA",
-    "endereco": "R. NOSSA SENHORA APARECIDA, 342 - COLÔNIA PAULISTA",
-    "CEP": "04892-230",
-    "fones": ["5977-3269"]
-  },
-  {
-    "nome": "UBS JARDIM CAMPINAS",
-    "endereco": "R. DAS PLEIADES , S/N - JD. MARIA AMALIA",
-    "CEP": "04858-550",
-    "fones": ["5527-3589","5527-2000","5527-5228"]
-  },
-  {
-    "nome": "UBS JARDIM IPORÃ",
-    "endereco": "R. FORTE DE LADÁRIO, 61 - JD. IPORÃ",
-    "CEP": "04865-120",
-    "fones": ["5922-3053"]
-  },
-  {
-    "nome": "UBS JARDIM SÃO NORBERTO",
-    "endereco": "AV. DOMENICO LANZETTI, S/N - JD. SÃO NORBERTO",
-    "CEP": "04884-210",
-    "fones": ["5920-8977"]
-  },
-  {
-    "nome": "UBS PARELHEIROS",
-    "endereco": "R. MARIO TRAPPE, 100 - JD. NOVO PARELHEIROS",
-    "CEP": "04890-430",
-    "fones": ["5920-8860/ 5921-4946"]
-  },
-  {
-    "nome": "UBS RECANTO CAMPO BELO",
-    "endereco": "AV. SADAMU INOUE, 2666 - RECANTO CAMPO BELO",
-    "CEP": "04825-000",
-    "fones": ["5926-2002","5921-8022 "]
-  },
-  {
-    "nome": "UBS VARGEM GRANDE",
-    "endereco": "AV. DAS PALMEIRAS, 40 - VARGEM GRANDE",
-    "CEP": "04895-010",
-    "fones": ["5921-2111","5920-0261"]
-  },
-  {
-    "nome": "UBS VERA POTY",
-    "endereco": "R. JOÂO LANGE, 153 - BARRAGEM",
-    "CEP": "04895-070",
-    "fones": ["5977-3851","5977-0022","5977-0000"]
-  },
-  {
-    "nome": "UBS JARDIM APURÁ",
-    "endereco": "R. DR. DARI BARCELOS, 37 - JD. APURA",
-    "CEP": "04470-170",
-    "fones": ["5673-0001","5673-3734"]
-  },
-  {
-    "nome": "UBS LARANJEIRAS",
-    "endereco": "R. DENIS FURTEL, 108 - LARANJEIRAS",
-    "CEP": "04476-145",
-    "fones": ["5673-6180","5673-6181"]
-  },
-  {
-    "nome": "UBS MAR PAULISTA",
-    "endereco": "R. MATSUICHI WADA, 393 - BALNEÁRIO MAR PAULISTA",
-    "CEP": "04463-060",
-    "fones": ["5612-5686","5616-9406"]
-  },
-  {
-    "nome": "UBS MATA VIRGEM",
-    "endereco": "ESTRADA DA SAUDE, 47 - ELDORADO",
-    "CEP": "04476-540",
-    "fones": ["5673-4455","5673-4477"]
-  },
-  {
-    "nome": "UBS PARQUE DOROTEIA",
-    "endereco": "R. DOS ANIQUIS, 3 - JD. SANTA TEREZINHA",
-    "CEP": "04474-000",
-    "fones": ["5560-0890","5672-7444"]
-  },
-  {
-    "nome": "UBS VILA APARECIDA",
-    "endereco": "AV. BATISTA MACIEL, 430 - ELDORADO",
-    "CEP": "04459-110",
-    "fones": ["5612-9644","5612-2850"]
-  },
-  {
-    "nome": "UBS VILA GUACURI",
-    "endereco": "R. VALENTINO FIORAVANTE, 416 - JD. RUBILENE",
-    "CEP": "04475-380",
-    "fones": ["5674-0921","5673-0888"]
-  },
-  {
-    "nome": "UBS AURÉLIO MELLONE",
-    "endereco": "R. ATILIO SELVA, 10 - JD. CELESTE",
-    "CEP": "04095-060",
-    "fones": ["2331-2131","2331-7586"]
-  },
-  {
-    "nome": "UBS DR. EDUARDO ROMANO RESCHILIAN",
-    "endereco": "R. DR. LAFAIETE DE SOUZA CAMARGO, 40 - JD. CLIMAX",
-    "CEP": "04077-380",
-    "fones": ["2335-5319","2334-0005(pub)"]
-  },
-  {
-    "nome": "UBS JARDIM SECKLER",
-    "endereco": "R. CARLOS MAURO, 114 - SÃO JOÃO CLIMACO",
-    "CEP": "04240-150",
-    "fones": ["2946-8532"]
-  },
-  {
-    "nome": "UBS LUIZ ERNESTO MAZZONI",
-    "endereco": "AV. CARLOS LIVIERO, 566 - V. LIVIERO",
-    "CEP": "04086-100",
-    "fones": ["2331-9624","2335-8124"]
-  },
-  {
-    "nome": "UBS MOINHO VELHO II",
-    "endereco": "R. BELGRADO, 323 - MOINHO VELHO",
-    "CEP": "04285-040",
-    "fones": ["2274-1059","2062-6416"]
-  },
-  {
-    "nome": "UBS PARQUE BRISTOL",
-    "endereco": "R. FRANCOIS BUNEL, 194 - PQ. BRISTOL",
-    "CEP": "04094-160",
-    "fones": ["2331-3089"]
-  },
-  {
-    "nome": "UBS SACOMÃ",
-    "endereco": "ESTRADA DAS LAGRIMAS, 1403 - SACOMÃ",
-    "CEP": "04232-000",
-    "fones": ["2915-8200 /2 273-3537"]
-  },
-  {
-    "nome": "UBS VILA ARAPUÃ",
-    "endereco": "R. COLOMBO FLORENCE, 241 - V. ARAPUA",
-    "CEP": "04257-060",
-    "fones": ["2946-6660","2969-5339"]
-  },
-  {
-    "nome": "UBS VILA DAS MERCÊS",
-    "endereco": "R. NOSSA SENHORA DAS MERCÊS, 1315 - V. DAS MERCÊS",
-    "CEP": "04065-001",
-    "fones": ["2946-1443"]
-  },
-  {
-    "nome": "UBS CHÁCARA SANTO ANTONIO - DR. MARCILIO DE ARRUDA PENTEADO FILHO",
-    "endereco": "R. ALEXANDRE DUMAS, 719 - CHÁCARA SANTO ANTONIO",
-    "CEP": "04717-001",
-    "fones": ["5181-7894","5183-6139"]
-  },
-  {
-    "nome": "UBS SANTO AMARO - DR. SÉRGIO VILLAÇA BRAGA",
-    "endereco": "R. CONDE DE ITU, 359 - SANTO AMARO",
-    "CEP": "04752-010",
-    "fones": ["5687-3367","5523-9449"]
-  },
-  {
-    "nome": "UBS PARQUE IMPERIAL - PROF. MANOEL ANTONIO SILVA SARAGOÇA",
-    "endereco": "R. JACOPO BASSANO, 27 - V. MONTE ALEGRE",
-    "CEP": "04305-080",
-    "fones": ["2276-0149"]
-  },
-  {
-    "nome": "UBS PROF. MILTON SANTOS",
-    "endereco": "AV. CECI, 2249 - PLANALTO PAULISTA",
-    "CEP": "04065-004",
-    "fones": ["2578-1831"]
-  },
-  {
-    "nome": "UBS VELEIROS",
-    "endereco": "AV. CLARA MANTELLI, 185 - VELEIROS",
-    "CEP": "04771-180",
-    "fones": ["5681-5520","5687-0639"]
-  },
-  {
-    "nome": "UBS PARAISOPOLIS",
-    "endereco": "R. MELCHIOR GIOLA, 80 - JD. PARAISOPOLIS",
-    "CEP": "05664-000",
-    "fones": ["3744-5223","3744-5822"]
-  },
-  {
-    "nome": "UBS PARAISOPOLIS II",
-    "endereco": "R. PASQUALE GUALUPPI, 951 - PARAISOPOLIS",
-    "CEP": "05660-000",
-    "fones": ["3501-9031/","3501-2839"]
-  },
-  {
-    "nome": "UBS VILA PRAIA - DR. VITORIO ROLANDO BOCCALETTI",
-    "endereco": "R. ANDRÉ DE ANDRADE, S/N - V. PRAIA",
-    "CEP": "05749-240",
-    "fones": ["3742-9041","3501-3665","3501-0836"]
-  },
-  {
-    "nome": "UBS BOSQUE DA SAUDE",
-    "endereco": "R. JOÃO BAPTISTUCCI, 55 - CJ DOS BANCÁRIOS",
-    "CEP": "04121-100",
-    "fones": ["5539-4776","5571-2682"]
-  },
-  {
-    "nome": "UBS VILA MARIANA",
-    "endereco": "R. CUNHA, 117 - V. CLEMENTINO",
-    "CEP": "04037-030",
-    "fones": ["5081-6790"]
-  }
-]
+{
+  "source": "https://saude.estadao.com.br/blogs/pilulas-de-saude/wp-content/uploads/sites/554/2019/07/Endere%C3%A7o-das-UBSs-de-S%C3%A3o-Paulo.pdf",
+  "data": [
+    {
+      "nome": "UBS HUMAITÁ - DR. JOÃO DE AZEVEDO LAGE",
+      "endereco": "R. HUMAITÁ, 520 - BELA VISTA",
+      "CEP": "01321-010",
+      "fones": ["3241-1632", "3241-1163"]
+    },
+    {
+      "nome": "UBS NOSSA SENHORA DO BRASIL - ARMANDO D'ARIENZO",
+      "endereco": "R. ALM. MARQUES LEÃO, 684 - MORRO DOS INGLESES",
+      "CEP": "01330-010",
+      "fones": ["3284-4601"]
+    },
+    {
+      "nome": "UBS BOM RETIRO - DR. OCTAVIO AUGUSTO RODOVALHO",
+      "endereco": "R. TENENTE PENA, 8 - BOM RETIRO",
+      "CEP": "01127-020",
+      "fones": ["3222-0619", "3224-9903"]
+    },
+    {
+      "nome": "UBS CAMBUCI",
+      "endereco": "AV. LACERDA FRANCO, 791 - CAMBUCI",
+      "CEP": "01536-000",
+      "fones": ["3276-6480", "3209-3304"]
+    },
+    {
+      "nome": "UBS REPÚBLICA",
+      "endereco": "PRAÇA DA BANDEIRA, 15 - REPÚBLICA",
+      "CEP": "01007-020",
+      "fones": ["3101-0812"]
+    },
+    {
+      "nome": "UBS BORACEA",
+      "endereco": "R. BORACEA, 270 - SANTA CECÍLIA",
+      "CEP": "01135-010",
+      "fones": ["3392-1281", "3392-1882"]
+    },
+    {
+      "nome": "UBS SANTA CECÍLIA - DR. HUMBERTO PASCALE",
+      "endereco": "R. VITORINO CARMILO, 599 - CAMPOS ELISEOS",
+      "CEP": "01153-000",
+      "fones": ["3826-0096", "3826-7970"]
+    },
+    {
+      "nome": "UBS SÉ",
+      "endereco": "R. FREDERICO ALVARENGA, 259 - PQ. D. PEDRO II",
+      "CEP": "01020-030",
+      "fones": ["3101-8841", "3101-8833"]
+    },
+    {
+      "nome": "UBS ÁGUA RASA",
+      "endereco": "R. SERRA DE JAIRE, 1480 - ÁGUA RASA",
+      "CEP": "03175-001",
+      "fones": ["2605-2156", "2605-5307"]
+    },
+    {
+      "nome": "UBS VILA BERTIOGA - PROF. DOMINGOS DELASCIO",
+      "endereco": "R. FAROL PAULISTANO, 410 - ALTO DA MOOCA",
+      "CEP": "03192-060",
+      "fones": ["2965-1066", "2021-7210"]
+    },
+    {
+      "nome": "UBS VILA ORATÓRIO - DR. TITO PEDRO MASCELANI",
+      "endereco": "R. JOÃO FIALHO DE CARVALHO, 35 - V. DIVA",
+      "CEP": "03345-010",
+      "fones": ["2301-2979"]
+    },
+    {
+      "nome": "UBS JARDIM IVA",
+      "endereco": "R. MIGUEL BASTOS SOARES, 55 - JD. IVA",
+      "CEP": "03910-000",
+      "fones": ["2211-0884"]
+    },
+    {
+      "nome": "UBS VILA ANTONIETA",
+      "endereco": "R. CORONEL JOÃO DE OLIVEIRA MELO, 440 - V. ANTONIETA",
+      "CEP": "03474-020",
+      "fones": ["2725-3997"]
+    },
+    {
+      "nome": "UBS VILA NOVA YORK",
+      "endereco": "R. DR. EDGARD MAGALHÃES NORONHA, 200 - V. NOVA YORK",
+      "CEP": "03480-000",
+      "fones": ["2721-2707"]
+    },
+    {
+      "nome": "UBS AE CARVALHO",
+      "endereco": "R. JAPANI, 7 - CIDADE AE CARVALHO",
+      "CEP": "08220-130",
+      "fones": ["2280-2373", "2043-3400"]
+    },
+    {
+      "nome": "UBS ANTONIO PIRES F VILLA LOBO",
+      "endereco": "R. COELHO DE CASTRO, 95 - V. NHOCUNÉ",
+      "CEP": "03560-030",
+      "fones": ["2749-3521"]
+    },
+    {
+      "nome": "UBS JARDIM NORDESTE",
+      "endereco": "R. NICOLO TARTAGLIA, 45 - JD. COIMBRA",
+      "CEP": "03693-050",
+      "fones": ["2280-6211"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO NICOLAU",
+      "endereco": "R. REBELO DA SILVA, 120 - JD. SÃO NICOLAU",
+      "CEP": "03685-000",
+      "fones": ["2280-7508"]
+    },
+    {
+      "nome": "UBS PADRE JOSE DE ANCHIETA",
+      "endereco": "AV. SILVIO TORRES, 313 - ARTHUR ALVIM",
+      "CEP": "03589-010",
+      "fones": ["2742-1367"]
+    },
+    {
+      "nome": "UBS PARQUE ARTHUR ALVIM",
+      "endereco": "R. HENRIQUE JACOBS, 269 - ARTHUR ALVIM",
+      "CEP": "03566-010",
+      "fones": ["2749-4235", "2958-4235"]
+    },
+    {
+      "nome": "UBS BELENZINHO - MARCUS WOLOSKER",
+      "endereco": "AV. CELSO GARCIA, 1749 - BELENZINHO",
+      "CEP": "03015-000",
+      "fones": ["2694-2697", "2292-5687"]
+    },
+    {
+      "nome": "UBS BRÁS - DR. MANOEL SALDIVA NETO",
+      "endereco": "R. SAMPSON, 61 - BRÁS",
+      "CEP": "03013-040",
+      "fones": ["2692-0788"]
+    },
+    {
+      "nome": "UBS CANGAÍBA - DR. CARLOS GENTILE DE MELLO",
+      "endereco": "AV. CANGAIBA, 3722 - CANGAÍBA",
+      "CEP": "03711-001",
+      "fones": ["2621-6523"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO FRANCISCO",
+      "endereco": "R. JURITI PIRANGA, 195 - CANGAÍBA",
+      "CEP": "03718-020",
+      "fones": ["6957-2808"]
+    },
+    {
+      "nome": "UBS ENGENHEIRO GOULART - DR. JOSÉ PIRES",
+      "endereco": "R. AUGUSTO CORREIA LEITE, 538 - ENG. GOULART",
+      "CEP": "03726-100",
+      "fones": ["2621-7402", "2621-7042"]
+    },
+    {
+      "nome": "UBS VILA CARRÃO",
+      "endereco": "R. DR. JACI BARBOSA, 280 - V. CARRÃO",
+      "CEP": "03447-000",
+      "fones": ["2785-4728"]
+    },
+    {
+      "nome": "UBS VILA NOVA MANCHESTER - DR. ARLINDO GENNARI",
+      "endereco": "PÇA. HAROLDO DALTRO, 461 - V. NOVA MANCHESTER",
+      "CEP": "03444-090",
+      "fones": ["2296-4168"]
+    },
+    {
+      "nome": "UBS CIDADE LIDER I",
+      "endereco": "R. DR. FRANCISCO MUNHOZ FILHO, 379 - CIDADE LIDER",
+      "CEP": "08280-000",
+      "fones": ["2748-0035", "2741-1563"]
+    },
+    {
+      "nome": "UBS JARDIM BRASILIA",
+      "endereco": "AV. OSVALDO VALLE CORDEIRO, 245 - JD. BRASILIA",
+      "CEP": "03584-000",
+      "fones": ["2743-9476", "2741-6938"]
+    },
+    {
+      "nome": "UBS JARDIM MARÍLIA",
+      "endereco": "R. ELZA DOS ANJOS NEVES, 100 - CIDADE LÍDER",
+      "CEP": "03585-100",
+      "fones": ["2743-9526", "2746-3008"]
+    },
+    {
+      "nome": "UBS JARDIM SANTA MARIA",
+      "endereco": "R. EMBIRATAÍ, 201 - JD. SANTA MARIA",
+      "CEP": "03576-000",
+      "fones": ["2724-7004", "2727-4160"]
+    },
+    {
+      "nome": "UBS JARDIM SANTA TEREZINHA",
+      "endereco": "AV. DOS LATINOS, 205 - JD. SANTA TEREZINHA",
+      "CEP": "03572-000",
+      "fones": ["2721-1815", "2725-0711"]
+    },
+    {
+      "nome": "UBS VILA ITAPEMA",
+      "endereco": "R. COSTEIRA, 572 - JD. ARISI",
+      "CEP": "03573-010",
+      "fones": ["2724-6146", "2724-3946"]
+    },
+    {
+      "nome": "UBS BARRO BRANCO",
+      "endereco": "R. EDUARDO REUTER, 678 - COHAB BARRO BRANCO II",
+      "CEP": "08473-533",
+      "fones": ["2964-8826", "2964-0611"]
+    },
+    {
+      "nome": "UBS CARLOS GENTILE DE MELO",
+      "endereco": "AV. DOS TÊXTEIS, 3765 - CIDADE TIRADENTES",
+      "CEP": "08490-600",
+      "fones": ["2282-2522", "2964-0764"]
+    },
+    {
+      "nome": "UBS CASTRO ALVES",
+      "endereco": "AV. SARA KUBITSCHEK X R. CADERNO DE VIAGEM Nº 55, S/N - COHAB",
+      "CEP": "08474-170",
+      "fones": ["2282-0320", "2558-7399"]
+    },
+    {
+      "nome": "UBS CIDADE TIRADENTES I",
+      "endereco": "AV. DOS TÊXTEIS, 512 - CIDADE TIRADENTES",
+      "CEP": "08490-600",
+      "fones": ["2282-5151", "2282-0250", "2964-0749"]
+    },
+    {
+      "nome": "UBS DOM ANGELICO",
+      "endereco": "ESTRADA MANOEL OLIVEIRA RAMOS, 1 - CIDADE TIRADENTES",
+      "CEP": "08473-050",
+      "fones": ["2555-3894", "2555-0192"]
+    },
+    {
+      "nome": "UBS FAZENDA DO CARMO",
+      "endereco": "R. FRANCISCO CARDOSO JR., 10 - CIDADE TIRADENTES",
+      "CEP": "08421-105",
+      "fones": ["2556-7600"]
+    },
+    {
+      "nome": "UBS FERROVIÁRIOS",
+      "endereco": "R. GONÇALVES NINA, 58 - CIDADE TIRADENTES",
+      "CEP": "08470-610",
+      "fones": ["2285-6477", "2558-6888"]
+    },
+    {
+      "nome": "UBS GRÁFICOS",
+      "endereco": "AV. FRANCISCO JOSE VIANA, 708 - CIDADE TIRADENTES",
+      "CEP": "08471-533",
+      "fones": ["2285-5685", "2285-7097"]
+    },
+    {
+      "nome": "UBS INÁCIO MONTEIRO",
+      "endereco": "R. INÁCIO MONTEIRO, 3002 - CIDADE TIRADENTES",
+      "CEP": "08490-000",
+      "fones": ["2556-3223"]
+    },
+    {
+      "nome": "UBS JARDIM VITÓRIA",
+      "endereco": "R. LAJEDO, 123 - CIDADE TIRADENTES",
+      "CEP": "03817-250",
+      "fones": ["2964-2685", "2282-6050"]
+    },
+    {
+      "nome": "UBS PREFEITO PRESTES MAIA",
+      "endereco": "R. INACIO PINTO LIMA, 35 - CIDADE TIRADENTES",
+      "CEP": "08471-533",
+      "fones": ["2555-2676", "2555-0484"]
+    },
+    {
+      "nome": "UBS PROFETA JEREMIAS",
+      "endereco": "R. LUIS BORDESE, 63 - CIDADE TIRADENTES",
+      "CEP": "08471-710",
+      "fones": ["2558-3866", "2964-0737 (tel. Público)"]
+    },
+    {
+      "nome": "UBS DR. PEDRO DE SOUZA CAMPOS",
+      "endereco": "R. PAULO BIFANO ALVES, 764 - PQ. BOTURUSSU",
+      "CEP": "03801-000",
+      "fones": ["2546-4111", "2547-1972"]
+    },
+    {
+      "nome": "UBS ERMELINO MATARAZZO",
+      "endereco": "R. ANTONIO DE FREITAS TOLEDO, 175 - ERMELINO MATARAZZO",
+      "CEP": "03810-110",
+      "fones": ["2545-8235", "2544-0051"]
+    },
+    {
+      "nome": "UBS JARDIM KERALUX",
+      "endereco": "R. LUCAS GONCALVES, 13 - JD. KERALUX",
+      "CEP": "03828-060",
+      "fones": ["2546-6177", "2943-0639"]
+    },
+    {
+      "nome": "UBS VILA CISPER",
+      "endereco": "R. CACULÉ, 79 - V. CISPER",
+      "CEP": "03817-220",
+      "fones": ["2546-5100"]
+    },
+    {
+      "nome": "UBS PARQUE DO BOTURUSSU - PROF. DR. HUMBERTO CERRUTI",
+      "endereco": "AV. OLAVO EGÍDIO DE SOUZA ARANHA, 704 - V. CISPER",
+      "CEP": "03822-000",
+      "fones": ["2943-9991", "2541-4685"]
+    },
+    {
+      "nome": "UBS GUAIANASES II",
+      "endereco": "R. COMANDANTE CARLOS RUHL, 189 - GUAIANASES",
+      "CEP": "08410-130",
+      "fones": ["2557-8132", "2554-4064"]
+    },
+    {
+      "nome": "UBS JARDIM ETELVINA",
+      "endereco": "R. MANUEL TEODORO XAVIER, 138 - GUAIANASES",
+      "CEP": "08430-570",
+      "fones": ["2035-1756", "2035-5079"]
+    },
+    {
+      "nome": "UBS JARDIM SOARES",
+      "endereco": "R. FELICIANO DE MENDONÇA, 496 - JD. SOARES",
+      "CEP": "08460-365",
+      "fones": ["2557-7022", "2553-3232"]
+    },
+    {
+      "nome": "UBS PREFEITO CELSO AUGUSTO DANIEL",
+      "endereco": "R. JORGE MARACCINI PONFILIO, 210 - CJ HAB JUSCELINO KUBITSCHEK",
+      "CEP": "08465-050",
+      "fones": ["2556-7997", "2556-5185"]
+    },
+    {
+      "nome": "UBS PRESIDENTE JUSCELINO KUBITSCHEK",
+      "endereco": "AV. UTARO KANAI, 286 - COHAB PRESIDENTE JUSCELINO",
+      "CEP": "08465-000",
+      "fones": ["2555-4474", "2555-0360"]
+    },
+    {
+      "nome": "UBS CDHU PALANQUE",
+      "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI Nº 7208), 2 - JD. PALANQUE",
+      "CEP": "08375-000",
+      "fones": ["2735-3820"]
+    },
+    {
+      "nome": "UBS JARDIM DA CONQUISTA II",
+      "endereco": "TRAV. SONHO LINDO, 54 - JD. CONQUISTA",
+      "CEP": "08345-360",
+      "fones": ["2735-3079"]
+    },
+    {
+      "nome": "UBS JARDIM DA CONQUISTA III",
+      "endereco": "R. SOMOS TODOS IGUAIS, 330 - JD. CONQUISTA",
+      "CEP": "08343-000",
+      "fones": ["2734-2079"]
+    },
+    {
+      "nome": "UBS JARDIM DAS LARANJEIRAS",
+      "endereco": "R. BENTO GUELFI, 1100 - JD. DA LARANJEIRAS",
+      "CEP": "08380-460",
+      "fones": ["2731-7252"]
+    },
+    {
+      "nome": "UBS JARDIM ROSELI",
+      "endereco": "R. SIMAO NUNES, 31 - JD. ROSELI",
+      "CEP": "08380-490",
+      "fones": ["2731-5143"]
+    },
+    {
+      "nome": "UBS PARQUE BOA ESPERANÇA",
+      "endereco": "AV. RAGUEB CHOHFI, 3826 - JD. AUGUSTO",
+      "CEP": "08375-000",
+      "fones": ["2731-0669"]
+    },
+    {
+      "nome": "UBS RECANTO VERDE SOL",
+      "endereco": "R. PEDRO RAMAZZANI, 3 - RECANTO VERDE SOL",
+      "CEP": "08381-800",
+      "fones": ["2134-3271", "2734-3271"]
+    },
+    {
+      "nome": "UBS CIDADE KEMEL",
+      "endereco": "AV. KEMEL ADDAS, 1031 - CIDADE KEMEL",
+      "CEP": "08554-060",
+      "fones": ["2963-2346", "2569-0515"]
+    },
+    {
+      "nome": "UBS DR. ATUALPA GIRÃO RABELO",
+      "endereco": "R. ILHA DO ARVOREDO, 10 - ITAIM PAULISTA",
+      "CEP": "08140-270",
+      "fones": ["2963-1436", "2963-2634"]
+    },
+    {
+      "nome": "UBS ITAIM PAULISTA - DR. JÚLIO DE GOUVEIA",
+      "endereco": "PÇA. MAJOR JOSE LEVY SOBRINHO, 139 - ITAIM PAULISTA",
+      "CEP": "08110-460",
+      "fones": ["2561-9443", "2572-0672"]
+    },
+    {
+      "nome": "UBS JARDIM CAMARGO NOVO",
+      "endereco": "R. BOIGUAÇU, 51 - JD. CAMARGO NOVO",
+      "CEP": "08120-270",
+      "fones": ["2963-2610", "2567-5959"]
+    },
+    {
+      "nome": "UBS JARDIM INDAIÁ",
+      "endereco": "R. ANTONIO LEME DA GUERRA, 182 - ITAIM PAULISTA",
+      "CEP": "08141-130",
+      "fones": ["2963-3711", "2561-7904"]
+    },
+    {
+      "nome": "UBS JARDIM DAS OLIVEIRAS",
+      "endereco": "R. JOSÉ DA CRUZ CAMARGO, 174 - ITAIM PAULISTA",
+      "CEP": "08122-100",
+      "fones": ["2572-0367", "2963-2415"]
+    },
+    {
+      "nome": "UBS JARDIM NELIA",
+      "endereco": "R. ITAJUIBE, 1910 - ITAIM PAULISTA",
+      "CEP": "08142-000",
+      "fones": ["2963-3802", "2569-9019 "]
+    },
+    {
+      "nome": "UBS ITAQUERA",
+      "endereco": "R. AMÉRICO SALVADOR NOVELLI, 265 - ITAQUERA",
+      "CEP": "08210-090",
+      "fones": ["2286-1422", "2286-0015"]
+    },
+    {
+      "nome": "UBS PARADA XV DE NOVEMBRO",
+      "endereco": "R. IBIAJARA, 804 - PARADA XI DE NOVEMBRO",
+      "CEP": "08246-101",
+      "fones": ["2286-0017", "2071-3232"]
+    },
+    {
+      "nome": "UBS VILA CARMOSINA",
+      "endereco": "R. IPOPOCA, 61 - ITAQUERA",
+      "CEP": "08290-335",
+      "fones": ["2524-7796"]
+    },
+    {
+      "nome": "UBS VILA NOSSA SENHORA APARECIDA",
+      "endereco": "R. PAULINO SERQUEIRA, 1 - ITAQUERA",
+      "CEP": "08215-160",
+      "fones": ["2079-7871", "2071-0057 (tel. Público)"]
+    },
+    {
+      "nome": "UBS VILA RAMOS - DR. LUIZ AUGUSTO DE CAMPOS",
+      "endereco": "AV. AUGUSTO ANTUNES, 1631 - LIMOEIRO",
+      "CEP": "08235-630",
+      "fones": ["2051-7317", "2052-6945"]
+    },
+    {
+      "nome": "UBS VILA REGINA",
+      "endereco": "R. CATARINA LOPES, 450 - ITAQUERA",
+      "CEP": "08225-000",
+      "fones": ["2205-6003", "2944-7662", "2071-0057"]
+    },
+    {
+      "nome": "UBS VILA SANTANA",
+      "endereco": "R. VITOR JOSE DE CASTRO, 84 - V. SANTANA",
+      "CEP": "08240-300",
+      "fones": ["2051-3962", "2052-9698"]
+    },
+    {
+      "nome": "UBS JARDIM HELENA",
+      "endereco": "AV. KUMAKI AOKI, 785 - JD. HELENA",
+      "CEP": "08090-370",
+      "fones": ["2581-1661"]
+    },
+    {
+      "nome": "UBS JARDIM MAIA",
+      "endereco": "R. MARFIM VEGETAL, 108 - JD. MAIA",
+      "CEP": "08081-330",
+      "fones": ["2581-6962"]
+    },
+    {
+      "nome": "UBS JARDIM ROMANO",
+      "endereco": "R. RIO MANUEL ALVES, 57 - ITAIM PAULISTA",
+      "CEP": "08190-450",
+      "fones": ["2581-3737"]
+    },
+    {
+      "nome": "UBS PARQUE PAULISTANO",
+      "endereco": "R. SILVEIRA PIRES, 265 - PQ. PAULISTANO",
+      "CEP": "08080-160",
+      "fones": ["2025-9468"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO PEDRO - FRANCISCO ANTONIO CESARONI",
+      "endereco": "R. SILVIANOPOLIS, 370 - JD. SÃO PEDRO",
+      "CEP": "08420-680",
+      "fones": ["2552-5355", "2557-8938"]
+    },
+    {
+      "nome": "UBS JOSE BONIFACIO II",
+      "endereco": "R. MURMÚRIOS DA TARDE, 30 - COHAB JOSE BONIFÁCIO",
+      "CEP": "08253-580",
+      "fones": ["2521-5625"]
+    },
+    {
+      "nome": "UBS JOSE BONIFACIO III - DRA. LUCY MAYUMI UDAKIRI",
+      "endereco": "R. SILVIO BARBINI, 40 - ITAQUERA",
+      "CEP": "08250-650",
+      "fones": ["2944-6086", "2071-2500"]
+    },
+    {
+      "nome": "UBS GUAIANASES I",
+      "endereco": "R. PROFESSOR COSME DEODATO TADEU, 90 - GUAIANASES",
+      "CEP": "08450-380",
+      "fones": ["2557-8177", "2554-4124"]
+    },
+    {
+      "nome": "UBS JARDIM AURORA",
+      "endereco": "AV. CLAUDIO DA COSTA, 54 - GUAIANASES",
+      "CEP": "08431-160",
+      "fones": ["2135-1671", "2035-9528"]
+    },
+    {
+      "nome": "UBS JARDIM BANDEIRANTES",
+      "endereco": "R. PACHECO ARANHA, 4 - GUAIANASES",
+      "CEP": "08451-410",
+      "fones": ["2557-5273"]
+    },
+    {
+      "nome": "UBS JARDIM FANGANIELLO",
+      "endereco": "R. FRANCISCO NUNES CUBAS, 60 - LAJEADO",
+      "CEP": "08450-460",
+      "fones": ["2557-6698", "2554-3323"]
+    },
+    {
+      "nome": "UBS JARDIM ROBRU - GUAIANASES",
+      "endereco": "AV. NORDESTINA, 5593 - LAJEADO",
+      "CEP": "08431-410",
+      "fones": ["2035-1860", "2034-1133"]
+    },
+    {
+      "nome": "UBS PRIMEIRO DE OUTUBRO",
+      "endereco": "R. FRANCISCO DE OLIVEIRA, 2 B - JD. LAJEADO",
+      "CEP": "08441-110",
+      "fones": ["2035-8010"]
+    },
+    {
+      "nome": "UBS SANTA LUZIA",
+      "endereco": "R. CONJUNTO DA PAZ, 39 - JD. MIRIAM",
+      "CEP": "08142-360",
+      "fones": ["2569-1887"]
+    },
+    {
+      "nome": "UBS VILA CHABILÂNDIA",
+      "endereco": "ESTRADA DO LAGEADO VELHO, 76 - LAJEADO",
+      "CEP": "08451-000",
+      "fones": ["2557-9571", "2552-5015"]
+    },
+    {
+      "nome": "UBS VILA COSMOPOLITA",
+      "endereco": "R. ALDEIA MARIA, 258 - GUAIANASES",
+      "CEP": "08421-070",
+      "fones": ["2555-8583", "2553-7881"]
+    },
+    {
+      "nome": "UBS MOOCA I",
+      "endereco": "R. TAQUARI, 549 - MOOCA",
+      "CEP": "03166-000",
+      "fones": ["2618-5255", "2291-5517", "2694-3338"]
+    },
+    {
+      "nome": "URSI MOOCA",
+      "endenreco": "R. MARINA CRESPI, 91 - MOOCA",
+      "CEP": "03112-090",
+      "fones": ["2292-9512"]
+    },
+    {
+      "nome": "UBS PARI",
+      "endereco": "R. DAS OLARIAS, 503 - CANINDÉ",
+      "CEP": "03030-020",
+      "fones": ["3227-0081"]
+    },
+    {
+      "nome": "UBS GLEBA DO PÊSSEGO - VICENTE FIUZA DA COSTA",
+      "endereco": "R. MALMEQUER DO CAMPO, 214 - PQ. DO CARMO",
+      "CEP": "08265-385",
+      "fones": ["2522-3177"]
+    },
+    {
+      "nome": "UBS JARDIM COPA",
+      "endereco": "R. PONTA DE LUCENA, 330 - ITAQUERA",
+      "CEP": "08270-340",
+      "fones": ["6524-5020"]
+    },
+    {
+      "nome": "UBS JARDIM HELIAN",
+      "endereco": "R. CARMEM CARDOSO BORDINI, 184 - JD. HELIAN",
+      "CEP": "08265-090",
+      "fones": ["6521-7615"]
+    },
+    {
+      "nome": "UBS NOSSA SENHORA DO CARMO",
+      "endereco": "R. VERÍSSIMO DA SILVA, 136 - JD. NOSSA SRA.DO CARMO",
+      "CEP": "08275-270",
+      "fones": ["6748-5103", "6748-0646"]
+    },
+    {
+      "nome": "UBS SANTO ESTEVÃO - CARMOSINA",
+      "endereco": "R. CACHOEIRA DA ILHA, 355 - ITAQUERA",
+      "CEP": "08270-110",
+      "fones": ["2523-0577"]
+    },
+    {
+      "nome": "UBS CHÁCARA CRUZEIRO DO SUL",
+      "endereco": "R. MERCEDES LOPES, 989 - CHÁCARA CRUZEIRO DO SUL",
+      "CEP": "03614-000",
+      "fones": ["2647-0031", "2642-2622"]
+    },
+    {
+      "nome": "UBS DR. EMILIO SANTIAGO DE OLIVEIRA - VILA ESPERANÇA",
+      "endereco": "R. COREMU, 63 - V. ESPERANÇA",
+      "CEP": "03647-030",
+      "fones": ["2958-7502", "2791-5322"]
+    },
+    {
+      "nome": "UBS ENGENHEIRO TRINDADE",
+      "endereco": "AV. GABRIELA MISTRAL, 1168 - ENG. TRINDADE",
+      "CEP": "03701-000",
+      "fones": ["2641-6973"]
+    },
+    {
+      "nome": "UBS VILA ESPERANÇA - DR. CASSIO BITENCOURT FILHO",
+      "endereco": "R. ENEIDA, 54 - V. ESPERANÇA",
+      "CEP": "03646-050",
+      "fones": ["6957-6630"]
+    },
+    {
+      "nome": "UBS VILA GRANADA - DR ALFREDO FERREIRA PAULINO FILHO",
+      "endereco": "R. MADALENA JULIA, 60 - V. GRANADA",
+      "CEP": "03660-010",
+      "fones": ["6957-1194"]
+    },
+    {
+      "nome": "UBS BURGO PAULISTA",
+      "endereco": "R. JOSÉ SILVA ALCANTARA FILHO, 210 - BURGO PAULISTA",
+      "CEP": "03680-000",
+      "fones": ["2280-0080", "2026-1166"]
+    },
+    {
+      "nome": "UBS COSTA MELO",
+      "endereco": "R. LUIS ASSON, 165 - V. MONTEVIDEO",
+      "CEP": "03624-010",
+      "fones": ["2958-2981", "2685-8384"]
+    },
+    {
+      "nome": "UBS JARDIM PENHA",
+      "endereco": "AV. SÃO MIGUEL, 4331 - PONTE RASA",
+      "CEP": "03871-000",
+      "fones": ["2546-5867", "2214-3227"]
+    },
+    {
+      "nome": "UBS JARDIM POPULAR - DR. MATHEUS SANTAMARIA",
+      "endereco": "AV. JAIME TORRES, 600 - JD. POPULAR",
+      "CEP": "03670-000",
+      "fones": ["2791-6421", "2685-0439"]
+    },
+    {
+      "nome": "UBS PONTE RASA - DR. CARLOS OLIVALDO DE SOUZA LOPES MUNIZ",
+      "endereco": "R. BARTOLOMEU SOARES, 16 - ALTO DA PONTE RASA",
+      "CEP": "03749-160",
+      "fones": ["2041-1744", "2142-0254 (público)"]
+    },
+    {
+      "nome": "UBS JARDIM TRÊS MARIAS - DR. MAURICIO ZAMIJOVSKY",
+      "endereco": "R. BRENO ACCIOLI, 440 - V. SÃO FRANCISCO",
+      "CEP": "03676-040",
+      "fones": ["2042-0928"]
+    },
+    {
+      "nome": "UBS IGUAÇU",
+      "endereco": "AV. DO ORATÓRIO, 6550 - V. INDUSTRIAL",
+      "CEP": "03221-300",
+      "fones": ["2143-1097"]
+    },
+    {
+      "nome": "UBS JARDIM GUAIRACA",
+      "endereco": "R. ERVA IMPERIAL, 501 - JD. GUAIRACÁ",
+      "CEP": "03244-030",
+      "fones": ["2154-6100", "2154-3099"]
+    },
+    {
+      "nome": "UBS PARQUE SÃO LUCAS",
+      "endereco": "R. DR. NOGUEIRA DE NORONHA, 392 - PQ. SÃO LUCAS",
+      "CEP": "03239-080",
+      "fones": ["2918-3595"]
+    },
+    {
+      "nome": "UBS REUNIDAS I",
+      "endereco": "R. SÃO JOSE DAS ESPINHARAS, 400 - V. INDUSTRIAL",
+      "CEP": "03249-030",
+      "fones": ["2702-1777", "2719-2844"]
+    },
+    {
+      "nome": "UBS VILA HELOÍSA",
+      "endereco": "R. AIRES QUARESMA, 11 - V. HELOISA",
+      "CEP": "03286-090",
+      "fones": ["2302-2347", "2910-4068"]
+    },
+    {
+      "nome": "UBS JARDIM INDEPENDÊNCIA - HERMENEGILDO MORBIN JUNIOR",
+      "endereco": "R. PLANALTO DE CONQUISTA, 80 - JD. INDEPENDÊNCIA",
+      "CEP": "03223-170",
+      "fones": ["2216-3746", "2211-2772"]
+    },
+    {
+      "nome": "UBS JARDIM COLONIAL",
+      "endereco": "AV. JOSÉ RODRIGUES SANTARÉM, 464 - JD. COLONIAL",
+      "CEP": "03968-010",
+      "fones": ["2919-0554"]
+    },
+    {
+      "nome": "UBS JARDIM IV CENTENÁRIO",
+      "endereco": "R. CAMPO FLORIDO, 482 - JD. IMPERADOR",
+      "CEP": "03940-000",
+      "fones": ["2721-4249"]
+    },
+    {
+      "nome": "UBS JARDIM NOVE DE JULHO",
+      "endereco": "R. SIBALDO LINS, 146, - JD. NOVE DE JULHO",
+      "CEP": "03953-100",
+      "fones": ["2919-0200"]
+    },
+    {
+      "nome": "UBS JARDIM PARAGUAÇU - DR. GONÇALO FELICIANO ALVES",
+      "endereco": "R. TAIOBEIRAS, 125 - JD. PARAGUACU",
+      "CEP": "03940-060",
+      "fones": ["2727-0484"]
+    },
+    {
+      "nome": "UBS JARDIM TIETE I",
+      "endereco": "AV. ENGENHO NOVO, 120 - JD. TIETÊ",
+      "CEP": "03943-020",
+      "fones": ["2962-3644"]
+    },
+    {
+      "nome": "UBS JARDIM TIETE II",
+      "endereco": "R. AUGUSTO FERREIRA RAMOS, 9 - JD. TIETÊ",
+      "CEP": "03947-030",
+      "fones": ["2919-5248"]
+    },
+    {
+      "nome": "UBS SANTA BARBARA - CIDADE SATELITE",
+      "endereco": "R. SOL, 45 - CIDADE SATÉLITE STA. BARBARA",
+      "CEP": "08330-360",
+      "fones": ["2919-5857"]
+    },
+    {
+      "nome": "UBS SÃO MATEUS I",
+      "endereco": "R. ANGELO DE CANDIA, 1058 - SÃO MATEUS",
+      "CEP": "03958-000",
+      "fones": ["2919-1717"]
+    },
+    {
+      "nome": "UBS CIDADE NOVA SÃO MIGUEL",
+      "endereco": "AV. MOACIR DANTAS ITAPICURU, 1008 - SÃO MIGUEL PAULISTA",
+      "CEP": "08042-290",
+      "fones": ["2051-3560"]
+    },
+    {
+      "nome": "UBS NITRO OPERÁRIA - PAULO FELDMAN",
+      "endereco": "R. CUMARU, 14 - SÃO MIGUEL PAULISTA",
+      "CEP": "08010-380",
+      "fones": ["6956-6923"]
+    },
+    {
+      "nome": "UBS VILA PROGRESSO",
+      "endereco": "R. REAL HORTO, 115 - V. PROGRESSO",
+      "CEP": "08245-260",
+      "fones": ["2035-2488"]
+    },
+    {
+      "nome": "UBS JARDIM CARRÃOZINHO",
+      "endereco": "R. MARCOS GONCALVES CORREIA, 25 - JD. VILA CARRÃO",
+      "CEP": "08340-320",
+      "fones": ["2754-0622"]
+    },
+    {
+      "nome": "UBS JARDIM CONQUISTA I",
+      "endereco": "R. PERAMIRIM, 1 (esq. c/ Rua Marcos Gonçalves Correia) - VL. BELA",
+      "CEP": "08340-500",
+      "fones": ["2253-4573"]
+    },
+    {
+      "nome": "UBS JARDIM COLORADO - DR. JOSÉ PIRES",
+      "endereco": "R. DR. JOSÉ DE ARAÚJO VIEIRA, 61 - JD. RODOLFO PIRANI",
+      "CEP": "08310-240",
+      "fones": ["2754-2382"]
+    },
+    {
+      "nome": "UBS JARDIM SANTO ANDRÉ",
+      "endereco": "R. MIGUEL FERREIRA DE MELO, 497 - JD. SANTO ANDRÉ",
+      "CEP": "08390-000",
+      "fones": ["2751-4339"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO FRANCISCO II",
+      "endereco": "R. BANDEIRA DE ARACAMBI, S/N - JD. RODOLFO PIRANI",
+      "CEP": "08310-010",
+      "fones": ["2751-6712", "2751-0068"]
+    },
+    {
+      "nome": "UBS PARQUE SÃO RAFAEL - DRA. ORA ROSEN",
+      "endereco": "R. DR. ARISTIDES RICARDO, 313 - PQ. SÃO RAFAEL",
+      "CEP": "08311-270",
+      "fones": ["6919-5006"]
+    },
+    {
+      "nome": "UBS RIO CLARO",
+      "endereco": "R. CINIRA POLÔNIO, 33 - JD. RIO CLARO",
+      "CEP": "08395-320",
+      "fones": ["6751-5112", "6751-0457"]
+    },
+    {
+      "nome": "UBS FAZENDA DA JUTA I",
+      "endereco": "R. LEVI LANDAU, 23 A - FAZENDA DA JUTA",
+      "CEP": "03957-720",
+      "fones": ["2919-9334", "2015-9509"]
+    },
+    {
+      "nome": "UBS FAZENDA DA JUTA II",
+      "endereco": "R. AUGUSTIN LUBERTI (ANTIGA AV. DOIS), 1102 - FAZENDA DA JUTA",
+      "CEP": "03977-409",
+      "fones": ["2011-9823"]
+    },
+    {
+      "nome": "UBS IAÇAPE - JD. PLANALTO",
+      "endereco": "R. IAÇAPÉ, 302 - PQ. SANTA MADALENA",
+      "CEP": "03983-090",
+      "fones": ["2703-1198", "2703-1191"]
+    },
+    {
+      "nome": "UBS JARDIM DOS EUCALIPTOS - HELIO MOREIRA SALLES",
+      "endereco": "R. POEMA DAS AMERICAS, 12 - JD. DOS EUCALIPTOS",
+      "CEP": "03924-240",
+      "fones": ["2701-7933"]
+    },
+    {
+      "nome": "UBS JARDIM ELBA - HUMBERTO GASTÃO BODRA",
+      "endereco": "R. BATISTA FERGUSIO, 1016 - V. CARDOSO FRANCO",
+      "CEP": "03978-180",
+      "fones": ["2704-3491", "2704-8997"]
+    },
+    {
+      "nome": "UBS JARDIM GRIMALDI",
+      "endereco": "R. PEDRO DE CASTRO VELHO, 523 - VL. BANCÁRIA",
+      "CEP": "03921-000",
+      "fones": ["2216-8076", "2302-2424"]
+    },
+    {
+      "nome": "UBS JARDIM SAPOPEMBA",
+      "endereco": "AV. JOÃO LOPES DE LIMA, 1151 - JD. SAPOPEMBA",
+      "CEP": "03976-020",
+      "fones": ["2019-7077", "2019-6305"]
+    },
+    {
+      "nome": "UBS JARDIM SINHA",
+      "endereco": "R. JIM CLARK, 10C - JD. SINHA",
+      "CEP": "03923-160",
+      "fones": ["2721-3798"]
+    },
+    {
+      "nome": "UBS MASCARENHAS DE MORAES",
+      "endereco": "R. SARGENTO EDGAR LOURENÇO PINTO, 116 - CJ MAL. MASCARENHAS DE MORAES",
+      "CEP": "03977-180",
+      "fones": ["2919-1120", "2014-1904"]
+    },
+    {
+      "nome": "UBS PARQUE SANTA MADALENA",
+      "endereco": "R. RODRIGUES DOS SANTOS, 747 - PQ. SANTA MADALENA",
+      "CEP": "03983-210",
+      "fones": ["2704-4213"]
+    },
+    {
+      "nome": "UBS PASTORAL",
+      "endereco": "R. BOLEADEIRAS, 127 - PQ. SANTA MADALENA",
+      "CEP": "03980-120",
+      "fones": ["2703-0309"]
+    },
+    {
+      "nome": "UBS REUNIDAS II",
+      "endereco": "ESTRADA DA CASA GRANDE, 1258 - V. UNIÃO",
+      "CEP": "03260-000",
+      "fones": ["2706-0555", "2143-1356"]
+    },
+    {
+      "nome": "UBS TEOTÔNIO VILELA",
+      "endereco": "AV. ARQUITETO VILANOVA ARTIGAS, 1071 - JD. SAPOPEMBA",
+      "CEP": "03928-240",
+      "fones": ["2704-1383"]
+    },
+    {
+      "nome": "UBS VILA RENATO",
+      "endereco": "R. BERNARDINO FERRAZ, 54 - V. RENATO",
+      "CEP": "03978-210",
+      "fones": ["2703-0947", "2703-0940"]
+    },
+    {
+      "nome": "UBS VILA SANTO ESTEVÃO - WOADY JORGE KALIL",
+      "endereco": "R. ANTONIO CAMARDO, 678 - V. GOMES CARDIM",
+      "CEP": "03309-060",
+      "fones": ["2294-3028", "2092-0321 (tel.público)"]
+    },
+    {
+      "nome": "UBS DOM JOÃO NERY",
+      "endereco": "ESTRADA DOM JOAO NERY, 3462 - JD. NAZARÉ",
+      "CEP": "08151-000",
+      "fones": ["2561-4680", "2566-3624"]
+    },
+    {
+      "nome": "UBS JARAGUÁ",
+      "endereco": "R. DOMINGUES VIDIGAL, 97 - PQ. INDUSTRIAL",
+      "CEP": "08160-350",
+      "fones": ["2061-8076", "2569-2027", "2963-9276"]
+    },
+    {
+      "nome": "UBS JARDIM CAMPOS",
+      "endereco": "R. CRESCENTE, 97 - ITAIM PAULISTA",
+      "CEP": "08152-090",
+      "fones": ["2035-4922", "2035-4034"]
+    },
+    {
+      "nome": "UBS JARDIM ROBRU - SÃO MIGUEL",
+      "endereco": "R. JOSÉ MARIA ALVES DE DEUS, 288 - JD. ROBRU",
+      "CEP": "08150-290",
+      "fones": ["2035-2406", "2513-6956"]
+    },
+    {
+      "nome": "UBS JARDIM SILVA TELLES",
+      "endereco": "R. JOSÉ ALEXANDRE MACHADO, 541 - ITAIM PAULISTA",
+      "CEP": "08160-460",
+      "fones": ["2561-8034", "2561-1731"]
+    },
+    {
+      "nome": "UBS PARQUE SANTA RITA",
+      "endereco": "R. JOSÉ PESSOTA, 80 - PQ. SANTA RITA",
+      "CEP": "08150-020",
+      "fones": ["2035-3644", "2513-7109"]
+    },
+    {
+      "nome": "UBS VILA CURUÇÁ",
+      "endereco": "R. PEDRO MEIRA, 1 - V. NOVA CURUÇÁ",
+      "CEP": "08030-500",
+      "fones": ["2513-2255", "2035-4311"]
+    },
+    {
+      "nome": "UBS VILA NOVA CURUÇÁ",
+      "endereco": "R. NARCEJA, 51 - SÃO MIGUEL PAULISTA",
+      "CEP": "08032-340",
+      "fones": ["2035-2292", "2515-2990"]
+    },
+    {
+      "nome": "UBS VILA FORMOSA",
+      "endereco": "PÇA. MARQUES DE NAZARÉ, 111 - V. FORMOSA",
+      "CEP": "03359-070",
+      "fones": ["2674-5246"]
+    },
+    {
+      "nome": "UBS VILA FORMOSA - COMENDADOR JOSÉ GONZALES",
+      "endereco": "R. NOSSA SENHORA DAS DORES, 350 - V. FORMOSA",
+      "CEP": "03367-040",
+      "fones": ["2216-7583"]
+    },
+    {
+      "nome": "UBS VILA FORMOSA - DR. ANTONIO DA SILVEIRA E OLIVEIRA",
+      "endereco": "R. ACURUÍ, 720 - V. FORMOSA",
+      "CEP": "03355-000",
+      "fones": ["2671-0888", "2673-3404"]
+    },
+    {
+      "nome": "UBS VILA GUARANI",
+      "endereco": "R. TERESINHA, 123 - JD. MARINGÁ",
+      "CEP": "03382-180",
+      "fones": ["2910-2958", "2216-1869"]
+    },
+    {
+      "nome": "UBS CIDADE PEDRO JOSÉ NUNES",
+      "endereco": "R. JOSÉ BARGAS, 143 - JD. PEDRO JOSE NUNES",
+      "CEP": "08061-240",
+      "fones": ["2297-5453"]
+    },
+    {
+      "nome": "UBS DR. THÉRSIO VENTURA",
+      "endereco": "R. ARRAIAL DE SANTA BARBARA, 996 - CIDADE PEDRO J NUNES",
+      "CEP": "08061-360",
+      "fones": ["2545-1026"]
+    },
+    {
+      "nome": "UBS JARDIM DAS CAMÉLIAS",
+      "endereco": "AV. TRÊVO DE SANTA MARIA, 79 - SÃO MIGUEL PAULISTA",
+      "CEP": "08050-570",
+      "fones": ["2051-8788"]
+    },
+    {
+      "nome": "UBS SANTA INÊS",
+      "endereco": "R. FREI FIDELIS MOTA, 1001 - PQ. CRUZEIRO DO SUL",
+      "CEP": "08070-130",
+      "fones": ["2297-9669"]
+    },
+    {
+      "nome": "UBS SÍTIO DA CASA PINTADA",
+      "endereco": "AV. MARIA SANTANA, 101 - SÃO MIGUEL PAULISTA",
+      "CEP": "08050-130",
+      "fones": ["2053-0800"]
+    },
+    {
+      "nome": "UBS UNIÃO VILA NOVA - ADÃO MANOEL DA SILVA",
+      "endereco": "R. ADÃO MANOEL DA SILVA, 16 C - SÃO MIGUEL PAULISTA",
+      "CEP": "05280-040",
+      "fones": ["2297-4782"]
+    },
+    {
+      "nome": "UBS UNIÃO VILA NOVA I",
+      "endereco": "R. GRAZIELE BALDAK GOMES, 36 - SÃO MIGUEL PAULISTA",
+      "CEP": "08072-180",
+      "fones": ["2956-3837"]
+    },
+    {
+      "nome": "UBS VILA JACUÍ",
+      "endereco": "R. EDIPO FELICIANO, 165 - V. JACUÍ",
+      "CEP": "08060-220",
+      "fones": ["2297-8709", "2297-8422"]
+    },
+    {
+      "nome": "UBS CIDADE PATRIARCA - DR. HERMENEGILDO MORBIN JUNIOR",
+      "endereco": "R. DR. FREDERICO BROTERO, 22 - CIDADE PATRIARCA",
+      "CEP": "03552-080",
+      "fones": ["2958-1488"]
+    },
+    {
+      "nome": "UBS VILA ARICANDUVA",
+      "endereco": "R. ANTONIO LINDOURO DA SILVA, 265 - V. ARICANDUVA",
+      "CEP": "03506-000",
+      "fones": ["2294-8853"]
+    },
+    {
+      "nome": "UBS VILA GUILHERMINA",
+      "endereco": "R. JOÃO MARCHIORI, 59 - V. GUILHERMINA",
+      "CEP": "03545-000",
+      "fones": ["2685-2124", "2791-5321"]
+    },
+    {
+      "nome": "UBS VILA MATILDE",
+      "endereco": "R. CORONE DONATO, 11 - V. MATILDE",
+      "CEP": "03512-030",
+      "fones": ["2653-4391"]
+    },
+    {
+      "nome": "UBS VILA ALPINA - DR. HERMINIO MOREIRA",
+      "endereco": "R. PARAMU, 398 - V. ALPINA",
+      "CEP": "03147-100",
+      "fones": ["2912-8958"]
+    },
+    {
+      "nome": "UBS VILA PRUDENTE",
+      "endereco": "PÇA. DO CENTENARIO DE VL. PRUDENTE VEIGA CABRAL, 108 - V. PRUDENTE",
+      "CEP": "03132-050",
+      "fones": ["2272-5763", "2062-3975"]
+    },
+    {
+      "nome": "UBS VILA CALIFÓRNIA - ZEILIVAL BRUSCAGIN",
+      "endereco": "PÇA. CONDE DE SÃO JANUÁRIO, 91 - V. CALIFÓRNIA",
+      "CEP": "03215-080",
+      "fones": ["2917-1117", "2317-3461"]
+    },
+    {
+      "nome": "UBS JARDIM ROSINHA",
+      "endereco": "R. DALVA DE OLIVEIRA, 82 - MORRO DOCE",
+      "CEP": "05282-010",
+      "fones": ["3916-4100", "3911-3141"]
+    },
+    {
+      "nome": "UBS MORADA DO SOL",
+      "endereco": "R. ASSIS BRASIL X PÇA. LUIZ VAZ DE CAMÕES Nº 35, S/N - SOL NASCENTE",
+      "CEP": "05281-130",
+      "fones": ["3944-1329", "3941-4364"]
+    },
+    {
+      "nome": "UBS MORRO DOCE",
+      "endereco": "R. ALBERTO CALIX, 55 - CANAÃ",
+      "CEP": "05267-030",
+      "fones": ["3916-2059"]
+    },
+    {
+      "nome": "UBS PARQUE ANHANGUERA",
+      "endereco": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JD. BRITÂNIA",
+      "CEP": "05269-000",
+      "fones": ["3916-6375", "3916-6160"]
+    },
+    {
+      "nome": "UBS BRASILÂNDIA",
+      "endereco": "R. PARAPUA, 1646 - BRASILÂNDIA",
+      "CEP": "02831-001",
+      "fones": ["3921-3830", "3921-8713"]
+    },
+    {
+      "nome": "UBS DR. AUGUSTO LEOPOLDO AYROSA GALVÃO",
+      "endereco": "R. JOAQUINA MARIA DOS SANTOS, 198 - V. RICA",
+      "CEP": "02860-110",
+      "fones": ["3851-8235"]
+    },
+    {
+      "nome": "UBS JARDIM GUARANI",
+      "endereco": "R. SANTANA DO ARAÇUAÍ, 160 - BRASILÂNDIA",
+      "CEP": "02849-130",
+      "fones": ["3921-5540"]
+    },
+    {
+      "nome": "UBS JARDIM ICARAÍ - BRASILÂNDIA",
+      "endereco": "R. ALMIR DEHAR, 201 - BRASILÂNDIA",
+      "CEP": "02846-000",
+      "fones": ["3921-0818", "3921-8739"]
+    },
+    {
+      "nome": "UBS JARDIM LADEIRA ROSA",
+      "endereco": "R. JOSÉ DA COSTA GAVIÃO, 150 - BRASILÂNDIA",
+      "CEP": "02872-000",
+      "fones": ["3851-8818", "3982-6380"]
+    },
+    {
+      "nome": "UBS JARDIM PAULISTANO",
+      "endereco": "R. ENCRUZILHADA DO SUL, 220 - JD. PAULISTANO",
+      "CEP": "02816-010",
+      "fones": ["3972-2916", "3971-5342"]
+    },
+    {
+      "nome": "UBS JARDIM VISTA ALEGRE",
+      "endereco": "R. IBIRAIARAS, 21 - BRASILÂNDIA",
+      "CEP": "02878-080",
+      "fones": ["3983-1197", "3982-0651"]
+    },
+    {
+      "nome": "UBS SILMARYA REJANE MARCOLINO DE SOUZA",
+      "endereco": "R. EUVALDO AUGUSTO FREIRE, 20 - BRASILÂNDIA",
+      "CEP": "02855-030",
+      "fones": ["3921-1078"]
+    },
+    {
+      "nome": "UBS VILA PENTEADO",
+      "endereco": "R. URUPEVA, S/N - V. PENTEADO",
+      "CEP": "02866-080",
+      "fones": ["3851-8201"]
+    },
+    {
+      "nome": "UBS VILA TEREZINHA",
+      "endereco": "R. DOMINGOS FRANCISCO DE MEDEIROS, 70 - V. TEREZINHA",
+      "CEP": "02854-010",
+      "fones": ["3924-2591", "3921-2380"]
+    },
+    {
+      "nome": "UBS DRA. ILZA WELTMAN HUTZLER",
+      "endereco": "R. CORONEL WALFRIDO DE CARVALHO, S/N - V. NOVA CACHOEIRINHA",
+      "CEP": "02472-190",
+      "fones": ["3981-3127", "3859-0395"]
+    },
+    {
+      "nome": "UBS JARDIM PERI",
+      "endereco": "AV. PERI RONCHETTI, 914 - JD. PERI",
+      "CEP": "02633-000",
+      "fones": ["2258-5708"]
+    },
+    {
+      "nome": "UBS VILA DIONÍSIA",
+      "endereco": "R. CHEN FERRAZ FALCÃO, 50 - V. DIONÍSIA",
+      "CEP": "02670-040",
+      "fones": ["3984-9329", "3859-4562"]
+    },
+    {
+      "nome": "UBS CASA VERDE",
+      "endereco": "R. VICHY, 468 - CASA VERDE BAIXA",
+      "CEP": "02522-100",
+      "fones": ["3950-0236", "3966-0247"]
+    },
+    {
+      "nome": "UBS CASA VERDE ALTA",
+      "endereco": "R. LAVINIO SALES ARCURI, 120 - CASA VERDE ALTA",
+      "CEP": "02564-000",
+      "fones": ["3858-8592", "3966-9572", "3950-1503"]
+    },
+    {
+      "nome": "UBS DR. WALTER ELIAS (CASA VERDE BAIXA)",
+      "endereco": "R. MOURÃO VIEIRA, 11 - CASA VERDE BAIXA",
+      "CEP": "02518-020",
+      "fones": ["3858-8593"]
+    },
+    {
+      "nome": "UBS PARQUE PERUCHE",
+      "endereco": "R. JOSÉ RANGEL DE CAMARGO, 500 - PQ. PERUCHE",
+      "CEP": "02538-010",
+      "fones": ["3951-6756"]
+    },
+    {
+      "nome": "UBS MASSAGISTA MÁRIO AMÉRICO",
+      "endereco": "R. OSCAR DE MOURA LACERDA, 231 - IMIRIM",
+      "CEP": "02540-070",
+      "fones": ["2239-1561", "2255-8417"]
+    },
+    {
+      "nome": "UBS CRUZ DAS ALMAS",
+      "endereco": "R. PADRE FELICIANO DOMINGUES, 90 - FREGUESIA DO Ó",
+      "CEP": "02965-140",
+      "fones": ["3975-3531"]
+    },
+    {
+      "nome": "UBS JARDIM GUANABARA",
+      "endereco": "AV. MINISTRO PETRÔNIO PORTELA, 663 - FREGUESIA DO Ó",
+      "CEP": "02959-000",
+      "fones": ["3975-2134"]
+    },
+    {
+      "nome": "UBS VILA PALMEIRAS",
+      "endereco": "R. FRANCISCO LOTUFO, 24 - FREGUESIA DO Ó",
+      "CEP": "02727-020",
+      "fones": ["3931-8242", "3931-7923"]
+    },
+    {
+      "nome": "UBS VILA PROGRESSO - JD MONTE ALEGRE",
+      "endereco": "R. ANTONIO GENELLE, 30 - JD. MONTE ALEGRE",
+      "CEP": "02811-020",
+      "fones": ["3992-2349", "3975-2893"]
+    },
+    {
+      "nome": "UBS VILA RAMOS - FREGUESIA DO Ó",
+      "endereco": "R. FERRAZ DE VASCONCELOS, 80 - FREGUESIA DO Ó",
+      "CEP": "02759-100",
+      "fones": ["3924-0208", "3924-4111 "]
+    },
+    {
+      "nome": "UBS DR. JOSÉ DE TOLEDO PIZA",
+      "endereco": "AV. ANTONIO CÉSAR NETO, 387 - JAÇANÃ",
+      "CEP": "02276-000",
+      "fones": ["2241-7317", "2243-7038"]
+    },
+    {
+      "nome": "UBS JAÇANÃ - DR. SEBASTÃO GABRIEL SAYAGO DE LAET",
+      "endereco": "R. SÃO GERALDINO, 222 - V. CONSTANÇA",
+      "CEP": "02258-220",
+      "fones": ["2240-0065", "2242-8876"]
+    },
+    {
+      "nome": "UBS PARQUE EDU CHAVES",
+      "endereco": "AV. EDU CHAVES, 1197 - PQ. EDU CHAVES",
+      "CEP": "02229-001",
+      "fones": ["2243-0052", "2242-0890"]
+    },
+    {
+      "nome": "UBS VILA NOVA GALVÃO - SÔNIA REGINA CAMPANELLI",
+      "endereco": "R. ALFEU LUIS GASPARINI, 116 - V. NOVA GALVÃO",
+      "CEP": "02281-110",
+      "fones": ["2241-7366", "2242-0108"]
+    },
+    {
+      "nome": "UBS ALDEIA JARAGUÁ - KWARAY DJEKUPE",
+      "endereco": "ESTRADA TURÍSTICA DO JARAGUÁ, 3680 - JARAGUÁ",
+      "CEP": "05754-071",
+      "fones": ["3903-4988"]
+    },
+    {
+      "nome": "UBS ALPES DO JARAGUÁ",
+      "endereco": "AL. DAS LIMEIRAS, 46 - ALPES DO JARAGUA",
+      "CEP": "05187-634",
+      "fones": ["3941-1169", "3945-5958", "3945-5958"]
+    },
+    {
+      "nome": "UBS CITY JARAGUÁ",
+      "endereco": "ESTR. DE TAIPAS, 1648 - JARAGUÁ (esq. c/ a Rua Paulo Arentino)",
+      "CEP": "02991-000",
+      "fones": ["3947-2690", "3928-4976"]
+    },
+    {
+      "nome": "UBS ELÍSIO TEIXEIRA LEITE",
+      "endereco": "AV. JOÃO AMADO COUTINHO, 400 - JARAGUÁ",
+      "CEP": "02715-000",
+      "fones": ["3972-0333", "3972-0888", "3971-2572"]
+    },
+    {
+      "nome": "UBS JARDIM IPANEMA",
+      "endereco": "R. PEDRO RAVARA, 11-A - JARAGUÁ",
+      "CEP": "05187-300",
+      "fones": ["3941-3457", "3941-2119", "3941-0379"]
+    },
+    {
+      "nome": "UBS JARDIM PANAMERICANO",
+      "endereco": "R. BARRA DA FORQUILHA, 38 - JD. PANAMERICANO",
+      "CEP": "02993-000",
+      "fones": ["3928-1270", "3941-1362"]
+    },
+    {
+      "nome": "UBS UNIÃO DAS VILAS DE TAIPAS",
+      "endereco": "AV. ELISIO TEIXEIRA LEITE, 7703 - JARAGUÁ",
+      "CEP": "02710-000",
+      "fones": ["3971-2432"]
+    },
+    {
+      "nome": "UBS DONA ADELAIDE LOPES",
+      "endereco": "AV. CLAVÁSIO ALVES DA SILVA, 683 - LIMÃO",
+      "CEP": "02722-030",
+      "fones": ["3859-5226"]
+    },
+    {
+      "nome": "UBS VILA BARBOSA",
+      "endereco": "AV. MANDAQUI, 197 - LIMÃO",
+      "CEP": "02550-000",
+      "fones": ["3858-1822"]
+    },
+    {
+      "nome": "UBS VILA ESPANHOLA",
+      "endereco": "AV. JOÃO DOS STOS ABREU, 650 - V. ESPANHOLA",
+      "CEP": "02566-020",
+      "fones": ["2256-4090", "2239-2959", "2239-2139"]
+    },
+    {
+      "nome": "UBS VILA SANTA MARIA",
+      "endereco": "R. PROFESSOR DARIO RIBEIRO, 670 - CASA VERDE ALTA",
+      "CEP": "02559-000",
+      "fones": ["3965-6035"]
+    },
+    {
+      "nome": "UBS LAUZANE PAULISTA",
+      "endereco": "R. VALORBE, 80 - LAUZANE PAULISTA",
+      "CEP": "02442-140",
+      "fones": ["2231-8619", "2258-5818"]
+    },
+    {
+      "nome": "UBS VILA AURORA - DR. DOMINGOS MAZZONETO DE CILO",
+      "endereco": "R. ENGENHEIRO JEAN BUFF, 126 - CHÁCARA DO ENCOSTO",
+      "CEP": "02417-180",
+      "fones": ["2232-2244"]
+    },
+    {
+      "nome": "UBS PERUS",
+      "endereco": "PÇA. VIGARIO JOÃO GONÇALVES DE LIMA, 239 - PERUS",
+      "CEP": "05206-180",
+      "fones": ["3917-0707", "3917-6245", "3915-6305"]
+    },
+    {
+      "nome": "UBS RECANTO DOS HUMILDES",
+      "endereco": "R. PAVÃO, 36 A - RECANTO DOS HUMILDES",
+      "CEP": "05208-400",
+      "fones": ["3915-6452", "3917-5870"]
+    },
+    {
+      "nome": "UBS CHÁCARA INGLESA",
+      "endereco": "R. DA LIGAÇAO, 95 (prox. Rua Manuel Furtado) - CHÁCARA INGLESA",
+      "CEP": "05142-120",
+      "fones": ["3834-5985", "3832-7587", "3648-0171"]
+    },
+    {
+      "nome": "UBS DOMINGOS MANTELLI",
+      "endereco": "R. POVOADO DO RIO NOVO, 1778 - PIRITUBA",
+      "CEP": "02956-020",
+      "fones": ["3974-8389", "3974-3829"]
+    },
+    {
+      "nome": "UBS JARDIM CIDADE PIRITUBA",
+      "endereco": "R. COMENDADOR FEIZ ZARZUR (EM FRENTE À RUA DOMINGOS MOREIRA), S/N - JD. CID. RITUBA",
+      "CEP": "02942-000",
+      "fones": ["3972-7333", "3971-0525"]
+    },
+    {
+      "nome": "UBS MOINHO VELHO I",
+      "endereco": "PÇA. DOMINGOS COELHO, 5 - V. PEREIRA CERCA",
+      "CEP": "02933-180",
+      "fones": ["3976-7601", "3992-2370"]
+    },
+    {
+      "nome": "UBS VILA MAGGI",
+      "endereco": "R. CONDE MONTERONE, 40 - JD. DOS CUNHAS",
+      "CEP": "02982-190",
+      "fones": ["3972-1435", "3972-9389"]
+    },
+    {
+      "nome": "UBS VILA PEREIRA BARRETO",
+      "endereco": "R. DOM MANOEL D'ELBOUX, 76 - JD. SÃO JOSE",
+      "CEP": "02932-110",
+      "fones": ["3975-9019", "3992-0317", "3977-8098"]
+    },
+    {
+      "nome": "UBS VILA PIRITUBA",
+      "endereco": "R. RIBEIRAO VERMELHO, 501 - V. PIRITUBA",
+      "CEP": "05727-000",
+      "fones": ["3901-3848", "3904-2509"]
+    },
+    {
+      "nome": "UBS VILA ZATT",
+      "endereco": "R. MONS. MANUEL GOMES, 654 - PIRITUBA",
+      "CEP": "02975-120",
+      "fones": ["3975-2116", "3992-0582", "3976-0514"]
+    },
+    {
+      "nome": "UBS CHORA MENINO",
+      "endereco": "R. COPACABANA, 185 - SANTA TEREZINHA",
+      "CEP": "02461-000",
+      "fones": ["2950-1451", "2281-8786"]
+    },
+    {
+      "nome": "UBS JOAQUIM ANTONIO EIRADO",
+      "endereco": "AV. BRAZ LEME, 2945 - SANTANA",
+      "CEP": "02022-011",
+      "fones": ["2973-0733"]
+    },
+    {
+      "nome": "UBS ANHANGUERA I",
+      "endereco": "R. MARCELA ALVES DE CASSIA, 175 - JD. JARAGUÁ",
+      "CEP": "05158-400",
+      "fones": ["3904-8999", "3906-8408"]
+    },
+    {
+      "nome": "UBS PARQUE MARIA DOMITILA",
+      "endereco": "AV. DO ANASTÁCIO, 2421 - PQ. MARIA DOMITILA (esq. c/ a Rua Willis Roberto Banks",
+      "CEP": "05119-000",
+      "fones": ["3903-4825", "3902-2303"]
+    },
+    {
+      "nome": "UBS SANTO ELIAS",
+      "endereco": "R. FABIO DE ALMEIDA MAGALHÃES, 494 - JD. SANTO ELIAS",
+      "CEP": "05135-370",
+      "fones": ["3902-3551"]
+    },
+    {
+      "nome": "UBS VILA MANGALOT",
+      "endereco": "R. JOAQUIM OLIVEIRA FREITAS, 1397 - SÃO DOMINGOS",
+      "CEP": "05133-004",
+      "fones": ["3906-9891", "3504-1292"]
+    },
+    {
+      "nome": "UBS DONA MARIQUINHA SCIASCIA",
+      "endereco": "R. DR. JOSÉ VICENTE, 39 - TREMEMBÉ",
+      "CEP": "02370-080",
+      "fones": ["2203-2489", "2203-0063"]
+    },
+    {
+      "nome": "UBS HORTO FLORESTAL",
+      "endereco": "R. DO HORTO X R. LUIZ CARLOS GENTILE LAET Nº 603, S/N - HORTO FLORESTAL",
+      "CEP": "02377-000",
+      "fones": ["2994-5688", "2204-8421"]
+    },
+    {
+      "nome": "UBS JARDIM APUANA",
+      "endereco": "R. HUM (REF.:R.FILHOS DA TERRA), 19 - JD. FILHOS DA TERRA",
+      "CEP": "02325-530",
+      "fones": ["2243-4469", "2240-5277"]
+    },
+    {
+      "nome": "UBS JARDIM DAS PEDRAS",
+      "endereco": "R. CLÓVIS SALGADO, 220 - JD. DAS PEDRAS",
+      "CEP": "02367-000",
+      "fones": ["2992-2313"]
+    },
+    {
+      "nome": "UBS JARDIM FLOR DE MAIO",
+      "endereco": "AV. NOVA PAULISTA, 561 - JD. FLOR DE MAIO",
+      "CEP": "02363-000",
+      "fones": ["2995-6006"]
+    },
+    {
+      "nome": "UBS JARDIM FONTALIS",
+      "endereco": "R. ANTONIO PICCAROLLO, 41 - JD. FONTALIS",
+      "CEP": "02323-000",
+      "fones": ["2995-6257"]
+    },
+    {
+      "nome": "UBS JARDIM JOAMAR",
+      "endereco": "R. AIMOPOLO LOBO, 60 - JD. JOAMAR",
+      "CEP": "02320-140",
+      "fones": ["2204-8387"]
+    },
+    {
+      "nome": "UBS VILA ALBERTINA - DR. OSVALDO MARÇAL",
+      "endereco": "R. ANTONIO JOAQUIM DE OLIVEIRA, 224 - V. ESMERALDA",
+      "CEP": "02356-020",
+      "fones": ["2204-9986", "2204-5773"]
+    },
+    {
+      "nome": "UBS CONJ. IPESP - DR. JOSÉ DE TOLEDO PIZA",
+      "endereco": "AV. PROFª. VIRGILIA RODRIGUES A. C. PINTO, 555 - JD. LEONOR BARROS",
+      "CEP": "02077-000",
+      "fones": ["2203-0111"]
+    },
+    {
+      "nome": "UBS VILA NIVI",
+      "endereco": "PÇA. CAMPINÓPOLIS, 125 - V. NIVI",
+      "CEP": "02252-160",
+      "fones": ["2201-7219", "2951-7670"]
+    },
+    {
+      "nome": "UBS WAMBERTO DIAS DA COSTA",
+      "endereco": "R. PAULO CESAR, 60 - TREMEMBÉ",
+      "CEP": "02311-240",
+      "fones": ["2203-8992", "2952-0679"]
+    },
+    {
+      "nome": "UBS CARANDIRU",
+      "endereco": "R. JOSÉ PEREIRA JORGE, 305 - CARANDIRU",
+      "CEP": "02067-020",
+      "fones": ["2252-4144", "2252-4090"]
+    },
+    {
+      "nome": "UBS VILA GUILHERME",
+      "endereco": "R. JOÃO VENTURA BATISTA, 615 - V. GUILHERME",
+      "CEP": "02054-100",
+      "fones": ["2901-5883", "2906-2685"]
+    },
+    {
+      "nome": "UBS VILA IZOLINA MAZZEI",
+      "endereco": "R. ORLANDO RIBEIRO DANTAS, 154 - V. IZOLINA MAZZEI",
+      "CEP": "02083-010",
+      "fones": ["2201-6586", "2212-6030"]
+    },
+    {
+      "nome": "UBS VILA LEONOR",
+      "endereco": "AV. ANGELINA, 518 - V. LEONOR",
+      "CEP": "02077-000",
+      "fones": ["2901-4606", "2905-7164"]
+    },
+    {
+      "nome": "UBS JARDIM JAPÃO",
+      "endereco": "R. SOBRAL JUNIOR, 452 - V. MARIA ALTA",
+      "CEP": "02130-020",
+      "fones": ["2954-2851", "2635-5525"]
+    },
+    {
+      "nome": "UBS PARQUE NOVO MUNDO I",
+      "endereco": "R. BENEDITA DORNELAS CLARO, 451 - PQ. NOVO MUNDO",
+      "CEP": "02168-020",
+      "fones": ["2954-1747", "2635-5603"]
+    },
+    {
+      "nome": "UBS PARQUE NOVO MUNDO II",
+      "endereco": "R. SOLDADO ANTONIO MATIAS DE CAMARGO, 87 - PQ. NOVO MUNDO",
+      "CEP": "02188-050",
+      "fones": ["2954-4580", "2635-5591"]
+    },
+    {
+      "nome": "UBS VILA MARIA - DR. LUIZ PAULO GNECCO",
+      "endereco": "R. ANDRÉ DA FONSECA, 70 - V. MUNHOZ",
+      "CEP": "02135-010",
+      "fones": ["2201-7751", "2981-5855"]
+    },
+    {
+      "nome": "UBS JARDIM BRASIL",
+      "endereco": "R. FRANCISCO PEIXOTO BEZERRA, 400 - JD. BRASIL",
+      "CEP": "02222-010",
+      "fones": ["2201-4101", "2939-7808"]
+    },
+    {
+      "nome": "UBS VILA EDE",
+      "endereco": "R. PADRE MARCOS SIMONI, 390 - V. EDE",
+      "CEP": "02203-010",
+      "fones": ["2212-4596", "2939-7619"]
+    },
+    {
+      "nome": "UBS VILA MEDEIROS",
+      "endereco": "R. EURICO SODRE, 353 - V. MEDEIROS",
+      "CEP": "02215-010",
+      "fones": ["2212-2223", "2939-7795"]
+    },
+    {
+      "nome": "UBS VILA SABRINA",
+      "endereco": "R. FRANCISCO FRANCO MACHADO, 150 - V. SABRINA",
+      "CEP": "02139-020",
+      "fones": ["2201-0284", "2939-7794"]
+    },
+    {
+      "nome": "UBS BUTANTÃ",
+      "endereco": "R. CABRAL DE MENEZES, 51 - V. GOMES",
+      "CEP": "05590-050",
+      "fones": ["3726-1838", "3726-8591"]
+    },
+    {
+      "nome": "UBS CAXINGUI - NANCI ABRANCHES",
+      "endereco": "R. LADISLAU ROMAN, 410 - CAXINGUI",
+      "CEP": "05515-030",
+      "fones": ["3721-6406", "3722-4686"]
+    },
+    {
+      "nome": "UBS DR. JOSÉ DE BARROS MAGALDI",
+      "endereco": "R. SALVADOR CARDOSO, 177 - ITAIM BIBI",
+      "CEP": "04533-050",
+      "fones": ["3168-6571", "3167-0837"]
+    },
+    {
+      "nome": "UBS MENINÓPOLIS - DR. MARIO FRANCISCO NAPOLITANO",
+      "endereco": "R. OSCAR GOMES CARDIM, 128/142 - BROOKLIN NOVO",
+      "CEP": "04580-040",
+      "fones": ["5096-1058", "5535-8839"]
+    },
+    {
+      "nome": "UBS VILA JAGUARA",
+      "endereco": "R. PAÚVA, 721 - V. JAGUARA",
+      "CEP": "05116-001",
+      "fones": ["3625-1775", "3621-4440"]
+    },
+    {
+      "nome": "UBS VILA PIAUÍ",
+      "endereco": "PÇA. CAMILO CASTELO BRANCO, 10 - V. PIAUÍ",
+      "CEP": "05109-270",
+      "fones": ["3621-4508"]
+    },
+    {
+      "nome": "UBS VILA NOVA JAGUARÉ",
+      "endereco": "R. SALATIEL DE CAMPOS, 222 - JAGUARÉ",
+      "CEP": "05333-010",
+      "fones": ["3768-1527", "3741-2461"]
+    },
+    {
+      "nome": "UBS VILA ANASTÁCIO",
+      "endereco": "R. BARTOLOMEU PAES, 686 - V. ANASTACIO",
+      "CEP": "05061-050",
+      "fones": ["3836-1146", "3644-8909"]
+    },
+    {
+      "nome": "UBS VILA IPOJUCA - DRA. WANDA COELHO DE MORAES",
+      "endereco": "R. CATÃO, 1266 - V. IPOJUCA",
+      "CEP": "05049-000",
+      "fones": ["3676-1399", "3676-1394"]
+    },
+    {
+      "nome": "UBS VILA ROMANA",
+      "endereco": "R. VESPASIANO, 679 - V. ROMANA",
+      "CEP": "05044-050",
+      "fones": ["3672-0911", "3862-4102"]
+    },
+    {
+      "nome": "URSI LAPA",
+      "endereco": "R. BRIGADEIRO GAVIÃO PEIXOTO, 727 - LAPA",
+      "CEP": "05078-000",
+      "fones": ["3865-2213", "3675-2464"]
+    },
+    {
+      "nome": "UBS REAL PARQUE - DR. PAULO MANGABEIRA ALBERNAZ FILHO",
+      "endereco": "R. BARÃO DE MELGAÇO, 339 - REAL PARQUE",
+      "CEP": "05684-030",
+      "fones": ["3758-2329", "3758-2133"]
+    },
+    {
+      "nome": "UBS JARDIM VERA CRUZ - PERDIZES",
+      "endereco": "R. SARAMENHA, 60 - PERDIZES",
+      "CEP": "01259-030",
+      "fones": ["3673-8552", "3801-4278"]
+    },
+    {
+      "nome": "UBS VILA ANGLO - DR. JOSÉ SERRA RIBEIRO",
+      "endereco": "R. TURIAÇU, 1765 - VL. POMPEIA",
+      "CEP": "05005-001",
+      "fones": ["3672-8401", "3801-1547"]
+    },
+    {
+      "nome": "UBS DR. MANOEL JOAQUIM PERA",
+      "endereco": "R. PURPURINA, 280 - V. MADALENA",
+      "CEP": "05435-030",
+      "fones": ["3032-9891", "3813-1030"]
+    },
+    {
+      "nome": "UBS JARDIM BOA VISTA",
+      "endereco": "R. CANDIDO FONTOURA, 620 - JD. BOA VISTA",
+      "CEP": "05583-070",
+      "fones": ["3782-8380", "3782-8371"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO JORGE",
+      "endereco": "R. ANGELO APARECIDO DOS SANTOS DIAS, 331 - JD. SÃO JORGE",
+      "CEP": "05568-090",
+      "fones": ["3781-3817", "3781-3816"]
+    },
+    {
+      "nome": "UBS PAULO VI",
+      "endereco": "AV. VATICANO, 69 - JD. JOAO XXIII",
+      "CEP": "05569-120",
+      "fones": ["3782-0838"]
+    },
+    {
+      "nome": "UBS VILA BORGES",
+      "endereco": "R. JACINTO DE MORAES, 22 - JD. CLAUDIA",
+      "CEP": "05546-040",
+      "fones": ["3782-4739", "3782-4908"]
+    },
+    {
+      "nome": "UBS JARDIM D'ABRIL",
+      "endereco": "R. PAULO MARANHÃO, 444 - JD. D'ABRIL",
+      "CEP": "05398-030",
+      "fones": ["3782-1687", "3782-4742"]
+    },
+    {
+      "nome": "UBS JOSÉ MARCÍLIO MALTA CARDOSO",
+      "endereco": "R. BERNARDO GUERTZENSTEIN, 45 - RIO PEQUENO",
+      "CEP": "05381-020",
+      "fones": ["3718-0425", "3768-1569"]
+    },
+    {
+      "nome": "UBS RIO PEQUENO - DR. PAULO DE BARROS FRANÇA",
+      "endereco": "R. JOÃO LUIS MATEUS, 34 - RIO PEQUENO",
+      "CEP": "05379-030",
+      "fones": ["3768-9460", "3714-8764"]
+    },
+    {
+      "nome": "UBS VILA DALVA - ENG. GUILHERME HENRIQUE PINTO COELHO",
+      "endereco": "R. GUSTAVO BERTHIER, 155 - V. DALVA",
+      "CEP": "05386-110",
+      "fones": ["3712-0704", "3712-1387"]
+    },
+    {
+      "nome": "UBS ALTO DE PINHEIROS",
+      "endereco": "AV. QUEIROZ FILHO, 313 - ALTO DE PINHEIROS",
+      "CEP": "05319-010",
+      "fones": ["3023-4588", "3022-7074"]
+    },
+    {
+      "nome": "UBS PARQUE DA LAPA",
+      "endereco": "R. BERGSON, 52 - PQ. DA LAPA",
+      "CEP": "05301-060",
+      "fones": ["3836-8029", "3644-8989"]
+    },
+    {
+      "nome": "UBS JARDIM JAQUELINE",
+      "endereco": "R. BONIFÁCIO VERONESE, 10 - JD. JAQUELINE",
+      "CEP": "05529-060",
+      "fones": ["3751-1665", "3751-4285"]
+    },
+    {
+      "nome": "UBS VILA SÔNIA",
+      "endereco": "R. ABRAÃO CALIL REZEK, 91 - V. SÔNIA",
+      "CEP": "05625-050",
+      "fones": ["3742-9844", "3742-1487"]
+    },
+    {
+      "nome": "UBS JARDIM AEROPORTO - DR. MASSAKI UDIHARA",
+      "endereco": "R. VIAZA, 100 - CAMPO BELO",
+      "CEP": "04633-050",
+      "fones": ["5542-9672", "5532-1152"]
+    },
+    {
+      "nome": "UBS CAMPO GRANDE",
+      "endereco": "R. ARNALDO MAGNICARO, 1254 - JURUBATUBA",
+      "CEP": "04691-060",
+      "fones": ["5634-1643", "5635-2817"]
+    },
+    {
+      "nome": "UBS VILA ARRIETE - DR. DÉCIO PACHECO PEDROSO",
+      "endereco": "R. JULIETA DE ARAUJO ALMEIDA, 44 - JD. ARAUJO ALMEIDA ARRIETE",
+      "CEP": "04445-010",
+      "fones": ["5614-5195", "5611-4046"]
+    },
+    {
+      "nome": "UBS ALTO DO UMUARAMA",
+      "endereco": "R. ODEMIS, 468 - JD. UMUARAMA",
+      "CEP": "05783-180",
+      "fones": ["5816-3342", "5819-5730"]
+    },
+    {
+      "nome": "UBS CAMPO LIMPO",
+      "endereco": "R. JORGE OZZI, 211 - JD. CATANDUVA",
+      "CEP": "05767-450",
+      "fones": ["5841-1871", "5841-5260", "5844-5516"]
+    },
+    {
+      "nome": "UBS CAMPO LIMPO - DR. FRANCISCO SCALAMANDRE SOBRINHO",
+      "endereco": "R. DR. JOVIANO PACHECO AGUIRRE, 255 - CAMPO LIMPO",
+      "CEP": "05788-290",
+      "fones": ["5841-2654", "5844-4839"]
+    },
+    {
+      "nome": "UBS JARDIM HELGA",
+      "endereco": "R. THOMAS DE ARAUJO, 53 - JD. HELGA",
+      "CEP": "05794-380",
+      "fones": ["5842-2399"]
+    },
+    {
+      "nome": "UBS JARDIM MITSUTANI",
+      "endereco": "R. FREI XISTO TEUBER, 50 - JD. MITSUTANI",
+      "CEP": "05791-080",
+      "fones": ["5842-9292"]
+    },
+    {
+      "nome": "UBS JARDIM OLINDA",
+      "endereco": "R. PEDRO RODRIGUES MARQUES, 131/135 - JD. ANA MARIA",
+      "CEP": "05757-250",
+      "fones": ["5842-9626", "5846-1788"]
+    },
+    {
+      "nome": "UBS JARDIM UMARIZAL",
+      "endereco": "R. GUARAMEMBÉ, 585 - JD. UMARIZAL",
+      "CEP": "05754-060",
+      "fones": ["5845-3124", "5511-1475"]
+    },
+    {
+      "nome": "UBS PARQUE ARARIBA",
+      "endereco": "R. FRANCISCO SOARES, 81 - JD. INGÁ",
+      "CEP": "05774-300",
+      "fones": ["5511-5573", "5816-5540", "5816-5542"]
+    },
+    {
+      "nome": "UBS PARQUE REGINA",
+      "endereco": "R. MELO COUTINHO, 260 - PQ. REGINA",
+      "CEP": "05775-230",
+      "fones": ["5511-8585", "5816-5561"]
+    },
+    {
+      "nome": "UBS JARDIM COMERCIAL",
+      "endereco": "R. COSTA NOVA DO PRADO, 92 - JD. LILAH",
+      "CEP": "05885-190",
+      "fones": ["5873-4880", "5874-6120"]
+    },
+    {
+      "nome": "UBS JARDIM GERMANIA",
+      "endereco": "R. JOÃO FUGULIM, 338 - JD. GERMANIA",
+      "CEP": "05849-340",
+      "fones": ["5511-1761", "5816-2622"]
+    },
+    {
+      "nome": "UBS JARDIM LÍDIA",
+      "endereco": "R. GUTEMBERG JOSÉ FERREIRA, 50 - JD. LÍDIA",
+      "CEP": "05860-070",
+      "fones": ["5511-4428", "5816-5547"]
+    },
+    {
+      "nome": "UBS JARDIM MACEDÔNIA",
+      "endereco": "R. SORIANO DE ALBUQUERQUE, 77 - JD. MACEDONIA",
+      "CEP": "05894-440",
+      "fones": ["5823-6158", "5824-5520", "5824-7707"]
+    },
+    {
+      "nome": "UBS JARDIM MAGDALENA",
+      "endereco": "R. VITORIANO PALHARES, 221 - JD. MAGDALENA",
+      "CEP": "05890-320",
+      "fones": ["5824-6020", "5824-5347"]
+    },
+    {
+      "nome": "UBS JARDIM MARACA",
+      "endereco": "R. FERES BECHARA, 506 - JD. MARACA",
+      "CEP": "05867-390",
+      "fones": ["5874-7421", "5874-7420"]
+    },
+    {
+      "nome": "UBS JARDIM MARCELO",
+      "endereco": "R. GASTÃO RAUL FOURTON BOUSQUET, 377 - JD. MARCELO",
+      "CEP": "05797-000",
+      "fones": ["5825-2579", "5821-5974"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO BENTO",
+      "endereco": "R. JOÃO ROBALO, 64 - JD. SÃO BENTO",
+      "CEP": "05881-000",
+      "fones": ["5873-2681", "5874-6115"]
+    },
+    {
+      "nome": "UBS LUAR DO SERTÃO",
+      "endereco": "R. LUAR DO SERTÃO, 980 - CHÁCARA SANTA MARIA",
+      "CEP": "05879-450",
+      "fones": ["5874-1826", "5871-9489", "5871-9547"]
+    },
+    {
+      "nome": "UBS PARQUE DO ENGENHO II",
+      "endereco": "AV. DOM RODRIGO SANCHES, 700 - PQ. ENGENHO",
+      "CEP": "05892-360",
+      "fones": ["5821-2274", "5821-8371"]
+    },
+    {
+      "nome": "UBS PARQUE FERNANDA",
+      "endereco": "R. ERNESTO SOARES FILHO, 301 - PQ. FERNANDA",
+      "CEP": "05888-070",
+      "fones": ["5821-1632", "5824-6721", "5821-5860"]
+    },
+    {
+      "nome": "UBS PARQUE MARIA HELENA",
+      "endereco": "R. DR. BENEDITO MATARAZZO, 371 - PQ. MARIA HELENA",
+      "CEP": "05854-090",
+      "fones": ["5510-8380"]
+    },
+    {
+      "nome": "UBS CIDADE JULIA",
+      "endereco": "R. PASCOAL GRIECO, 366 - CIDADE JULIA",
+      "CEP": "04421-150",
+      "fones": ["5623-6669", "5623-9993"]
+    },
+    {
+      "nome": "UBS JARDIM MIRIAM - MANOEL SOARES DE OLIVEIRA",
+      "endereco": "AV. SANTO AFONSO, 419 - JD. MIRIAM",
+      "CEP": "04426-000",
+      "fones": ["5622-7869", "5621-7569"]
+    },
+    {
+      "nome": "UBS JARDIM NITERÓI",
+      "endereco": "R. SAMUEL ARNOLD, 596 - JD. NITEROI",
+      "CEP": "04434-000",
+      "fones": ["5611-0122", "5611-6688"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO CARLOS - CIDADE ADEMAR",
+      "endereco": "R. CLAUDIA MUZIO, 163 - JD. SÃO CARLOS",
+      "CEP": "04429-280",
+      "fones": ["5621-9200", "5623-9273"]
+    },
+    {
+      "nome": "UBS JARDIM UMUARAMA",
+      "endereco": "R. ANTONIO GIL, 721 - V. FILOMENA",
+      "CEP": "04655-000",
+      "fones": ["5563-9070", "5566-1611"]
+    },
+    {
+      "nome": "UBS SÃO JORGE - CIDADE ADEMAR",
+      "endereco": "AV. EDUARDO PEREIRA RAMOS, 810 - JD. DOMITILA",
+      "CEP": "04432-000",
+      "fones": ["5611-3527", "5611-6933"]
+    },
+    {
+      "nome": "UBS VILA CONSTÂNCIA - DR VICENTE OCTAVIO GUIDA",
+      "endereco": "AV. YERVANT KISSAJIKIAN, 1549 - V. CONSTÂNCIA",
+      "CEP": "04657-001",
+      "fones": ["5563-7877", "5678-7444"]
+    },
+    {
+      "nome": "UBS VILA IMPÉRIO",
+      "endereco": "R. CATARINA GABRIELLI, 150 - AMERICANÓPOLIS",
+      "CEP": "04408-090",
+      "fones": ["5624-6554"]
+    },
+    {
+      "nome": "UBS VILA IMPÉRIO II",
+      "endereco": "R. DR. NESTOR SAMPAIO PENTEADO, 184 - AMERICANÓPOLIS",
+      "CEP": "04409-060",
+      "fones": ["5624-6554", "5621-3891"]
+    },
+    {
+      "nome": "UBS VILA MISSIONÁRIA",
+      "endereco": "R. RAINHA DAS MISSOES, 515 - V. MISSIONÁRIA",
+      "CEP": "04430-100",
+      "fones": ["5621-2270", "5621-4663"]
+    },
+    {
+      "nome": "UBS DR. SÉRGIO CHADDAD",
+      "endereco": "AV. CARLOS OBERHUBER, 659 - V. SÃO JOSE",
+      "CEP": "04836-130",
+      "fones": ["5924-3636", "5928-9529"]
+    },
+    {
+      "nome": "UBS JARDIM ICARAÍ - QUINTANA",
+      "endereco": "R. SÃO ROQUE DO PARAGUACU, S/N - V. QUINTANA",
+      "CEP": "04837-150",
+      "fones": ["5928-0272", "5939-7589"]
+    },
+    {
+      "nome": "UBS JARDIM REPÚBLICA",
+      "endereco": "AV. GONÇALO DE PAIVA GOMES, 285 - JD. REPUBLICA",
+      "CEP": "04812-090",
+      "fones": ["5663-5000", "5661-5654", "5663-5744"]
+    },
+    {
+      "nome": "UBS JORDANÓPOLIS",
+      "endereco": "R. CONTOS AMAZONICOS, 1 - CIDADE DUTRA",
+      "CEP": "04830-130",
+      "fones": ["5928-2453"]
+    },
+    {
+      "nome": "UBS ÁGUA FUNDA",
+      "endereco": "R. ROSA DE MORAES, 91 - V. ÁGUA FUNDA",
+      "CEP": "04055-000",
+      "fones": ["5073-6253", "5058-5007"]
+    },
+    {
+      "nome": "UBS JARDIM DA SAÚDE - NEUSA ROSALIA MORALES",
+      "endereco": "R. DOMINGO DE ROGATIS, 187 - JD. DA SAUDE",
+      "CEP": "04290-080",
+      "fones": ["5062-9586", "5062-9317"]
+    },
+    {
+      "nome": "UBS VILA GUMERCINDO - PROFª JANDIRA MASSUR",
+      "endereco": "R. DOM LUCIO DE SOUZA, 372 - V. GUMERCINDO",
+      "CEP": "04029-040",
+      "fones": ["5062-7232"]
+    },
+    {
+      "nome": "UBS VILA MORAES - DR. JOAO PAULO BOTELHO VIEIRA",
+      "endereco": "R. GIOVANNI DI BALDUCCIO, 250 - V. MORAES",
+      "CEP": "04070-000",
+      "fones": ["5073-8345", "5058-0891"]
+    },
+    {
+      "nome": "UBS ALCINA PIMENTEL PIZA",
+      "endereco": "ESTRADA DE ITAQUAQUECETUBA, 8855 - ILHA DO BORORÉ",
+      "CEP": "04846-010",
+      "fones": ["5974-2289", "5974-9764", "5667-5484"]
+    },
+    {
+      "nome": "UBS CHÁCARA DO CONDE",
+      "endereco": "R. CONSTELAÇÃO DO ESQUADRO, 5 - JD. CAMPINAS",
+      "CEP": "04858-010",
+      "fones": ["5938-6611", "5938-3109", "5526-7809"]
+    },
+    {
+      "nome": "UBS CHÁCARA DO SOL",
+      "endereco": "R. JOÃO CARLOS DE OLIVEIRA, E - CHÁCARA DO SOL",
+      "CEP": "04855-515",
+      "fones": ["5931-4151"]
+    },
+    {
+      "nome": "UBS CHÁCARA SANTO AMARO",
+      "endereco": "R. LUIZ CARLOS DE ALMEIDA, 51 - CHÁCARA SANTO AMARO",
+      "CEP": "04875-120",
+      "fones": ["5974-2486"]
+    },
+    {
+      "nome": "UBS GAIVOTAS",
+      "endereco": "AV. SÃO PAULO, 23-A - JD. GAIVOTA",
+      "CEP": "04849-000",
+      "fones": ["5932-6407"]
+    },
+    {
+      "nome": "UBS JARDIM CASTRO ALVES",
+      "endereco": "R. JOÃO PAULO BARRETO, 131 - JD. CASTRO ALVES",
+      "CEP": "04842-150",
+      "fones": ["5971-2157", "5928-1714"]
+    },
+    {
+      "nome": "UBS JARDIM ELIANE",
+      "endereco": "R. HENRY ARTHUR JONES, 201 - JD. ELIANA",
+      "CEP": "04851-120",
+      "fones": ["5931-5240", "5528-1887"]
+    },
+    {
+      "nome": "UBS JARDIM MIRNA",
+      "endereco": "R. DR. JUVENAL HUDSON FERREIRA, 13 - JD. MIRNA",
+      "CEP": "04856-140",
+      "fones": ["5526-2114", "5526-5175"]
+    },
+    {
+      "nome": "UBS JARDIM TRÊS CORAÇÕES",
+      "endereco": "R. GENERAL JOSÉ DE OLIVEIRA RAMOS, 275 - JD. TRÊS CORAÇÕES",
+      "CEP": "04855-280",
+      "fones": ["5528-6223", "5931-5969"]
+    },
+    {
+      "nome": "UBS PARQUE RESIDENCIAL COCAIA INDEPENDENTE",
+      "endereco": "R. FILINTO MILANEZ, 26 - PQ. RESIDENCIAL COCAIA",
+      "CEP": "04849-040",
+      "fones": ["5931-5847", "5931-0209"]
+    },
+    {
+      "nome": "UBS VARGINHA",
+      "endereco": "R. HENRIQUE MUZZIO, 383 - JD. VARGINHA",
+      "CEP": "04857-040",
+      "fones": ["5526-3988", "5527-2709"]
+    },
+    {
+      "nome": "UBS ALMIRANTE DELLAMARE",
+      "endereco": "R. ALM. MARIATH, 62 - V. HELIÓPOLIS",
+      "CEP": "04218-040",
+      "fones": ["2061-9030"]
+    },
+    {
+      "nome": "UBS DR. JOAQUIM ROSSINI",
+      "endereco": "R. ALVARO FRAGOSO, 480 - V. CARIOCA",
+      "CEP": "04223-000",
+      "fones": ["2273-4602", "2272-1083"]
+    },
+    {
+      "nome": "UBS DR. OSWALDO MARASCA JUNIOR",
+      "endereco": "AV. DOM PEDRO I, 594 - IPIRANGA",
+      "CEP": "01552-000",
+      "fones": ["2272-8619/ 2273-5403"]
+    },
+    {
+      "nome": "UBS SÃO VICENTE DE PAULA",
+      "endereco": "R. VICENTE DA COSTA, 289 - IPIRANGA",
+      "CEP": "04266-050",
+      "fones": ["2273-4592", "2063-0058"]
+    },
+    {
+      "nome": "UBS VILA CARIOCA",
+      "endereco": "R. ANTONIO FREDERICO, 117 - VL. INDEPENDÊNCIA",
+      "CEP": "04224-030",
+      "fones": ["2273-9707/ 2063-5479"]
+    },
+    {
+      "nome": "UBS AMERICANÓPOLIS",
+      "endereco": "R. CIDADE DE SANTOS, 46 - AMERICANÓPOLIS",
+      "CEP": "04336-050",
+      "fones": ["5562-1476", "5563-9463"]
+    },
+    {
+      "nome": "UBS CIDADE VARGAS",
+      "endereco": "R. DOS COMERCIÁRIOS, 236 - CIDADE VARGAS",
+      "CEP": "04320-030",
+      "fones": ["5588-4890"]
+    },
+    {
+      "nome": "UBS CUPECÊ - DR. WALDOMIRO PREGNOLATTO",
+      "endereco": "AV. SANTA CATARINA, 1523 - V. SANTA CATARINA",
+      "CEP": "04378-300",
+      "fones": ["5564-3079", "5671-5091"]
+    },
+    {
+      "nome": "UBS DR. GERALDO DA SILVA FERREIRA",
+      "endereco": "AV. ENG. ARMANDO DE ARRUDA PEREIRA, 2944 - VL. DO ENCONTRO",
+      "CEP": "04308-001",
+      "fones": ["5588-2366"]
+    },
+    {
+      "nome": "UBS JARDIM LOURDES",
+      "endereco": "AV. ENG. ARMANDO DE ARRUDA PEREIRA, 4004 - JABAQUARA",
+      "CEP": "04325-000",
+      "fones": ["5021-3432"]
+    },
+    {
+      "nome": "UBS VILA CAMPESTRE",
+      "endereco": "R. ARTUR NUNES DA SILVA, 265 - V. CAMPESTRE",
+      "CEP": "04332-080",
+      "fones": ""
+    },
+    {
+      "nome": "UBS VILA CLARA",
+      "endereco": "R. ROLANDO CURTI, 701 - V. CLARA",
+      "CEP": "04414-000",
+      "fones": ["5623-6883"]
+    },
+    {
+      "nome": "UBS VILA SANTA CATARINA",
+      "endereco": "R. BELMIRO ZANETTI ESTEVES, 181 - V. SANTA CATARINA",
+      "CEP": "04377-060",
+      "fones": ["5563-9814"]
+    },
+    {
+      "nome": "UBS ALTO DA RIVIERA",
+      "endereco": "AV. PROF. MÁRIO MAZAGAO, 194 - ALTO DA RIVIERA",
+      "CEP": "04929-080",
+      "fones": ["5833-1372", "5833-1379"]
+    },
+    {
+      "nome": "UBS CHÁCARA SANTA MARIA",
+      "endereco": "R. CICLADES, 250 - CHÁCARA SANTA MARIA",
+      "CEP": "05876-040",
+      "fones": ["5833-5262", "5833-9921"]
+    },
+    {
+      "nome": "UBS CIDADE IPAVA",
+      "endereco": "AV. TAQUANDAVA, 31 - CID. IPAVA",
+      "CEP": "04950-000",
+      "fones": ["5517-1908"]
+    },
+    {
+      "nome": "UBS HORIZONTE AZUL",
+      "endereco": "R. ALBERGATI CAPACELLI, 2200 - HORIZONTE AZUL",
+      "CEP": "04963-000",
+      "fones": ["5517-3860", "5517-3469"]
+    },
+    {
+      "nome": "UBS JARDIM ARACATI",
+      "endereco": "R. FANCISCO HOMEM DEL REI, 87 - JD. ARACATI",
+      "CEP": "04949-070",
+      "fones": ["5896-1139", "5896-1027"]
+    },
+    {
+      "nome": "UBS JARDIM CAIÇARA",
+      "endereco": "R. SERAFIM ALVARES, 46 - JD. CAIÇARA",
+      "CEP": "05871-370",
+      "fones": ["5831-5882", "5833-4375"]
+    },
+    {
+      "nome": "UBS JARDIM CAPELA",
+      "endereco": "R. BARAO DE PAIVA MANSO, 200 - JD. CAPELA",
+      "CEP": "04960-110",
+      "fones": ["5517-0226", "5899-9652"]
+    },
+    {
+      "nome": "UBS JARDIM COIMBRA",
+      "endereco": "ESTRADA DO M'BOI MIRIM, 3301 - JD. COIMBRA",
+      "CEP": "04905-023",
+      "fones": ["5892-2327", "5894-2191"]
+    },
+    {
+      "nome": "UBS JARDIM GUARUJÁ",
+      "endereco": "R. JOÃO DE ALMADA, 25 - JD. GUARUJA",
+      "CEP": "05875-300",
+      "fones": ["5873-5089", "5874-4499"]
+    },
+    {
+      "nome": "UBS JARDIM HERCULANO",
+      "endereco": "R. INACIO LIMAS, 11 - JD. HERCULANO",
+      "CEP": "04920-050",
+      "fones": ["5832-6643", "5833-9946"]
+    },
+    {
+      "nome": "UBS JARDIM KAGOHARA",
+      "endereco": "R. DOS TEMAS, 25 - JD. KAGOHARA",
+      "CEP": "04938-000",
+      "fones": ["5834-0153", "5834-0147"]
+    },
+    {
+      "nome": "UBS JARDIM NAKAMURA",
+      "endereco": "R. MANUEL VITOR DE JESUS, 811 - JD. NAKAMURA",
+      "CEP": "04942-100",
+      "fones": ["5831-0892", "5831-2482"]
+    },
+    {
+      "nome": "UBS JARDIM PARANAPANEMA",
+      "endereco": "R. PIETRO DA MILANO,100 - VL. SANTO AMARO",
+      "CEP": "05875-360",
+      "fones": ["5833-4282"]
+    },
+    {
+      "nome": "UBS JARDIM SANTA MARGARIDA",
+      "endereco": "R. CAPAO REDONDO, 175 - PQ. SANTO AMARO",
+      "CEP": "04931-100",
+      "fones": ["5892-5799"]
+    },
+    {
+      "nome": "UBS JARDIM VERA CRUZ",
+      "endereco": "AV. FUNCIONÁRIOS PÚBLICOS (REF.:R.PABLO BRUNA), 13 C - JD. VERA CRUZ",
+      "CEP": "04962-000",
+      "fones": ["5899-7754", "5899-9336"]
+    },
+    {
+      "nome": "UBS PARQUE DO LAGO",
+      "endereco": "ESTRADA DA BARONESA, 1000 - PQ. DO LAGO",
+      "CEP": "04944-180",
+      "fones": ["5517-0045", "5895-5816"]
+    },
+    {
+      "nome": "UBS PARQUE NOVO SANTO AMARO",
+      "endereco": "R. PORTA DO PRADO, 18 - PQ. NOVO STO AMARO",
+      "CEP": "05874-130",
+      "fones": ["5831-1448"]
+    },
+    {
+      "nome": "UBS SANTA LÚCIA",
+      "endereco": "R. CARMELO CALI, 26 - V. SANTA LÚCIA",
+      "CEP": "04940-070",
+      "fones": ["5831-6291", "5833-0788"]
+    },
+    {
+      "nome": "UBS VILA CALU",
+      "endereco": "ESTRADA DE M´BOI MIRIM, 10020 - VL. CALU",
+      "CEP": "04948-030",
+      "fones": ["5895-8117"]
+    },
+    {
+      "nome": "UBS BRASÍLIA - M’ BOI",
+      "endereco": "R. MAPORÉ, 352 - JD. BRASÍLIA",
+      "CEP": "05846-390",
+      "fones": ["5511-8717"]
+    },
+    {
+      "nome": "UBS CHÁCARA SANTANA",
+      "endereco": "R. BALTAZAR DE SA, 383 - CHÁCARA SANTANA",
+      "CEP": "05831-000",
+      "fones": ["5514-6448", "5891-2843"]
+    },
+    {
+      "nome": "UBS JARDIM CELESTE",
+      "endereco": "R. JOÃO FERNANDES CAMISA NOVA JR., 865 - JD. CELESTE",
+      "CEP": "04913-120",
+      "fones": ["5817-8387"]
+    },
+    {
+      "nome": "UBS JARDIM SOUZA",
+      "endereco": "R. MARIA JOSÉ DE SOUZA, 190 - JD. SOUZA",
+      "CEP": "04917-080",
+      "fones": ["5514-6430", "5514-6404"]
+    },
+    {
+      "nome": "UBS JARDIM THOMAS",
+      "endereco": "R. AUDÁLIO GONÇALVES DOS SANTOS, 158 - JD. THOMAS",
+      "CEP": "05833-040",
+      "fones": ["5514-0345", "5894-4218"]
+    },
+    {
+      "nome": "UBS NOVO CAMINHO",
+      "endereco": "R. ANTONIO DA MATA JUNIOR, 943 - JD. SÃO LUIZ",
+      "CEP": "05812-030",
+      "fones": ["5851-9026"]
+    },
+    {
+      "nome": "UBS NOVO JARDIM I",
+      "endereco": "R. JEAN DE BRIENNE, 25 - JD. N S DO CARMO",
+      "CEP": "05816-170",
+      "fones": ["5892-2134", "5892-2719"]
+    },
+    {
+      "nome": "UBS PARQUE FIGUEIRA GRANDE",
+      "endereco": "R. DANIEL KLEIN, 211 - PQ. FIGUEIRA GRANDE",
+      "CEP": "04915-170",
+      "fones": ["5514-6609", "5894-4788"]
+    },
+    {
+      "nome": "UBS PARQUE SANTO ANTONIO",
+      "endereco": "R. MANOEL BORDALO PINHEIRO, 100 - PQ. SANTO ANTONIO",
+      "CEP": "05850-230",
+      "fones": ["5511-4249", "5816-5546"]
+    },
+    {
+      "nome": "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO",
+      "endereco": "R. TENENTE ISAIAS BRANCO DE ARAUJO, 101/103 - V. DAS BELEZAS",
+      "CEP": "05841-150",
+      "fones": ["5511-4712", "5816-8519"]
+    },
+    {
+      "nome": "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO",
+      "endereco": "R. TENENTE ISAIAS BRANCO DE ARAUJO, 101/103 - V. DAS BELEZAS",
+      "CEP": "05841-150",
+      "fones": ["5511-4712", "5816-8519"]
+    },
+    {
+      "nome": "UBS VILA PREL - PROF. ANTONIO BERNARDES DE OLIVEIRA",
+      "endereco": "R. TEREZA MAIA PINTO, 11 - V. PREL",
+      "CEP": "05780-390",
+      "fones": ["5511-1630", "5816-5563"]
+    },
+    {
+      "nome": "UBS ZUMBI DOS PALMARES",
+      "endereco": "R. HUMBERTO DE ALMEIDA, 279 - CHÁCARA SANTANA",
+      "CEP": "05831-000",
+      "fones": ["5897-2564", "5891-4013"]
+    },
+    {
+      "nome": "UBS DOM LUCIANO BERGAMINI",
+      "endereco": "ESTRADA DA LIGAÇAO, 01 - MARSILAC - ZONA RURAL",
+      "CEP": "05267-000",
+      "fones": ["5978-6394", "5975-1057"]
+    },
+    {
+      "nome": "UBS JARDIM EMBURA",
+      "endereco": "EST. DO ENGENHEIRO MARSILAC, 5529 - JD. EMBURA",
+      "CEP": "04893-000",
+      "fones": ["5975-2192"]
+    },
+    {
+      "nome": "UBS DR. SIGMUND FREUD - INDIANÓPOLIS",
+      "endereco": "AV. INDIANÓPOLIS, 650 - MOEMA",
+      "CEP": "04062-001",
+      "fones": ["5054-2851"]
+    },
+    {
+      "nome": "UBS MAX PERLMAN - VILA OLIMPIA",
+      "endereco": "R. JACQUES FELIX, 499 - V. NOVA CONCEIÇÃO",
+      "CEP": "04509-001",
+      "fones": ["3842-4849", "3842-5146"]
+    },
+    {
+      "nome": "UBS COLÔNIA",
+      "endereco": "R. NOSSA SENHORA APARECIDA, 342 - COLÔNIA PAULISTA",
+      "CEP": "04892-230",
+      "fones": ["5977-3269"]
+    },
+    {
+      "nome": "UBS JARDIM CAMPINAS",
+      "endereco": "R. DAS PLEIADES , S/N - JD. MARIA AMALIA",
+      "CEP": "04858-550",
+      "fones": ["5527-3589", "5527-2000", "5527-5228"]
+    },
+    {
+      "nome": "UBS JARDIM IPORÃ",
+      "endereco": "R. FORTE DE LADÁRIO, 61 - JD. IPORÃ",
+      "CEP": "04865-120",
+      "fones": ["5922-3053"]
+    },
+    {
+      "nome": "UBS JARDIM SÃO NORBERTO",
+      "endereco": "AV. DOMENICO LANZETTI, S/N - JD. SÃO NORBERTO",
+      "CEP": "04884-210",
+      "fones": ["5920-8977"]
+    },
+    {
+      "nome": "UBS PARELHEIROS",
+      "endereco": "R. MARIO TRAPPE, 100 - JD. NOVO PARELHEIROS",
+      "CEP": "04890-430",
+      "fones": ["5920-8860/ 5921-4946"]
+    },
+    {
+      "nome": "UBS RECANTO CAMPO BELO",
+      "endereco": "AV. SADAMU INOUE, 2666 - RECANTO CAMPO BELO",
+      "CEP": "04825-000",
+      "fones": ["5926-2002", "5921-8022 "]
+    },
+    {
+      "nome": "UBS VARGEM GRANDE",
+      "endereco": "AV. DAS PALMEIRAS, 40 - VARGEM GRANDE",
+      "CEP": "04895-010",
+      "fones": ["5921-2111", "5920-0261"]
+    },
+    {
+      "nome": "UBS VERA POTY",
+      "endereco": "R. JOÂO LANGE, 153 - BARRAGEM",
+      "CEP": "04895-070",
+      "fones": ["5977-3851", "5977-0022", "5977-0000"]
+    },
+    {
+      "nome": "UBS JARDIM APURÁ",
+      "endereco": "R. DR. DARI BARCELOS, 37 - JD. APURA",
+      "CEP": "04470-170",
+      "fones": ["5673-0001", "5673-3734"]
+    },
+    {
+      "nome": "UBS LARANJEIRAS",
+      "endereco": "R. DENIS FURTEL, 108 - LARANJEIRAS",
+      "CEP": "04476-145",
+      "fones": ["5673-6180", "5673-6181"]
+    },
+    {
+      "nome": "UBS MAR PAULISTA",
+      "endereco": "R. MATSUICHI WADA, 393 - BALNEÁRIO MAR PAULISTA",
+      "CEP": "04463-060",
+      "fones": ["5612-5686", "5616-9406"]
+    },
+    {
+      "nome": "UBS MATA VIRGEM",
+      "endereco": "ESTRADA DA SAUDE, 47 - ELDORADO",
+      "CEP": "04476-540",
+      "fones": ["5673-4455", "5673-4477"]
+    },
+    {
+      "nome": "UBS PARQUE DOROTEIA",
+      "endereco": "R. DOS ANIQUIS, 3 - JD. SANTA TEREZINHA",
+      "CEP": "04474-000",
+      "fones": ["5560-0890", "5672-7444"]
+    },
+    {
+      "nome": "UBS VILA APARECIDA",
+      "endereco": "AV. BATISTA MACIEL, 430 - ELDORADO",
+      "CEP": "04459-110",
+      "fones": ["5612-9644", "5612-2850"]
+    },
+    {
+      "nome": "UBS VILA GUACURI",
+      "endereco": "R. VALENTINO FIORAVANTE, 416 - JD. RUBILENE",
+      "CEP": "04475-380",
+      "fones": ["5674-0921", "5673-0888"]
+    },
+    {
+      "nome": "UBS AURÉLIO MELLONE",
+      "endereco": "R. ATILIO SELVA, 10 - JD. CELESTE",
+      "CEP": "04095-060",
+      "fones": ["2331-2131", "2331-7586"]
+    },
+    {
+      "nome": "UBS DR. EDUARDO ROMANO RESCHILIAN",
+      "endereco": "R. DR. LAFAIETE DE SOUZA CAMARGO, 40 - JD. CLIMAX",
+      "CEP": "04077-380",
+      "fones": ["2335-5319", "2334-0005(pub)"]
+    },
+    {
+      "nome": "UBS JARDIM SECKLER",
+      "endereco": "R. CARLOS MAURO, 114 - SÃO JOÃO CLIMACO",
+      "CEP": "04240-150",
+      "fones": ["2946-8532"]
+    },
+    {
+      "nome": "UBS LUIZ ERNESTO MAZZONI",
+      "endereco": "AV. CARLOS LIVIERO, 566 - V. LIVIERO",
+      "CEP": "04086-100",
+      "fones": ["2331-9624", "2335-8124"]
+    },
+    {
+      "nome": "UBS MOINHO VELHO II",
+      "endereco": "R. BELGRADO, 323 - MOINHO VELHO",
+      "CEP": "04285-040",
+      "fones": ["2274-1059", "2062-6416"]
+    },
+    {
+      "nome": "UBS PARQUE BRISTOL",
+      "endereco": "R. FRANCOIS BUNEL, 194 - PQ. BRISTOL",
+      "CEP": "04094-160",
+      "fones": ["2331-3089"]
+    },
+    {
+      "nome": "UBS SACOMÃ",
+      "endereco": "ESTRADA DAS LAGRIMAS, 1403 - SACOMÃ",
+      "CEP": "04232-000",
+      "fones": ["2915-8200 /2 273-3537"]
+    },
+    {
+      "nome": "UBS VILA ARAPUÃ",
+      "endereco": "R. COLOMBO FLORENCE, 241 - V. ARAPUA",
+      "CEP": "04257-060",
+      "fones": ["2946-6660", "2969-5339"]
+    },
+    {
+      "nome": "UBS VILA DAS MERCÊS",
+      "endereco": "R. NOSSA SENHORA DAS MERCÊS, 1315 - V. DAS MERCÊS",
+      "CEP": "04065-001",
+      "fones": ["2946-1443"]
+    },
+    {
+      "nome": "UBS CHÁCARA SANTO ANTONIO - DR. MARCILIO DE ARRUDA PENTEADO FILHO",
+      "endereco": "R. ALEXANDRE DUMAS, 719 - CHÁCARA SANTO ANTONIO",
+      "CEP": "04717-001",
+      "fones": ["5181-7894", "5183-6139"]
+    },
+    {
+      "nome": "UBS SANTO AMARO - DR. SÉRGIO VILLAÇA BRAGA",
+      "endereco": "R. CONDE DE ITU, 359 - SANTO AMARO",
+      "CEP": "04752-010",
+      "fones": ["5687-3367", "5523-9449"]
+    },
+    {
+      "nome": "UBS PARQUE IMPERIAL - PROF. MANOEL ANTONIO SILVA SARAGOÇA",
+      "endereco": "R. JACOPO BASSANO, 27 - V. MONTE ALEGRE",
+      "CEP": "04305-080",
+      "fones": ["2276-0149"]
+    },
+    {
+      "nome": "UBS PROF. MILTON SANTOS",
+      "endereco": "AV. CECI, 2249 - PLANALTO PAULISTA",
+      "CEP": "04065-004",
+      "fones": ["2578-1831"]
+    },
+    {
+      "nome": "UBS VELEIROS",
+      "endereco": "AV. CLARA MANTELLI, 185 - VELEIROS",
+      "CEP": "04771-180",
+      "fones": ["5681-5520", "5687-0639"]
+    },
+    {
+      "nome": "UBS PARAISOPOLIS",
+      "endereco": "R. MELCHIOR GIOLA, 80 - JD. PARAISOPOLIS",
+      "CEP": "05664-000",
+      "fones": ["3744-5223", "3744-5822"]
+    },
+    {
+      "nome": "UBS PARAISOPOLIS II",
+      "endereco": "R. PASQUALE GUALUPPI, 951 - PARAISOPOLIS",
+      "CEP": "05660-000",
+      "fones": ["3501-9031/", "3501-2839"]
+    },
+    {
+      "nome": "UBS VILA PRAIA - DR. VITORIO ROLANDO BOCCALETTI",
+      "endereco": "R. ANDRÉ DE ANDRADE, S/N - V. PRAIA",
+      "CEP": "05749-240",
+      "fones": ["3742-9041", "3501-3665", "3501-0836"]
+    },
+    {
+      "nome": "UBS BOSQUE DA SAUDE",
+      "endereco": "R. JOÃO BAPTISTUCCI, 55 - CJ DOS BANCÁRIOS",
+      "CEP": "04121-100",
+      "fones": ["5539-4776", "5571-2682"]
+    },
+    {
+      "nome": "UBS VILA MARIANA",
+      "endereco": "R. CUNHA, 117 - V. CLEMENTINO",
+      "CEP": "04037-030",
+      "fones": ["5081-6790"]
+    }
+  ]
+}
