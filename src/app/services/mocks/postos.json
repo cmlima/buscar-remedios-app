@@ -1,6 +1,6 @@
 {
-  "source": "https://saude.estadao.com.br/blogs/pilulas-de-saude/wp-content/uploads/sites/554/2019/07/Endere%C3%A7o-das-UBSs-de-S%C3%A3o-Paulo.pdf",
-  "data": [
+  "fonte": "https://saude.estadao.com.br/blogs/pilulas-de-saude/wp-content/uploads/sites/554/2019/07/Endere%C3%A7o-das-UBSs-de-S%C3%A3o-Paulo.pdf",
+  "postosSaude": [
     {
       "nome": "UBS HUMAITÁ - DR. JOÃO DE AZEVEDO LAGE",
       "endereco": "R. HUMAITÁ, 520 - BELA VISTA",
@@ -269,7 +269,7 @@
       "nome": "UBS PROFETA JEREMIAS",
       "endereco": "R. LUIS BORDESE, 63 - CIDADE TIRADENTES",
       "CEP": "08471-710",
-      "fones": ["2558-3866", "2964-0737 (tel. Público)"]
+      "fones": ["2558-3866", "2964-0737"]
     },
     {
       "nome": "UBS DR. PEDRO DE SOUZA CAMPOS",
@@ -437,7 +437,7 @@
       "nome": "UBS VILA NOSSA SENHORA APARECIDA",
       "endereco": "R. PAULINO SERQUEIRA, 1 - ITAQUERA",
       "CEP": "08215-160",
-      "fones": ["2079-7871", "2071-0057 (tel. Público)"]
+      "fones": ["2079-7871", "2071-0057"]
     },
     {
       "nome": "UBS VILA RAMOS - DR. LUIZ AUGUSTO DE CAMPOS",
@@ -899,7 +899,7 @@
       "nome": "UBS VILA SANTO ESTEVÃO - WOADY JORGE KALIL",
       "endereco": "R. ANTONIO CAMARDO, 678 - V. GOMES CARDIM",
       "CEP": "03309-060",
-      "fones": ["2294-3028", "2092-0321 (tel.público)"]
+      "fones": ["2294-3028", "2092-0321"]
     },
     {
       "nome": "UBS DOM JOÃO NERY",
@@ -2057,7 +2057,7 @@
       "nome": "UBS DR. OSWALDO MARASCA JUNIOR",
       "endereco": "AV. DOM PEDRO I, 594 - IPIRANGA",
       "CEP": "01552-000",
-      "fones": ["2272-8619/ 2273-5403"]
+      "fones": ["2272-8619", "2273-5403"]
     },
     {
       "nome": "UBS SÃO VICENTE DE PAULA",
@@ -2069,7 +2069,7 @@
       "nome": "UBS VILA CARIOCA",
       "endereco": "R. ANTONIO FREDERICO, 117 - VL. INDEPENDÊNCIA",
       "CEP": "04224-030",
-      "fones": ["2273-9707/ 2063-5479"]
+      "fones": ["2273-9707", "2063-5479"]
     },
     {
       "nome": "UBS AMERICANÓPOLIS",
@@ -2105,7 +2105,7 @@
       "nome": "UBS VILA CAMPESTRE",
       "endereco": "R. ARTUR NUNES DA SILVA, 265 - V. CAMPESTRE",
       "CEP": "04332-080",
-      "fones": ""
+      "fones": []
     },
     {
       "nome": "UBS VILA CLARA",
@@ -2363,7 +2363,7 @@
       "nome": "UBS PARELHEIROS",
       "endereco": "R. MARIO TRAPPE, 100 - JD. NOVO PARELHEIROS",
       "CEP": "04890-430",
-      "fones": ["5920-8860/ 5921-4946"]
+      "fones": ["5920-8860", "5921-4946"]
     },
     {
       "nome": "UBS RECANTO CAMPO BELO",
@@ -2465,7 +2465,7 @@
       "nome": "UBS SACOMÃ",
       "endereco": "ESTRADA DAS LAGRIMAS, 1403 - SACOMÃ",
       "CEP": "04232-000",
-      "fones": ["2915-8200 /2 273-3537"]
+      "fones": ["2915-8200", "2273-3537"]
     },
     {
       "nome": "UBS VILA ARAPUÃ",
@@ -2519,7 +2519,7 @@
       "nome": "UBS PARAISOPOLIS II",
       "endereco": "R. PASQUALE GUALUPPI, 951 - PARAISOPOLIS",
       "CEP": "05660-000",
-      "fones": ["3501-9031/", "3501-2839"]
+      "fones": ["3501-9031", "3501-2839"]
     },
     {
       "nome": "UBS VILA PRAIA - DR. VITORIO ROLANDO BOCCALETTI",
