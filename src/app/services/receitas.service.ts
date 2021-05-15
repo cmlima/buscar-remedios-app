@@ -11,15 +11,14 @@ import { MensagensService } from './mensagens.service';
   providedIn: 'root'
 })
 export class ReceitasService {
-  private _receitas: Receita[];
+  private _receitas: Receita[] = [];
   private _selecionada: Receita;
   private apiBaseUrl: string = "https://remedios-api.herokuapp.com";
 
   constructor(private mensagensService: MensagensService, private httpClient: HttpClient, private storage: Storage) { }
 
   async ngOnInit() {
-    let receitas = await this.storage.get('receitas');
-    this._receitas = receitas || [];
+    await this.atualizarStorage();
   }
 
   public async getReceitas(): Promise<Receita[] | false> {
@@ -45,10 +44,10 @@ export class ReceitasService {
     this._selecionada = receita;
   }
 
-  public async buscar(hash: string): Promise<Receita | false> {
-    console.log('Buscando... ', hash);
+  public async buscar(id: string): Promise<Receita | false> {
+    console.log('Buscando... ', id);
 
-    const url = `${this.apiBaseUrl}/receitas/${hash}`;
+    const url = `${this.apiBaseUrl}/receitas/${id}`;
     const response = await this.httpClient.get(url).toPromise() as Receita | ApiErro;
 
     const invalido = (response as ApiErro).error; 
@@ -64,12 +63,12 @@ export class ReceitasService {
     return await Promise.resolve(receita);
   }
 
-  public async remover(hash: string): Promise<boolean> {
+  public async remover(id: string): Promise<boolean> {
     return new Promise((resolve) => {
       this.mensagensService.confirmar('Confirmação', 'Tem certeza de que deseja remover a receita da memória do aparelho?', async (yes: boolean) => {
         if (yes) {
-          console.log('removendo... ', hash);
-          const index = this._receitas.findIndex(receita => receita._id === hash);
+          console.log('removendo... ', id);
+          const index = this._receitas.findIndex(receita => receita._id === id);
           console.log('data: ', this._receitas[index].data);
           this._receitas.splice(index, 1);
           await this.storage.set('receitas', this._receitas);
@@ -79,9 +78,9 @@ export class ReceitasService {
     })
   }
 
-  public async gerarQRCode(hash: string): Promise<string | false> {
+  public async gerarQRCode(id: string): Promise<string | false> {
     try {
-      return await QRCode.toDataURL(hash);
+      return await QRCode.toDataURL(id);
     } catch (e) {
       await this.mensagensService.erro('', 'Falha na leitura do QRCode!');
       console.log(e);
@@ -89,4 +88,26 @@ export class ReceitasService {
     }
   }
   
+  public async atualizarStorage () {
+    let receitas = await this.storage.get('receitas');
+    receitas = this.buscarVarias(receitas.map(r => r._id)) || [];
+
+    this._receitas = receitas;
+    await this.storage.set('receitas', this._receitas);
+  }
+
+  private async buscarVarias(ids: string[]): Promise<Receita[] | false> {
+    console.log('Buscando receitas ', ids);
+
+    const url = `${this.apiBaseUrl}/receitas?ids=${ids.join(',')}`;
+    const response = await this.httpClient.get(url).toPromise() as Receita[] | ApiErro;
+
+    const invalido = (response as ApiErro).error; 
+    if (invalido) {
+      return Promise.resolve(false);
+    }
+    
+    const receitas = response as Receita[];
+    return await Promise.resolve(receitas);
+  }
 }
