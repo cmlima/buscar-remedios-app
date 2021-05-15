@@ -17,10 +17,6 @@ export class ReceitasService {
 
   constructor(private mensagensService: MensagensService, private httpClient: HttpClient, private storage: Storage) { }
 
-  async ngOnInit() {
-    await this.atualizarStorage();
-  }
-
   public async getReceitas(): Promise<Receita[] | false> {
     try {
       return this._receitas.sort((a, b) => {
@@ -58,7 +54,10 @@ export class ReceitasService {
     
     const receita = response as Receita;
 
-    this._receitas.push(receita);
+    let receitaInd = this._receitas.findIndex(r => r._id == receita._id);
+    if (receitaInd == -1) { receitaInd = this._receitas.length; }
+
+    this._receitas[receitaInd] = receita;
     await this.storage.set('receitas', this._receitas);
     return await Promise.resolve(receita);
   }
@@ -89,11 +88,15 @@ export class ReceitasService {
   }
   
   public async atualizarStorage () {
-    let receitas = await this.storage.get('receitas');
-    receitas = this.buscarVarias(receitas.map(r => r._id)) || [];
+    let receitas = await this.storage.get('receitas') || [];
+    if (receitas.length == 0) {
+      return await this.storage.set('receitas', receitas);
+    }
+
+    receitas = await this.buscarVarias(receitas.map(r => r._id)) || [];
 
     this._receitas = receitas;
-    await this.storage.set('receitas', this._receitas);
+    await this.storage.set('receitas', receitas);
   }
 
   private async buscarVarias(ids: string[]): Promise<Receita[] | false> {
