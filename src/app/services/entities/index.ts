@@ -8,3 +8,4 @@ export type { Posto } from './posto';
 export type { Prescricao } from './prescricao';
 export type { Receita } from './receita';
 export type { Especialidade, TipoReceita, UF } from './types';
+export type { ApiErro } from './ApiPrincipal';

@@ -47,7 +47,7 @@ export class PostosService {
      */
     const url = `https://viacep.com.br/ws/${digitos}/json/`;
     const response = await this.httpClient.get(url).toPromise() as ApiCepEndereco | ApiCepErro;
-    console.log(response);
+    // console.log(response);
     const invalido = (response as ApiCepErro).erro; 
     if (invalido) {
       this.mensagensService.erro('', 'CEP inválido!');

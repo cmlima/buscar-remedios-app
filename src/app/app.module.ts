@@ -13,10 +13,12 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator/ngx';
 import { CallNumber } from '@ionic-native/call-number/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 
+import { IonicStorageModule } from '@ionic/storage-angular';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule.forRoot()],
   providers: [BarcodeScanner, LaunchNavigator, CallNumber, Geolocation, { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent]
 })
