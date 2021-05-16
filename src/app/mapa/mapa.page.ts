@@ -15,13 +15,14 @@ import { Posto } from '../services/entities';
 export class MapaPage implements OnInit {
 	public map: Map;
 	public cep: string; 
+	public temPostos: boolean = false;
 
   constructor(private postosService: PostosService) { }
 
   ngOnInit() {}
 
   ionViewDidEnter() {
-		if (!this.map) this.inicializarMapa();
+	if (!this.map) this.inicializarMapa();
   }
 
 	private async inicializarMapa() {
@@ -44,6 +45,8 @@ export class MapaPage implements OnInit {
 	}
 
 	private renderizarPostos(postosSaude: Posto[]) {
+		this.temPostos = postosSaude.length > 0;
+
 		for (let posto of postosSaude) {
 			let postoMarker = marker(
 				[posto.coordenadas.lat, posto.coordenadas.lng]

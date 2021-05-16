@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
-import { ApiCepErro, ApiCepEndereco, ApiMapa, Localizacao, Posto } from './entities';
+import { ApiCepErro, ApiCepEndereco, ApiMapa, Localizacao, Posto, ApiErro } from './entities';
 import { MensagensService } from './mensagens.service';
 import dadosMapaMock from './mocks/mapa.json';
 
@@ -10,6 +10,7 @@ import dadosMapaMock from './mocks/mapa.json';
 })
 export class PostosService {
   public dadosMapa: ApiMapa;
+  private apiBaseUrl: string = "https://remedios-api.herokuapp.com";
 
   constructor(private mensagensService: MensagensService, private httpClient: HttpClient, private geolocation: Geolocation) { }
 
@@ -17,19 +18,37 @@ export class PostosService {
     try {
       // TODO: implementar consumo API, com CEP opcional
       // incluindo obtenção dos dados dos postos mais 
-      // próximos a partir da localização 
+      // próximos a partir da localização
+      
+      let url = `${this.apiBaseUrl}/postos`;
+
       if (cep) {
         const endereco = await this.validarCEP(cep);
         // TODO: Implementar rotina para obter coordenadas
         // a partir do CEP
-        if (endereco) this.dadosMapa = dadosMapaMock;        
+        if (!endereco) { return; }
+
+        url += `?cep=${cep}`;
       } else {
-        const localizacao = this.obterGeolocalizacao();
-        this.dadosMapa = dadosMapaMock; 
+        const localizacao = await this.obterGeolocalizacao();
+        if (!localizacao) {return;}
+        
+        url += `?lat=${localizacao.lat}&lng=${localizacao.lng}`;
       }
-      return this.dadosMapa;
+
+      const response = await this.httpClient.get(url).toPromise() as ApiMapa | ApiErro;
+
+      const invalido = (response as ApiErro).error; 
+      if (invalido) {
+        await this.mensagensService.erro('', 'Falha ao obter dados do mapa!');
+        return Promise.resolve(false);
+      }
+
+      const responseObj = response as ApiMapa;
+      this.dadosMapa = responseObj;
+      return responseObj;
     } catch (e) {
-      this.mensagensService.erro('', 'Falha ao obter dados do mapa');
+      this.mensagensService.erro('', 'Falha ao obter dados do mapa!');
       console.log(e);
       return false;
     }
@@ -37,7 +56,7 @@ export class PostosService {
 
   private async validarCEP(cep: string): Promise<ApiCepEndereco | false> {
     const digitos = cep.replace(/[^\d]/, '');
-    if (!/^\d{8}$/.test(cep)) {
+    if (!/^\d{8}$/.test(digitos)) {
       this.mensagensService.erro('', 'CEP inválido!');
       return false;
     }
@@ -68,5 +87,9 @@ export class PostosService {
       this.mensagensService.erro('', 'Não possível encontrar a sua localização atual. Digite um CEP na caixa de busca.');
       return false;
     }
+  }
+
+  public getPostos(): Posto[] {
+    return (this.dadosMapa || {}).postosSaude || [];
   }
 }
