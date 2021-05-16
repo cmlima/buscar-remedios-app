@@ -47,7 +47,7 @@
       </p>
     </ion-text>
     <div class="acoes-receita">
-      <ion-fab-button color="tertiary" title="download" [download]="receita._id" [href]="downloadLink">
+      <ion-fab-button color="tertiary" title="download" (click)="mostrarPdf()">
         <ion-icon name="download"></ion-icon>
       </ion-fab-button>
       <ion-fab-button color="primary" title="buscar remédio" [disabled]="receita.cancelled" [routerLink]="['/mapa']">

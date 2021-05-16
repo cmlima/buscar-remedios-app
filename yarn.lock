@@ -1174,6 +1174,20 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/file-opener@^5.33.0":
+  version "5.33.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/file-opener/-/file-opener-5.33.0.tgz#faff26d2bfa2f10b126f6e7ff7051bceb4caafa5"
+  integrity sha512-v7t1ndalAPYT9gvMAhxAup8tg1NPV415cfG6tzs1foPFP91UZC3MQny0tup8AgFivugT1GRdoSk1NMuK1jy8Cw==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/file@^5.33.0":
+  version "5.33.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/file/-/file-5.33.0.tgz#4920d5c36e36c7110975528f82100bb3ccf1c98b"
+  integrity sha512-RisSGJl2t8JrBgw30Vn5hJYYKEDTHR9f3KbQDfe1MQg+VrZo7vnbml/vk4l55u65c1TYZDH+F6i7s9nyif1QVQ==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/geolocation@^5.32.0":
   version "5.32.0"
   resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-5.32.0.tgz#801981ecb2bee634531d691ed57ab3342aa54bd7"
@@ -3123,6 +3137,16 @@ cordova-plugin-dialogs@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/cordova-plugin-dialogs/-/cordova-plugin-dialogs-2.0.2.tgz#ac3ce8b73bc885ff847078d5b533e7a4ed418a2f"
   integrity sha512-FUHI6eEVeoz2VkxbF0P56QlUQLGzXcvw3i4xuXyM9gEct6Y+FA3Xzgl2pJTZcTg5wRqLWzN08kgNoHPkom15pw==
+
+cordova-plugin-file-opener2@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-3.0.5.tgz#3bf481a724bcec9cfa2257a71915309df5ea5b4d"
+  integrity sha512-tjLHDamH5+y0bJZYVe2967L1S4R8tL4Y0rJUzJGoxsyiw3FUlrJNS199POOpzZZ6Xhlntn9a2o7+84r1dMN21A==
+
+cordova-plugin-file@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz#f3911479f8357e9aacb5576674f8d95b31a1fb20"
+  integrity sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==
 
 cordova-plugin-geolocation@^4.1.0:
   version "4.1.0"

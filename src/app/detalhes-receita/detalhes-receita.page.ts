@@ -13,7 +13,7 @@ import pdfMake from 'pdfmake/build/pdfmake';
 export class DetalhesReceitaPage implements OnInit {
   public receita: Receita;
   public dataURL: string;
-  public downloadLink: string;
+  private pdfBlob: Blob;
 
   constructor(private router: Router, private receitasService: ReceitasService, private mensagensService: MensagensService) { }
 
@@ -46,8 +46,8 @@ export class DetalhesReceitaPage implements OnInit {
       this.mensagensService.erro('', 'Falha ao tentar gerar o QR Code da receita!');
       console.log(e);
     }
-    const pdf = await this.gerarPdf(this.receita, this.dataURL);
-    this.downloadLink = pdf;
+    
+    this.pdfBlob = await this.gerarPdf(this.receita, this.dataURL);
   }
 
   private voltar() {
@@ -55,10 +55,10 @@ export class DetalhesReceitaPage implements OnInit {
     this.mensagensService.erro('', 'Não foi possível obter os dados da receita selecionada!');
   }
 
-  private gerarPdf(receita: Receita, qrcode: string): Promise<string> {
+  private gerarPdf(receita: Receita, qrcode: string): Promise<Blob> {
     pdfMake.fonts = getFonts();
     const documentDefinition = getDocumentDefinition(receita, qrcode);
-    return new Promise(resolve => pdfMake.createPdf(documentDefinition).getBase64(data => resolve(`data:application/pdf;base64,${data}`)));
+    return new Promise(resolve => pdfMake.createPdf(documentDefinition).getBlob(blob => resolve(blob)));
   }
 
   public async removerReceita() {
@@ -66,4 +66,7 @@ export class DetalhesReceitaPage implements OnInit {
     if (success) this.router.navigate(['/lista-receitas']);
   }
 
+  public async mostrarPdf() {
+    await this.receitasService.mostrarPdf(this.pdfBlob, this.receita._id + '.pdf');
+  }
 }

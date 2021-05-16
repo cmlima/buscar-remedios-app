@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Storage } from '@ionic/storage';
+import { File } from '@ionic-native/file/ngx';
+import { FileOpener } from '@ionic-native/file-opener/ngx';
+import { Platform } from '@ionic/angular';
 
 import { Receita } from './entities';
 import { ApiErro } from './entities';
@@ -15,7 +18,7 @@ export class ReceitasService {
   private _selecionada: Receita;
   private apiBaseUrl: string = "https://remedios-api.herokuapp.com";
 
-  constructor(private mensagensService: MensagensService, private httpClient: HttpClient, private storage: Storage) { }
+  constructor(private mensagensService: MensagensService, private httpClient: HttpClient, private storage: Storage, private file: File, private fileOpener: FileOpener, private platform: Platform) { }
 
   public async getReceitas(): Promise<Receita[] | false> {
     try {
@@ -112,5 +115,23 @@ export class ReceitasService {
     
     const receitas = response as Receita[];
     return await Promise.resolve(receitas);
+  }
+
+  public async mostrarPdf (pdfBlob: Blob, fileName: string) {
+    const writeDirectory = this.platform.is('ios') ? this.file.dataDirectory : this.file.externalDataDirectory;
+    
+    try {
+      await this.file.writeFile(writeDirectory, fileName, pdfBlob, {replace: true})
+    } catch (e) {
+      console.log('error write file', e);
+      await this.mensagensService.erro('', 'Falha ao abrir PDF!');
+    }
+      
+    try {
+      await this.fileOpener.open(writeDirectory + fileName, 'application/pdf')
+    } catch (e) {
+      console.log('error open file', e);
+      await this.mensagensService.erro('', 'Falha ao abrir PDF!');
+    }
   }
 }

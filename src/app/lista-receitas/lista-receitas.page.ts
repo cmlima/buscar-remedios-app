@@ -15,7 +15,9 @@ export class ListaReceitasPage implements OnInit {
 
   constructor(private router: Router, private receitasService: ReceitasService) { }
 
-  async ngOnInit() {
+  async ngOnInit() {}
+
+  async ionViewDidEnter() {
     await this.atualizarReceitas();
   }
 
