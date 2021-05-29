@@ -27,8 +27,50 @@
       </ion-label>
     </ion-segment-button>
   </ion-segment>
+
+  <ng-container *ngIf="loading">
+    <ion-card *ngFor="let i of [1,2,3]">
+      <ion-card-header>
+        <ion-card-subtitle class="receita-card-title">
+          <ion-chip>
+            <ion-icon name="calendar"></ion-icon>
+            <ion-label><ion-skeleton-text animated style="height: 1em; width: 5em;"></ion-skeleton-text></ion-label>
+          </ion-chip>
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content class="receita-card-body">
+        <ion-text>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="12">
+                <p>
+                  <ion-skeleton-text animated style="height: 1em; width: 18em;"></ion-skeleton-text> 
+                </p>
+                <p>
+                  <ion-skeleton-text animated style="height: 1em; width: 12em;"></ion-skeleton-text>
+                </p>
+                <p>
+                  <ion-skeleton-text animated style="height: 1em; width: 14em;"></ion-skeleton-text>
+                </p>
+                <p>
+                  <ion-skeleton-text animated style="height: 1em; width: 18em;"></ion-skeleton-text>
+                </p>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="12">
+                <p>
+                  <ion-skeleton-text animated style="height: 1em;"></ion-skeleton-text>
+                </p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-text>
+      </ion-card-content>
+    </ion-card>
+  </ng-container>
   
-  <ion-grid class="no-content" *ngIf="!filtradas || filtradas.length === 0" fixed>
+  <ion-grid class="no-content" *ngIf="(!filtradas || filtradas.length === 0) && !loading" fixed>
     <ion-row>
       <ion-col size="12">
         <ion-text color="medium" class="ion-text-center">

@@ -12,19 +12,22 @@ export class ListaReceitasPage implements OnInit {
   public filtradas: Receita[] = [];
   public filtro: string = 'todas';
   public canceladas: number = 0;
+  public loading: boolean = false;
 
   constructor(private router: Router, private receitasService: ReceitasService) { }
 
   async ngOnInit() {}
 
-  async ionViewDidEnter() {
+  async ionViewWillEnter() {
     await this.atualizarReceitas();
   }
 
   public async atualizarReceitas() {
+    this.loading = true;
     await this.receitasService.atualizarStorage();
 
     const receitas = await this.receitasService.getReceitas();
+    this.loading = false;
     if (receitas) this.receitas = receitas;
     this.filtrar();
   }

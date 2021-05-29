@@ -16,6 +16,7 @@ export class MapaPage implements OnInit {
 	public map: Map;
 	public cep: string; 
 	public temPostos: boolean = false;
+	public loading: boolean = false;
 
   constructor(private postosService: PostosService) { }
 
@@ -28,7 +29,9 @@ export class MapaPage implements OnInit {
 	private async inicializarMapa() {
 		const attribution = 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
 		const titleLayerUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+		this.loading = true;
 		const dadosMapa = await this.postosService.getDadosMapa();
+		this.loading = false;
 		if (dadosMapa) {
 			this.map = new Map('mapid').setView([dadosMapa.coordenadasIniciais.lat, dadosMapa.coordenadasIniciais.lng], 13);
 			tileLayer(titleLayerUrl, {attribution}).addTo(this.map);

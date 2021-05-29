@@ -29,6 +29,9 @@
 
 		<ion-row>
 			<ion-col class="map-container">
+				<div class="spin" *ngIf="loading">
+					<ion-spinner color="primary" name="crescent" ></ion-spinner>
+				</div>
 				<div id="mapid"></div>
 			</ion-col>
 		</ion-row>
