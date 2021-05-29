@@ -101,10 +101,10 @@ export class ReceitasService {
       return await this.storage.set('receitas', receitas);
     }
 
-    receitas = await this.buscarVarias(receitas.map(r => r._id)) || [];
+    const dadosOnline = await this.buscarVarias(receitas.map(r => r._id)) || [];
 
-    this._receitas = receitas;
-    await this.storage.set('receitas', receitas);
+    this._receitas = dadosOnline.length ? dadosOnline : receitas;
+    if (dadosOnline.length) await this.storage.set('receitas', dadosOnline);
   }
 
   private async buscarVarias(ids: string[]): Promise<Receita[] | false> {
