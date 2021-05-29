@@ -15,7 +15,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "abuild": "npx jetifier && ionic cap sync android"
+    "abuild": "npx jetifier && ionic cap sync android",
+    "aprod": "npx jetifier && ionic cap sync android --prod"
   },
   "private": true,
   "dependencies": {
