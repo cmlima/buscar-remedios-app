@@ -14,7 +14,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "abuild": "npx jetifier && ionic cap sync android"
   },
   "private": true,
   "dependencies": {
@@ -30,8 +31,8 @@
     "@ionic-native/barcode-scanner": "^5.31.1",
     "@ionic-native/call-number": "^5.31.1",
     "@ionic-native/core": "^5.31.1",
-    "@ionic-native/file": "^5.33.0",
-    "@ionic-native/file-opener": "^5.33.0",
+    "@ionic-native/file": "^5.33.1",
+    "@ionic-native/file-opener": "^5.33.1",
     "@ionic-native/geolocation": "^5.32.0",
     "@ionic-native/launch-navigator": "^5.31.1",
     "@ionic/angular": "^5.5.2",

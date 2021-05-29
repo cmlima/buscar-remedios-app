@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "buscar-remedios-app",
+  "appId": "br.com.anhembi.buscarremedios",
+  "appName": "Buscar Remedios",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "www",
