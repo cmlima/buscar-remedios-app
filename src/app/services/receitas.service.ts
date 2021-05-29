@@ -47,7 +47,12 @@ export class ReceitasService {
     console.log('Buscando... ', id);
 
     const url = `${this.apiBaseUrl}/receitas/${id}`;
-    const response = await this.httpClient.get(url).toPromise() as Receita | ApiErro;
+    let response;
+    try { response = await this.httpClient.get(url).toPromise() as Receita | ApiErro;
+    } catch (e) {
+      await this.mensagensService.erro('', 'Receita não localizada!');
+      return Promise.resolve(false);
+    }
 
     const invalido = (response as ApiErro).error; 
     if (invalido) {
