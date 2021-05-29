@@ -36,7 +36,12 @@ export class PostosService {
         url += `?lat=${localizacao.lat}&lng=${localizacao.lng}`;
       }
 
-      const response = await this.httpClient.get(url).toPromise() as ApiMapa | ApiErro;
+      let response;
+      try { response = await this.httpClient.get(url).toPromise() as ApiMapa | ApiErro;
+      } catch (e) {
+        await this.mensagensService.erro('', 'Falha ao obter dados do mapa!');
+        return Promise.resolve(false);
+      }
 
       const invalido = (response as ApiErro).error; 
       if (invalido) {
@@ -65,7 +70,14 @@ export class PostosService {
      * https://viacep.com.br/
      */
     const url = `https://viacep.com.br/ws/${digitos}/json/`;
-    const response = await this.httpClient.get(url).toPromise() as ApiCepEndereco | ApiCepErro;
+
+    let response;
+    try { response = await this.httpClient.get(url).toPromise() as ApiCepEndereco | ApiCepErro;
+    } catch (e) {
+      this.mensagensService.erro('', 'CEP inválido!');
+      return false;
+    }
+
     // console.log(response);
     const invalido = (response as ApiCepErro).erro; 
     if (invalido) {

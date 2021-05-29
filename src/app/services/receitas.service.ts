@@ -111,7 +111,12 @@ export class ReceitasService {
     console.log('Buscando receitas ', ids);
 
     const url = `${this.apiBaseUrl}/receitas?ids=${ids.join(',')}`;
-    const response = await this.httpClient.get(url).toPromise() as Receita[] | ApiErro;
+
+    let response;
+    try { response =  await this.httpClient.get(url).toPromise() as Receita[] | ApiErro;
+    } catch (e) {
+      return Promise.resolve(false);
+    }
 
     const invalido = (response as ApiErro).error; 
     if (invalido) {
